@@ -1,5 +1,4 @@
 
-# Закрывает окна с заголовком ошибки
 Start-Job -ScriptBlock {
     while ($true) {
         Get-Process | Where-Object { $_.MainWindowTitle -match "Ошибка|Error|Crash" } | ForEach-Object { Stop-Process -Id $_.Id -Force }
