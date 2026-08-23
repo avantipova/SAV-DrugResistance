@@ -1,0 +1,68 @@
+Run of C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\OLMPASSdoMNABase.exe .\DoListTask_KIT_9.txt
+
+  MSAR Base is created 22.04.2025 14:24:48
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\KIT_23.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  22.04.2025 14:24:48
+
+  End           :  22.04.2025 14:24:54
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\KIT_23.sdf were added to MSAR Base.
+  960 of 960 Substances were added to MSAR Base.
+  960 new Substances were added to MSAR Base.
+  961 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:05.805.
+
+  MSAR Base 23.MSAR training.
+9	 Level of MNA Descriptors 
+960	 Substances 
+201171	 Descriptors 
+4	 Activity Types 
+0	 Selected Activity Types 
+0,0000	 Average IAP
+
+  Begin         :  22.04.2025 14:24:54
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    936	 0,9222	Not resistant
+  2	   Ok	    23	 0,9198	Imatinib
+
+  End           :  22.04.2025 14:24:54
+  Training MSAR Base time: 0:00:00.261.
+
+2	 Selected Activity Types 
+0,9210	 Average IAP
+
+
+  MSAR Base is saved 22.04.2025 14:24:55
+
+  MSAR Base 23.MSAR validation.
+9	 Level of MNA Descriptors 
+960	 Substances 
+201171	 Descriptors 
+4	 Activity Types 
+2	 Selected Activity Types 
+0,9210	 Average IAP
+
+  Begin         :  22.04.2025 14:24:55
+
+  No	 Check	 Number	 IAP	 20-Fold	 Activity Type
+  1	 Ok    	 23	 0,9198	 0,9194	 Imatinib
+  2	 Ok    	 936	 0,9222	 0,9229	 Not resistant
+
+  End           :  22.04.2025 14:24:57
+  Validation MSAR Base time: 0:00:01.461.
+
+  2	 Selected Activity Types 
+  2	 Validated Activity Types 
+  2	 Successfully Validated Activity Types 
+  0,9210	 Average IAP
+  0,9212	 20-Fold Average IAP
+
+
+  MSAS Base is saved 22.04.2025 14:25:19
+
+MSAR Base C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\23.MSAR is closed.  22.04.2025 14:25:19

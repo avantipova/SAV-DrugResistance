@@ -1,0 +1,24 @@
+  MSAR Base Information
+
+  final\25.MSAR
+  22.04.2025 17:55:52
+
+     7	 Level of MNA Descriptors 
+   852	 Substances 
+ 68554	 Descriptors 
+     5	 Activity Types 
+     3	 Selected Activity Types 
+0,9084	 Average IAP
+
+ MSAR Base Validation
+
+  No	 Number	 IAP	 Activity Type
+    1	      4	 0,9785	 Alectinib
+    2	      9	 0,8339	 Crizotinib
+    3	    838	 0,9127	 Not resistant
+
+Not Predictable Activity Types
+
+  No	 Activity Type
+    1	 Ceritinib
+    2	 Lorlatinib

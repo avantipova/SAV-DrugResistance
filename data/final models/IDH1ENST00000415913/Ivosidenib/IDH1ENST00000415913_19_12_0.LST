@@ -1,0 +1,17 @@
+  MSAR Base Information
+
+  final\19.MSAR
+  22.04.2025 14:24:37
+
+    12	 Level of MNA Descriptors 
+   236	 Substances 
+171289	 Descriptors 
+     2	 Activity Types 
+     2	 Selected Activity Types 
+0,8159	 Average IAP
+
+ MSAR Base Validation
+
+  No	 Number	 IAP	 Activity Type
+    1	      6	 0,8159	 Ivosidenib
+    2	    230	 0,8159	 Not resistant

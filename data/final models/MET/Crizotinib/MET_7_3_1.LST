@@ -1,0 +1,23 @@
+  MSAR Base Information
+
+  final\7.MSAR
+  24.04.2025 16:32:39
+
+     3	 Level of MNA Descriptors 
+   874	 Substances 
+   702	 Descriptors 
+     4	 Activity Types 
+     2	 Selected Activity Types 
+0,9970	 Average IAP
+
+ MSAR Base Validation
+
+  No	 Number	 IAP	 Activity Type
+    1	      7	 0,9965	 Crizotinib
+    2	    866	 0,9975	 Not resistant
+
+Not Predictable Activity Types
+
+  No	 Activity Type
+    1	 Capmatinib
+    2	 Savolitinib

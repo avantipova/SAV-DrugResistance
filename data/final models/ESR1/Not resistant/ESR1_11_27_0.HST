@@ -1,0 +1,68 @@
+Run of C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\OLMPASSdoMNABase.exe .\DoListTask_ESR1_27.txt
+
+  MSAR Base is created 22.04.2025 17:28:38
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\ESR1_11.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  22.04.2025 17:28:38
+
+  End           :  22.04.2025 17:28:41
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\ESR1_11.sdf were added to MSAR Base.
+  416 of 416 Substances were added to MSAR Base.
+  416 new Substances were added to MSAR Base.
+  416 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:03.446.
+
+  MSAR Base 11.MSAR training.
+27	 Level of MNA Descriptors 
+416	 Substances 
+1077900	 Descriptors 
+2	 Activity Types 
+0	 Selected Activity Types 
+0,0000	 Average IAP
+
+  Begin         :  22.04.2025 17:28:41
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    409	 0,9860	Not resistant
+  2	   Ok	    7	 0,9860	Endocrine therapy
+
+  End           :  22.04.2025 17:28:41
+  Training MSAR Base time: 0:00:00.151.
+
+2	 Selected Activity Types 
+0,9860	 Average IAP
+
+
+  MSAR Base is saved 22.04.2025 17:28:48
+
+  MSAR Base 11.MSAR validation.
+27	 Level of MNA Descriptors 
+416	 Substances 
+1077900	 Descriptors 
+2	 Activity Types 
+2	 Selected Activity Types 
+0,9860	 Average IAP
+
+  Begin         :  22.04.2025 17:28:48
+
+  No	 Check	 Number	 IAP	 20-Fold	 Activity Type
+  1	 Ok    	 7	 0,9860	 0,9860	 Endocrine therapy
+  2	 Ok    	 409	 0,9860	 0,9860	 Not resistant
+
+  End           :  22.04.2025 17:28:49
+  Validation MSAR Base time: 0:00:01.034.
+
+  2	 Selected Activity Types 
+  2	 Validated Activity Types 
+  2	 Successfully Validated Activity Types 
+  0,9860	 Average IAP
+  0,9860	 20-Fold Average IAP
+
+
+  MSAS Base is saved 22.04.2025 17:29:22
+
+MSAR Base C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\11.MSAR is closed.  22.04.2025 17:29:23

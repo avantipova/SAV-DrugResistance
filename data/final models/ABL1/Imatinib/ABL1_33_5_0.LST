@@ -1,0 +1,25 @@
+  MSAR Base Information
+
+  final\33.MSAR
+  22.04.2025 17:55:22
+
+     5	 Level of MNA Descriptors 
+   622	 Substances 
+  9082	 Descriptors 
+     6	 Activity Types 
+     3	 Selected Activity Types 
+0,9027	 Average IAP
+
+ MSAR Base Validation
+
+  No	 Number	 IAP	 Activity Type
+    1	     30	 0,9342	 Imatinib
+    2	    588	 0,9386	 Not resistant
+    3	      9	 0,8354	 Tyrosine kinase inhibitor - NS
+
+Not Predictable Activity Types
+
+  No	 Activity Type
+    1	 Bosutinib
+    2	 Nilotinib
+    3	 Dasatinib

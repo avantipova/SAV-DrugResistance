@@ -1,0 +1,17 @@
+  MSAR Base Information
+
+  final\25.MSAR
+  22.04.2025 17:29:26
+
+     4	 Level of MNA Descriptors 
+   142	 Substances 
+  1842	 Descriptors 
+     2	 Activity Types 
+     2	 Selected Activity Types 
+0,7858	 Average IAP
+
+ MSAR Base Validation
+
+  No	 Number	 IAP	 Activity Type
+    1	    124	 0,7858	 Not resistant
+    2	     18	 0,7858	 Purine

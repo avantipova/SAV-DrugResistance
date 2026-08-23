@@ -1,0 +1,68 @@
+Run of C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\OLMPASSdoMNABase.exe .\DoListTask_IDH1ENST00000415913_12.txt
+
+  MSAR Base is created 22.04.2025 14:24:34
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\IDH1ENST00000415913_19.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  22.04.2025 14:24:34
+
+  End           :  22.04.2025 14:24:35
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\IDH1ENST00000415913_19.sdf were added to MSAR Base.
+  236 of 236 Substances were added to MSAR Base.
+  236 new Substances were added to MSAR Base.
+  236 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:01.417.
+
+  MSAR Base 19.MSAR training.
+12	 Level of MNA Descriptors 
+236	 Substances 
+171289	 Descriptors 
+2	 Activity Types 
+0	 Selected Activity Types 
+0,0000	 Average IAP
+
+  Begin         :  22.04.2025 14:24:35
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    230	 0,8159	Not resistant
+  2	   Ok	    6	 0,8159	Ivosidenib
+
+  End           :  22.04.2025 14:24:35
+  Training MSAR Base time: 0:00:00.139.
+
+2	 Selected Activity Types 
+0,8159	 Average IAP
+
+
+  MSAR Base is saved 22.04.2025 14:24:37
+
+  MSAR Base 19.MSAR validation.
+12	 Level of MNA Descriptors 
+236	 Substances 
+171289	 Descriptors 
+2	 Activity Types 
+2	 Selected Activity Types 
+0,8159	 Average IAP
+
+  Begin         :  22.04.2025 14:24:37
+
+  No	 Check	 Number	 IAP	 20-Fold	 Activity Type
+  1	 Ok    	 6	 0,8159	 0,8174	 Ivosidenib
+  2	 Ok    	 230	 0,8159	 0,8174	 Not resistant
+
+  End           :  22.04.2025 14:24:37
+  Validation MSAR Base time: 0:00:00.881.
+
+  2	 Selected Activity Types 
+  2	 Validated Activity Types 
+  2	 Successfully Validated Activity Types 
+  0,8159	 Average IAP
+  0,8174	 20-Fold Average IAP
+
+
+  MSAS Base is saved 22.04.2025 14:24:46
+
+MSAR Base C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\19.MSAR is closed.  22.04.2025 14:24:46

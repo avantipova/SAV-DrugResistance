@@ -1,0 +1,70 @@
+Run of C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\OLMPASSdoMNABase.exe .\DoListTask_ABL1_5.txt
+
+  MSAR Base is created 24.04.2025 16:59:35
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\ABL1_11.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  24.04.2025 16:59:35
+
+  End           :  24.04.2025 16:59:35
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\ABL1_11.sdf were added to MSAR Base.
+  627 of 627 Substances were added to MSAR Base.
+  627 new Substances were added to MSAR Base.
+  636 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:00.716.
+
+  MSAR Base 11.MSAR training.
+5	 Level of MNA Descriptors 
+627	 Substances 
+8933	 Descriptors 
+6	 Activity Types 
+0	 Selected Activity Types 
+0,0000	 Average IAP
+
+  Begin         :  24.04.2025 16:59:35
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    593	 0,9139	Not resistant
+  2	   Ok	    9	 0,8900	Tyrosine kinase inhibitor - NS
+  3	   Ok	    30	 0,9001	Imatinib
+
+  End           :  24.04.2025 16:59:35
+  Training MSAR Base time: 0:00:00.195.
+
+3	 Selected Activity Types 
+0,9013	 Average IAP
+
+
+  MSAR Base is saved 24.04.2025 16:59:36
+
+  MSAR Base 11.MSAR validation.
+5	 Level of MNA Descriptors 
+627	 Substances 
+8933	 Descriptors 
+6	 Activity Types 
+3	 Selected Activity Types 
+0,9013	 Average IAP
+
+  Begin         :  24.04.2025 16:59:36
+
+  No	 Check	 Number	 IAP	 20-Fold	 Activity Type
+  1	 Ok    	 30	 0,9001	 0,8957	 Imatinib
+  2	 Ok    	 593	 0,9139	 0,9116	 Not resistant
+  3	 Ok    	 9	 0,8900	 0,8731	 Tyrosine kinase inhibitor - NS
+
+  End           :  24.04.2025 16:59:37
+  Validation MSAR Base time: 0:00:01.466.
+
+  3	 Selected Activity Types 
+  3	 Validated Activity Types 
+  3	 Successfully Validated Activity Types 
+  0,9013	 Average IAP
+  0,8935	 20-Fold Average IAP
+
+
+  MSAS Base is saved 24.04.2025 16:59:40
+
+MSAR Base C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\11.MSAR is closed.  24.04.2025 16:59:40

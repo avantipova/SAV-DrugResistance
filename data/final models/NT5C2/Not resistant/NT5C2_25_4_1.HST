@@ -1,0 +1,68 @@
+Run of C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\OLMPASSdoMNABase.exe .\DoListTask_NT5C2_4.txt
+
+  MSAR Base is created 22.04.2025 17:29:25
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\NT5C2_25.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  22.04.2025 17:29:25
+
+  End           :  22.04.2025 17:29:26
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\NT5C2_25.sdf were added to MSAR Base.
+  142 of 142 Substances were added to MSAR Base.
+  142 new Substances were added to MSAR Base.
+  142 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:00.577.
+
+  MSAR Base 25.MSAR training.
+4	 Level of MNA Descriptors 
+142	 Substances 
+1842	 Descriptors 
+2	 Activity Types 
+0	 Selected Activity Types 
+0,0000	 Average IAP
+
+  Begin         :  22.04.2025 17:29:26
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    124	 0,7858	Not resistant
+  2	   Ok	    18	 0,7858	Purine
+
+  End           :  22.04.2025 17:29:26
+  Training MSAR Base time: 0:00:00.110.
+
+2	 Selected Activity Types 
+0,7858	 Average IAP
+
+
+  MSAR Base is saved 22.04.2025 17:29:26
+
+  MSAR Base 25.MSAR validation.
+4	 Level of MNA Descriptors 
+142	 Substances 
+1842	 Descriptors 
+2	 Activity Types 
+2	 Selected Activity Types 
+0,7858	 Average IAP
+
+  Begin         :  22.04.2025 17:29:26
+
+  No	 Check	 Number	 IAP	 20-Fold	 Activity Type
+  1	 Ok    	 124	 0,7858	 0,7836	 Not resistant
+  2	 Ok    	 18	 0,7858	 0,7836	 Purine
+
+  End           :  22.04.2025 17:29:27
+  Validation MSAR Base time: 0:00:00.846.
+
+  2	 Selected Activity Types 
+  2	 Validated Activity Types 
+  2	 Successfully Validated Activity Types 
+  0,7858	 Average IAP
+  0,7836	 20-Fold Average IAP
+
+
+  MSAS Base is saved 22.04.2025 17:29:28
+
+MSAR Base C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\25.MSAR is closed.  22.04.2025 17:29:28

@@ -1,0 +1,70 @@
+Run of C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\OLMPASSdoMNABase.exe .\DoListTask_FLT3_5.txt
+
+  MSAR Base is created 22.04.2025 18:00:43
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\FLT3_7.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  22.04.2025 18:00:43
+
+  End           :  22.04.2025 18:00:43
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\FLT3_7.sdf were added to MSAR Base.
+  834 of 834 Substances were added to MSAR Base.
+  833 new Substances were added to MSAR Base.
+  836 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:00.629.
+
+  MSAR Base 7.MSAR training.
+5	 Level of MNA Descriptors 
+833	 Substances 
+8288	 Descriptors 
+4	 Activity Types 
+0	 Selected Activity Types 
+0,0000	 Average IAP
+
+  Begin         :  22.04.2025 18:00:43
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    827	 0,9244	Not resistant
+  2	   Ok	    3	 0,8807	Sorafenib
+  3	   Ok	    5	 0,9234	Quizartinib
+
+  End           :  22.04.2025 18:00:43
+  Training MSAR Base time: 0:00:00.204.
+
+3	 Selected Activity Types 
+0,9095	 Average IAP
+
+
+  MSAR Base is saved 22.04.2025 18:00:43
+
+  MSAR Base 7.MSAR validation.
+5	 Level of MNA Descriptors 
+833	 Substances 
+8288	 Descriptors 
+4	 Activity Types 
+3	 Selected Activity Types 
+0,9095	 Average IAP
+
+  Begin         :  22.04.2025 18:00:43
+
+  No	 Check	 Number	 IAP	 20-Fold	 Activity Type
+  1	 Ok    	 827	 0,9244	 0,9258	 Not resistant
+  2	 Ok    	 5	 0,9234	 0,9249	 Quizartinib
+  3	 Ok    	 3	 0,8807	 0,8835	 Sorafenib
+
+  End           :  22.04.2025 18:00:45
+  Validation MSAR Base time: 0:00:01.600.
+
+  3	 Selected Activity Types 
+  3	 Validated Activity Types 
+  3	 Successfully Validated Activity Types 
+  0,9095	 Average IAP
+  0,9114	 20-Fold Average IAP
+
+
+  MSAS Base is saved 22.04.2025 18:00:48
+
+MSAR Base C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\7.MSAR is closed.  22.04.2025 18:00:48

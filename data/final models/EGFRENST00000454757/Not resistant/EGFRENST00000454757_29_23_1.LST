@@ -1,0 +1,25 @@
+  MSAR Base Information
+
+  final\29.MSAR
+  22.04.2025 17:58:24
+
+    23	 Level of MNA Descriptors 
+  1066	 Substances 
+3046300	 Descriptors 
+     6	 Activity Types 
+     2	 Selected Activity Types 
+0,9414	 Average IAP
+
+ MSAR Base Validation
+
+  No	 Number	 IAP	 Activity Type
+    1	   1051	 0,9668	 Not resistant
+    2	     13	 0,9160	 Osimertinib
+
+Not Predictable Activity Types
+
+  No	 Activity Type
+    1	 Gefitinib
+    2	 Afatinib
+    3	 Erlotinib
+    4	 Tyrosine kinase inhibitor - NS

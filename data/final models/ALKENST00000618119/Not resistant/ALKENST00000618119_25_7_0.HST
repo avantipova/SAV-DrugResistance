@@ -1,0 +1,71 @@
+Run of C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\OLMPASSdoMNABase.exe .\DoListTask_ALKENST00000618119_7.txt
+
+  MSAR Base is created 22.04.2025 17:55:48
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\ALKENST00000618119_25.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  22.04.2025 17:55:48
+
+  End           :  22.04.2025 17:55:52
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\ALKENST00000618119_25.sdf were added to MSAR Base.
+  852 of 852 Substances were added to MSAR Base.
+  852 new Substances were added to MSAR Base.
+  856 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:04.097.
+
+  MSAR Base 25.MSAR training.
+7	 Level of MNA Descriptors 
+852	 Substances 
+68554	 Descriptors 
+5	 Activity Types 
+0	 Selected Activity Types 
+0,0000	 Average IAP
+
+  Begin         :  22.04.2025 17:55:52
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    838	 0,9127	Not resistant
+  2	   Ok	    9	 0,8339	Crizotinib
+  3	   Ok	    4	 0,9785	Alectinib
+  4	 Failed	    4	 0,9785	Alectinib
+
+  End           :  22.04.2025 17:55:52
+  Training MSAR Base time: 0:00:00.352.
+
+3	 Selected Activity Types 
+0,9084	 Average IAP
+
+
+  MSAR Base is saved 22.04.2025 17:55:52
+
+  MSAR Base 25.MSAR validation.
+7	 Level of MNA Descriptors 
+852	 Substances 
+68554	 Descriptors 
+5	 Activity Types 
+3	 Selected Activity Types 
+0,9084	 Average IAP
+
+  Begin         :  22.04.2025 17:55:52
+
+  No	 Check	 Number	 IAP	 20-Fold	 Activity Type
+  1	 Ok    	 4	 0,9785	 0,9788	 Alectinib
+  2	 Ok    	 9	 0,8339	 0,8346	 Crizotinib
+  3	 Ok    	 838	 0,9127	 0,8628	 Not resistant
+
+  End           :  22.04.2025 17:55:54
+  Validation MSAR Base time: 0:00:01.865.
+
+  3	 Selected Activity Types 
+  3	 Validated Activity Types 
+  3	 Successfully Validated Activity Types 
+  0,9084	 Average IAP
+  0,8920	 20-Fold Average IAP
+
+
+  MSAS Base is saved 22.04.2025 17:56:07
+
+MSAR Base C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\25.MSAR is closed.  22.04.2025 17:56:07

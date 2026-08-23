@@ -1,0 +1,72 @@
+Run of C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\OLMPASSdoMNABase.exe .\DoListTask_ALKENST00000618119_4.txt
+
+  MSAR Base is created 22.04.2025 17:55:30
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\ALKENST00000618119_13.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  22.04.2025 17:55:30
+
+  End           :  22.04.2025 17:55:31
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\ALKENST00000618119_13.sdf were added to MSAR Base.
+  859 of 859 Substances were added to MSAR Base.
+  856 new Substances were added to MSAR Base.
+  860 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:00.962.
+
+  MSAR Base 13.MSAR training.
+4	 Level of MNA Descriptors 
+856	 Substances 
+2829	 Descriptors 
+5	 Activity Types 
+0	 Selected Activity Types 
+0,0000	 Average IAP
+
+  Begin         :  22.04.2025 17:55:31
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    842	 0,8184	Not resistant
+  2	   Ok	    9	 0,8048	Crizotinib
+  3	   Ok	    4	 0,8650	Alectinib
+  4	   Ok	    3	 0,9312	Lorlatinib
+
+  End           :  22.04.2025 17:55:32
+  Training MSAR Base time: 0:00:00.256.
+
+4	 Selected Activity Types 
+0,8549	 Average IAP
+
+
+  MSAR Base is saved 22.04.2025 17:55:32
+
+  MSAR Base 13.MSAR validation.
+4	 Level of MNA Descriptors 
+856	 Substances 
+2829	 Descriptors 
+5	 Activity Types 
+4	 Selected Activity Types 
+0,8549	 Average IAP
+
+  Begin         :  22.04.2025 17:55:32
+
+  No	 Check	 Number	 IAP	 20-Fold	 Activity Type
+  1	 Ok    	 4	 0,8650	 0,8486	 Alectinib
+  2	 Ok    	 9	 0,8048	 0,8023	 Crizotinib
+  3	 Ok    	 3	 0,9312	 0,9355	 Lorlatinib
+  4	 Ok    	 842	 0,8184	 0,8212	 Not resistant
+
+  End           :  22.04.2025 17:55:34
+  Validation MSAR Base time: 0:00:02.118.
+
+  4	 Selected Activity Types 
+  4	 Validated Activity Types 
+  4	 Successfully Validated Activity Types 
+  0,8549	 Average IAP
+  0,8519	 20-Fold Average IAP
+
+
+  MSAS Base is saved 22.04.2025 17:55:37
+
+MSAR Base C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\13.MSAR is closed.  22.04.2025 17:55:37

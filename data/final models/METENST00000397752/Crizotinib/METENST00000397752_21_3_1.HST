@@ -1,0 +1,68 @@
+Run of C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\OLMPASSdoMNABase.exe .\DoListTask_METENST00000397752_3.txt
+
+  MSAR Base is created 24.04.2025 17:00:11
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\METENST00000397752_21.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  24.04.2025 17:00:11
+
+  End           :  24.04.2025 17:00:12
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\METENST00000397752_21.sdf were added to MSAR Base.
+  837 of 837 Substances were added to MSAR Base.
+  775 new Substances were added to MSAR Base.
+  778 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:01.770.
+
+  MSAR Base 21.MSAR training.
+3	 Level of MNA Descriptors 
+775	 Substances 
+703	 Descriptors 
+4	 Activity Types 
+0	 Selected Activity Types 
+0,0000	 Average IAP
+
+  Begin         :  24.04.2025 17:00:13
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    772	 0,9983	Not resistant
+  2	   Ok	    3	 0,9974	Crizotinib
+
+  End           :  24.04.2025 17:00:13
+  Training MSAR Base time: 0:00:00.147.
+
+2	 Selected Activity Types 
+0,9978	 Average IAP
+
+
+  MSAR Base is saved 24.04.2025 17:00:13
+
+  MSAR Base 21.MSAR validation.
+3	 Level of MNA Descriptors 
+775	 Substances 
+703	 Descriptors 
+4	 Activity Types 
+2	 Selected Activity Types 
+0,9978	 Average IAP
+
+  Begin         :  24.04.2025 17:00:13
+
+  No	 Check	 Number	 IAP	 20-Fold	 Activity Type
+  1	 Ok    	 3	 0,9974	 0,9974	 Crizotinib
+  2	 Ok    	 772	 0,9983	 0,9983	 Not resistant
+
+  End           :  24.04.2025 17:00:14
+  Validation MSAR Base time: 0:00:01.057.
+
+  2	 Selected Activity Types 
+  2	 Validated Activity Types 
+  2	 Successfully Validated Activity Types 
+  0,9978	 Average IAP
+  0,9978	 20-Fold Average IAP
+
+
+  MSAS Base is saved 24.04.2025 17:00:16
+
+MSAR Base C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\21.MSAR is closed.  24.04.2025 17:00:16

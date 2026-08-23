@@ -1,0 +1,23 @@
+  MSAR Base Information
+
+  final\7.MSAR
+  22.04.2025 18:00:43
+
+     5	 Level of MNA Descriptors 
+   833	 Substances 
+  8288	 Descriptors 
+     4	 Activity Types 
+     3	 Selected Activity Types 
+0,9095	 Average IAP
+
+ MSAR Base Validation
+
+  No	 Number	 IAP	 Activity Type
+    1	    827	 0,9244	 Not resistant
+    2	      5	 0,9234	 Quizartinib
+    3	      3	 0,8807	 Sorafenib
+
+Not Predictable Activity Types
+
+  No	 Activity Type
+    1	 Sunitinib

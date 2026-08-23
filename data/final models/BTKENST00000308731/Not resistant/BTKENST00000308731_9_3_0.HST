@@ -1,0 +1,68 @@
+Run of C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\OLMPASSdoMNABase.exe .\DoListTask_BTKENST00000308731_3.txt
+
+  MSAR Base is created 22.04.2025 17:56:24
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\BTKENST00000308731_9.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  22.04.2025 17:56:24
+
+  End           :  22.04.2025 17:56:24
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\BTKENST00000308731_9.sdf were added to MSAR Base.
+  349 of 349 Substances were added to MSAR Base.
+  348 new Substances were added to MSAR Base.
+  348 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:00.225.
+
+  MSAR Base 9.MSAR training.
+3	 Level of MNA Descriptors 
+348	 Substances 
+673	 Descriptors 
+2	 Activity Types 
+0	 Selected Activity Types 
+0,0000	 Average IAP
+
+  Begin         :  22.04.2025 17:56:24
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    343	 0,9948	Not resistant
+  2	   Ok	    5	 0,9948	Ibrutinib
+
+  End           :  22.04.2025 17:56:24
+  Training MSAR Base time: 0:00:00.134.
+
+2	 Selected Activity Types 
+0,9948	 Average IAP
+
+
+  MSAR Base is saved 22.04.2025 17:56:24
+
+  MSAR Base 9.MSAR validation.
+3	 Level of MNA Descriptors 
+348	 Substances 
+673	 Descriptors 
+2	 Activity Types 
+2	 Selected Activity Types 
+0,9948	 Average IAP
+
+  Begin         :  22.04.2025 17:56:24
+
+  No	 Check	 Number	 IAP	 20-Fold	 Activity Type
+  1	 Ok    	 5	 0,9948	 0,9953	 Ibrutinib
+  2	 Ok    	 343	 0,9948	 0,9953	 Not resistant
+
+  End           :  22.04.2025 17:56:25
+  Validation MSAR Base time: 0:00:00.872.
+
+  2	 Selected Activity Types 
+  2	 Validated Activity Types 
+  2	 Successfully Validated Activity Types 
+  0,9948	 Average IAP
+  0,9953	 20-Fold Average IAP
+
+
+  MSAS Base is saved 22.04.2025 17:56:26
+
+MSAR Base C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\9.MSAR is closed.  22.04.2025 17:56:26

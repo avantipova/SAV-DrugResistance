@@ -1,0 +1,68 @@
+Run of C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\OLMPASSdoMNABase.exe .\DoListTask_EGFRENST00000454757_23.txt
+
+  MSAR Base is created 22.04.2025 17:57:38
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\EGFRENST00000454757_29.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  22.04.2025 17:57:38
+
+  End           :  22.04.2025 17:58:06
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\EGFRENST00000454757_29.sdf were added to MSAR Base.
+  1066 of 1066 Substances were added to MSAR Base.
+  1066 new Substances were added to MSAR Base.
+  1069 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:27.256.
+
+  MSAR Base 29.MSAR training.
+23	 Level of MNA Descriptors 
+1066	 Substances 
+3046300	 Descriptors 
+6	 Activity Types 
+0	 Selected Activity Types 
+0,0000	 Average IAP
+
+  Begin         :  22.04.2025 17:58:06
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    1051	 0,9668	Not resistant
+  2	   Ok	    13	 0,9160	Osimertinib
+
+  End           :  22.04.2025 17:58:06
+  Training MSAR Base time: 0:00:00.393.
+
+2	 Selected Activity Types 
+0,9414	 Average IAP
+
+
+  MSAR Base is saved 22.04.2025 17:58:24
+
+  MSAR Base 29.MSAR validation.
+23	 Level of MNA Descriptors 
+1066	 Substances 
+3046300	 Descriptors 
+6	 Activity Types 
+2	 Selected Activity Types 
+0,9414	 Average IAP
+
+  Begin         :  22.04.2025 17:58:25
+
+  No	 Check	 Number	 IAP	 20-Fold	 Activity Type
+  1	 Ok    	 1051	 0,9668	 0,9678	 Not resistant
+  2	 Ok    	 13	 0,9160	 0,9164	 Osimertinib
+
+  End           :  22.04.2025 17:58:27
+  Validation MSAR Base time: 0:00:02.371.
+
+  2	 Selected Activity Types 
+  2	 Validated Activity Types 
+  2	 Successfully Validated Activity Types 
+  0,9414	 Average IAP
+  0,9421	 20-Fold Average IAP
+
+
+  MSAS Base is saved 22.04.2025 18:00:41
+
+MSAR Base C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\29.MSAR is closed.  22.04.2025 18:00:41

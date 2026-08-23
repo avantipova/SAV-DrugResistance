@@ -1,0 +1,75 @@
+Run of C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\OLMPASSdoMNABase.exe .\DoListTask_ABL1ENST00000318560_6.txt
+
+  MSAR Base is created 24.04.2025 16:47:00
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\ABL1ENST00000318560_11.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  24.04.2025 16:47:00
+
+  End           :  24.04.2025 16:47:01
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\ABL1ENST00000318560_11.sdf were added to MSAR Base.
+  713 of 713 Substances were added to MSAR Base.
+  713 new Substances were added to MSAR Base.
+  767 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:00.932.
+
+  MSAR Base 11.MSAR training.
+6	 Level of MNA Descriptors 
+713	 Substances 
+26102	 Descriptors 
+6	 Activity Types 
+0	 Selected Activity Types 
+0,0000	 Average IAP
+
+  Begin         :  24.04.2025 16:47:01
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    612	 0,8646	Not resistant
+  2	   Ok	    48	 0,8126	Tyrosine kinase inhibitor - NS
+  3	   Ok	    83	 0,8575	Imatinib
+  4	 Failed	    83	 0,8575	Imatinib
+  5	   Ok	    9	 0,7931	Nilotinib
+  6	   Ok	    10	 0,9149	Dasatinib
+
+  End           :  24.04.2025 16:47:01
+  Training MSAR Base time: 0:00:00.367.
+
+5	 Selected Activity Types 
+0,8485	 Average IAP
+
+
+  MSAR Base is saved 24.04.2025 16:47:01
+
+  MSAR Base 11.MSAR validation.
+6	 Level of MNA Descriptors 
+713	 Substances 
+26102	 Descriptors 
+6	 Activity Types 
+5	 Selected Activity Types 
+0,8485	 Average IAP
+
+  Begin         :  24.04.2025 16:47:01
+
+  No	 Check	 Number	 IAP	 20-Fold	 Activity Type
+  1	 Ok    	 10	 0,9149	 0,9144	 Dasatinib
+  2	 Ok    	 83	 0,8575	 0,8539	 Imatinib
+  3	 Ok    	 9	 0,7931	 0,7836	 Nilotinib
+  4	 Ok    	 612	 0,8646	 0,8614	 Not resistant
+  5	 Ok    	 48	 0,8126	 0,8109	 Tyrosine kinase inhibitor - NS
+
+  End           :  24.04.2025 16:47:04
+  Validation MSAR Base time: 0:00:02.519.
+
+  5	 Selected Activity Types 
+  5	 Validated Activity Types 
+  5	 Successfully Validated Activity Types 
+  0,8485	 Average IAP
+  0,8448	 20-Fold Average IAP
+
+
+  MSAS Base is saved 24.04.2025 16:47:08
+
+MSAR Base C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\11.MSAR is closed.  24.04.2025 16:47:08

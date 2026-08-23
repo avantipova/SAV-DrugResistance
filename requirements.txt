@@ -1,0 +1,15 @@
+# Core
+numpy
+pandas
+
+# Bio / chem
+biopython
+rdkit
+
+# Plotting
+matplotlib
+seaborn
+colorcet
+
+# Peptide structure generation (optional; needed by the SDF section)
+# pip install "pypept @ git+https://github.com/Boehringer-Ingelheim/pyPept.git"

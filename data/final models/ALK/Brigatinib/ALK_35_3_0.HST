@@ -1,0 +1,76 @@
+Run of C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\OLMPASSdoMNABase.exe .\DoListTask_ALK_3.txt
+
+  MSAR Base is created 22.04.2025 17:56:09
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\ALK_35.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  22.04.2025 17:56:09
+
+  End           :  22.04.2025 17:56:16
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\ALK_35.sdf were added to MSAR Base.
+  1123 of 1123 Substances were added to MSAR Base.
+  997 new Substances were added to MSAR Base.
+  1014 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:07.224.
+
+  MSAR Base 35.MSAR training.
+3	 Level of MNA Descriptors 
+997	 Substances 
+735	 Descriptors 
+6	 Activity Types 
+0	 Selected Activity Types 
+0,0000	 Average IAP
+
+  Begin         :  22.04.2025 17:56:16
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    980	 0,9110	Not resistant
+  2	   Ok	    6	 0,8458	Ceritinib
+  3	   Ok	    14	 0,9116	Crizotinib
+  4	   Ok	    4	 0,9136	Alectinib
+  5	   Ok	    6	 0,8236	Lorlatinib
+  6	   Ok	    4	 0,9922	Brigatinib
+
+  End           :  22.04.2025 17:56:16
+  Training MSAR Base time: 0:00:00.380.
+
+6	 Selected Activity Types 
+0,8996	 Average IAP
+
+
+  MSAR Base is saved 22.04.2025 17:56:16
+
+  MSAR Base 35.MSAR validation.
+3	 Level of MNA Descriptors 
+997	 Substances 
+735	 Descriptors 
+6	 Activity Types 
+6	 Selected Activity Types 
+0,8996	 Average IAP
+
+  Begin         :  22.04.2025 17:56:16
+
+  No	 Check	 Number	 IAP	 20-Fold	 Activity Type
+  1	 Ok    	 4	 0,9136	 0,9154	 Alectinib
+  2	 Ok    	 4	 0,9922	 0,9884	 Brigatinib
+  3	 Ok    	 6	 0,8458	 0,8481	 Ceritinib
+  4	 Ok    	 14	 0,9116	 0,9082	 Crizotinib
+  5	 Ok    	 6	 0,8236	 0,8276	 Lorlatinib
+  6	 Ok    	 980	 0,9110	 0,9162	 Not resistant
+
+  End           :  22.04.2025 17:56:20
+  Validation MSAR Base time: 0:00:03.348.
+
+  6	 Selected Activity Types 
+  6	 Validated Activity Types 
+  6	 Successfully Validated Activity Types 
+  0,8996	 Average IAP
+  0,9007	 20-Fold Average IAP
+
+
+  MSAS Base is saved 22.04.2025 17:56:23
+
+MSAR Base C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\35.MSAR is closed.  22.04.2025 17:56:23

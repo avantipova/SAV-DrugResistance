@@ -1,0 +1,70 @@
+Run of C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\OLMPASSdoMNABase.exe .\DoListTask_ABL1_6.txt
+
+  MSAR Base is created 22.04.2025 17:55:01
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\ABL1_15.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  22.04.2025 17:55:01
+
+  End           :  22.04.2025 17:55:02
+
+Data from C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\ABL1_15.sdf were added to MSAR Base.
+  626 of 626 Substances were added to MSAR Base.
+  626 new Substances were added to MSAR Base.
+  635 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:01.169.
+
+  MSAR Base 15.MSAR training.
+6	 Level of MNA Descriptors 
+626	 Substances 
+25540	 Descriptors 
+6	 Activity Types 
+0	 Selected Activity Types 
+0,0000	 Average IAP
+
+  Begin         :  22.04.2025 17:55:02
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    592	 0,9388	Not resistant
+  2	   Ok	    30	 0,9278	Imatinib
+  3	   Ok	    9	 0,8660	Tyrosine kinase inhibitor - NS
+
+  End           :  22.04.2025 17:55:02
+  Training MSAR Base time: 0:00:00.214.
+
+3	 Selected Activity Types 
+0,9109	 Average IAP
+
+
+  MSAR Base is saved 22.04.2025 17:55:03
+
+  MSAR Base 15.MSAR validation.
+6	 Level of MNA Descriptors 
+626	 Substances 
+25540	 Descriptors 
+6	 Activity Types 
+3	 Selected Activity Types 
+0,9109	 Average IAP
+
+  Begin         :  22.04.2025 17:55:03
+
+  No	 Check	 Number	 IAP	 20-Fold	 Activity Type
+  1	 Ok    	 30	 0,9278	 0,9288	 Imatinib
+  2	 Ok    	 592	 0,9388	 0,9390	 Not resistant
+  3	 Ok    	 9	 0,8660	 0,8547	 Tyrosine kinase inhibitor - NS
+
+  End           :  22.04.2025 17:55:04
+  Validation MSAR Base time: 0:00:01.513.
+
+  3	 Selected Activity Types 
+  3	 Validated Activity Types 
+  3	 Successfully Validated Activity Types 
+  0,9109	 Average IAP
+  0,9075	 20-Fold Average IAP
+
+
+  MSAS Base is saved 22.04.2025 17:55:09
+
+MSAR Base C:\Users\User\Desktop\diplom_Antipova\2024_MultiPASS\final\15.MSAR is closed.  22.04.2025 17:55:09

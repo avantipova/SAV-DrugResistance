@@ -1,0 +1,23 @@
+  MSAR Base Information
+
+  final\23.MSAR
+  22.04.2025 14:24:55
+
+     9	 Level of MNA Descriptors 
+   960	 Substances 
+201171	 Descriptors 
+     4	 Activity Types 
+     2	 Selected Activity Types 
+0,9210	 Average IAP
+
+ MSAR Base Validation
+
+  No	 Number	 IAP	 Activity Type
+    1	     23	 0,9198	 Imatinib
+    2	    936	 0,9222	 Not resistant
+
+Not Predictable Activity Types
+
+  No	 Activity Type
+    1	 Nilotinib
+    2	 Sunitinib
