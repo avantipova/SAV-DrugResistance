@@ -31,8 +31,8 @@ The service is freely available at
 ```
 notebooks/aas_analysis.ipynb   the analysis
 scripts/multipass/*.ps1        drive MultiPASS over the SDF files
-data/                          input data — not in git, see data/README.md
-results/                       figures and tables — not in git
+data/                          see data/README.md
+results/                       figures
 requirements.txt
 ```
 
