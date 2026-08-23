@@ -106,14 +106,3 @@ empty. Override locations with environment variables:
 | `AAS_DATA_DIR` | `<repo>/data` | the dataset |
 | `AAS_RESULTS_DIR` | `<repo>/results` | where figures and derived files go |
 | `PYPEPT_DIR` | `<repo>/external/pyPept` | pyPept source checkout |
-
-## Notes
-
-- Notebook outputs are stripped. Commit it that way — rerunning with outputs
-  makes the file ~100× larger and every diff unreadable.
-- Section 3 takes about 20 minutes over all targets. Its output is already in
-  `data/prepared_data/`, so skip it unless the COSMIC exports changed.
-- `data/multipass results/merged.txt` concatenates the per-run MultiPASS logs.
-  It was previously built by globbing `*.txt` in the same directory, which
-  swept up the previous merge and duplicated every record; the file has been
-  rebuilt with 8243 records instead of 16486.
