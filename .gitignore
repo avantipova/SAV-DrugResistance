@@ -1,0 +1,26 @@
+# COSMIC exports and everything derived directly from them.
+# COSMIC requires registration and its licence does not permit redistribution,
+# so these stay local. data/README.md says how to obtain and regenerate them.
+data/csv/
+data/mutations/
+data/prepared_data/
+
+# Other third-party datasets that are not ours to redistribute.
+data/alphamissense/
+data/civic/
+data/dbnsfp/
+/external/
+
+# Local working material, backups and manuscript drafts.
+_cosmic_local_backup/
+_superseded_by_verification/
+ver [0-9]/
+*.bundle
+*.tar.gz
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
