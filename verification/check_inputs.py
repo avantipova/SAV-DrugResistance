@@ -8,7 +8,7 @@ import os, sys
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
 OFFLINE = [
-    ('multipass/verify_new.py',             'multipass',    179, 'position-grouped CV, baselines, calibration, LOTO'),
+    ('multipass/verify_new.py',             'multipass',    191, 'position-grouped CV, baselines, calibration, LOTO'),
     ('multipass/verify_external.py',        'multipass',     49, 'SUSPECT-ABL and Dr. Kinase'),
     ('civic/verify_civic.py',               'civic',        159, 'CIViC as an independent label source'),
     ('results/verify_egfr_anomaly.py',      'results',      112, 'the EGFR activation-loop transfer result'),

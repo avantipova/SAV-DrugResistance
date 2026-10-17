@@ -197,6 +197,22 @@ molecules on a trained base, and all 93 Pa values of a stored block, with 0 diff
 nested AUC for ABL1, NT5C2 and SMO is also recomputed from the per-fold checkpoints, with the
 five held-out folds checked to be disjoint and to cover the common variant set.
 
+**Verified, as of 2026-10-17.** Three of the sentences above describe the verifier as it stood on
+2026-10-10, not as it stands now: "all three measured targets", "exactly three targets" and "those
+three are ABL1, SMO and NT5C2 with values 0.0194, 0.0363 and 0.1337". `nested_summary.csv` was
+maintained by hand and was not updated when ALK, EGFR and KIT completed -- it still recorded them
+as "flat only" -- so those three checks were asserting a stale file rather than catching it. The
+table is now derived from the per-target checkpoints by `multipass/make_nested_summary.py`, and
+`verify_new.py` checks that the committed file is byte-for-byte what the checkpoints produce. It
+also checks that six targets carry a measured optimism -- ABL1 0.0194, ALK 0.0010, EGFR 0.0019,
+KIT 0.0060, SMO 0.0363, NT5C2 0.1337 -- that the three with no inner-fold fit are MET, ESR1 and
+IDH1, and that the two where nothing trains at all are BTK and FLT3. The identity "optimism equals
+flat_max minus nested" now runs on all six rather than three, with a tolerance of 2e-4: that is
+the size of the double-rounding artefact in ALK, where 0.9287500 - 0.9277462 = 0.0010038 rounds to
+0.0010 while the two printed columns give 0.9288 - 0.9277 = 0.0011. The tolerance is no larger
+than the artefact, so a real disagreement in the fourth decimal still fails. `verify_new.py` makes
+191 assertions, up from 179; the no-download suite is 824, up from 812.
+
 **Not verified** *(as of 2026-10-10; EGFR and MET were completed on 2026-10-16, see the
 addendum)*. The nested value for ALK, KIT, EGFR and MET — only the flat grid was run, so
 their optimism is unknown and the table says so rather than guessing it. Whether the optimism on

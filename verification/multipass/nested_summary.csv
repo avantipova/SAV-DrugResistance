@@ -1,12 +1,12 @@
 target,n,n_pos,n_configs_trainable,n_configs_untrainable,grid_min,grid_median,grid_max,spread,max_minus_median,best_config,nested_auc,optimism,stage
-ABL1_ENST00000318560,709,101,6,0,0.8025,0.8172,0.8436,0.0411,0.0264,L17_MNA9,0.8242,0.0194,full
-ALK,1128,24,6,0,0.7836,0.9118,0.9288,0.1452,0.017,L33_MNA4,,,flat only
-KIT,959,24,6,0,0.7741,0.8471,0.8977,0.1236,0.0506,L25_MNA9,,,flat only
-SMO,476,18,6,0,0.6791,0.7399,0.8572,0.1781,0.1172,L25_MNA4,0.8209,0.0363,full
-NT5C2,142,18,6,0,0.5627,0.6243,0.7099,0.1472,0.0856,L17_MNA4,0.5762,0.1337,full
-EGFR,1221,17,6,0,0.8136,0.8267,0.9233,0.1097,0.0966,L33_MNA9,,,flat only
-MET,870,8,6,0,0.885,0.8962,0.9339,0.0489,0.0377,L17_MNA4,,,flat only
-ESR1_ENST00000206249,396,7,6,0,0.4974,0.6779,0.861,0.3636,0.1831,,,,nested not computable
-IDH1_ENST00000415913,233,6,4,2,0.4985,0.5,0.5,0.0015,0.0,,,,nested not computable
-FLT3,817,6,0,6,,,,,,,,,flat only
-BTK_ENST00000308731,348,5,0,6,,,,,,,,,flat only
+ABL1_ENST00000318560,709,101,6,0,0.8025,0.8172,0.8436,0.0411,0.0264,L17_MNA9,0.8242,0.0194,measured
+ALK,1128,24,6,0,0.7836,0.9118,0.9288,0.1452,0.017,L33_MNA4,0.9277,0.001,measured
+KIT,959,24,6,0,0.7741,0.8471,0.8977,0.1236,0.0506,L25_MNA9,0.8917,0.006,measured
+SMO,476,18,6,0,0.6791,0.7399,0.8572,0.1781,0.1172,L25_MNA4,0.8209,0.0363,measured
+NT5C2,142,18,6,0,0.5627,0.6243,0.7099,0.1472,0.0856,L17_MNA4,0.5762,0.1337,measured
+EGFR,1221,17,6,0,0.8136,0.8267,0.9233,0.1097,0.0966,L33_MNA9,0.9214,0.0019,measured
+MET,870,8,6,0,0.885,0.8962,0.9339,0.0489,0.0377,L17_MNA4,,,all 6 configurations fail on the inner folds
+ESR1_ENST00000206249,396,7,6,0,0.4974,0.6779,0.861,0.3636,0.1831,,,,all 6 configurations fail on the inner folds
+IDH1_ENST00000415913,233,6,4,2,0.4985,0.5,0.5,0.0015,0.0,,,,all 6 configurations fail on the inner folds
+FLT3,817,6,0,6,,,,,,,,,"no configuration trains, even on the flat grid"
+BTK_ENST00000308731,348,5,0,6,,,,,,,,,"no configuration trains, even on the flat grid"

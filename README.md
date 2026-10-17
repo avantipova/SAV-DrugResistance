@@ -104,7 +104,7 @@ installing or downloading anything.
 python3 verification/check_inputs.py     # what is ready, and what each remaining script needs
 ```
 
-Seven scripts (812 assertions) run with no downloads at all. Six more are waiting on a dataset
+Seven scripts (824 assertions) run with no downloads at all. Six more are waiting on a dataset
 that is not ours to redistribute; `verification/README.md` names the source of each and the path
 to drop it at. No COSMIC export is redistributed there either.
 

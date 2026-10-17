@@ -295,9 +295,18 @@ for _, r in S.iterrows():
         chk(f'  {t[:12]}: best_config is the argmax of the grid',
             (j.get('flat_best_config') or max(fa, key=fa.get)) == max(fa, key=fa.get))
     if not np.isnan(r.optimism):
-        chk(f'  {t[:12]}: optimism == flat_max - nested',
-            round(float(r.grid_max) - float(r.nested_auc), 4) == round(float(r.optimism), 4),
-            f'{r.grid_max} - {r.nested_auc} = {r.optimism}')
+        # The stored optimism is round(unrounded_flat - unrounded_nested, 4), which is not
+        # always the difference of the two rounded columns: subtracting two independently
+        # 4-dp values can be off by 1e-4 in either direction. ALK is the case in point --
+        # 0.9287500 - 0.9277462 = 0.0010038 -> 0.0010, while the printed columns give
+        # 0.9288 - 0.9277 = 0.0011, because the two roundings move in opposite directions.
+        # The tolerance is the size of that artefact and no larger, so a genuine
+        # disagreement in the fourth decimal still fails. verify_optimism.py uses the same
+        # bound against the same checkpoints.
+        gap = abs(round(float(r.grid_max) - float(r.nested_auc), 4) - round(float(r.optimism), 4))
+        chk(f'  {t[:12]}: optimism == flat_max - nested, within the double-rounding artefact',
+            gap <= 2.0001e-4,
+            f'{r.grid_max} - {r.nested_auc} vs stored {r.optimism}, gap {gap:.6f}')
         chk(f'  {t[:12]}: every picked config is in the grid',
             all(c in j['grid'] for c in j['nested_picked'].values()))
         chk(f'  {t[:12]}: five outer folds each picked a config', len(j['nested_picked']) == 5)
@@ -313,11 +322,36 @@ chk('  the target with most positives has the narrowest grid spread',
     sub.loc[sub.n_pos.idxmax(), 'target'] == sub.loc[sub.spread.idxmin(), 'target'],
     f'most positives: {sub.loc[sub.n_pos.idxmax(), "target"]}, '
     f'narrowest: {sub.loc[sub.spread.idxmin(), "target"]}')
-chk('  measured optimism exists for exactly three targets', int(S.optimism.notna().sum()) == 3)
-chk('  and those three are ABL1, SMO, NT5C2',
-    sorted(S[S.optimism.notna()].target.str.split('_').str[0]) == ['ABL1', 'NT5C2', 'SMO'])
-chk('  optimism values are 0.0194 / 0.0363 / 0.1337',
-    sorted(round(float(x), 4) for x in S.optimism.dropna()) == [0.0194, 0.0363, 0.1337])
+chk('  measured optimism exists for exactly six targets', int(S.optimism.notna().sum()) == 6,
+    f'{int(S.optimism.notna().sum())} targets')
+chk('  and those six are ABL1, ALK, EGFR, KIT, NT5C2, SMO',
+    sorted(S[S.optimism.notna()].target.str.split('_').str[0])
+    == ['ABL1', 'ALK', 'EGFR', 'KIT', 'NT5C2', 'SMO'],
+    ', '.join(sorted(S[S.optimism.notna()].target.str.split('_').str[0])))
+chk('  optimism values are 0.0010 / 0.0019 / 0.0060 / 0.0194 / 0.0363 / 0.1337',
+    sorted(round(float(x), 4) for x in S.optimism.dropna())
+    == [0.0010, 0.0019, 0.0060, 0.0194, 0.0363, 0.1337],
+    ' / '.join(f'{x:.4f}' for x in sorted(S.optimism.dropna())))
+chk('  the three with no inner-fold fit are MET, ESR1, IDH1',
+    sorted(S[S.stage.str.startswith('all 6')].target.str.split('_').str[0])
+    == ['ESR1', 'IDH1', 'MET'])
+chk('  the two where nothing trains at all are BTK, FLT3',
+    sorted(S[S.stage.str.startswith('no configuration')].target.str.split('_').str[0])
+    == ['BTK', 'FLT3'])
+# The drift guard. nested_summary.csv was maintained by hand until 2026-10-17 and had gone
+# stale: ALK, EGFR and KIT were recorded as "flat only" after their nested runs had finished,
+# so the table disagreed with its own checkpoints and with Table S8. It is now derived, and
+# this check fails if the committed file and the checkpoints ever part company again.
+import io as _io, csv as _csv, importlib.util as _ilu
+_spec = _ilu.spec_from_file_location('_mns', f'{O}/make_nested_summary.py')
+_mns = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_mns)
+_buf = _io.StringIO()
+_w = _csv.DictWriter(_buf, _mns.COLS); _w.writeheader()
+_w.writerows([_mns.row(t) for t in _mns.ORDER])
+chk('  nested_summary.csv is exactly what the checkpoints derive',
+    _buf.getvalue().replace('\r\n', '\n') ==
+    open(f'{O}/nested_summary.csv').read().replace('\r\n', '\n'),
+    'run make_nested_summary.py')
 chk('  the probe file covers the five small-positive targets',
     len(json.load(open(f'{O}/nested_probe.json'))) == 5)
 
@@ -331,8 +365,10 @@ NOT verified by this script:
   * MultiPASS's own internals -- a closed Win32 binary.
   * That MNA 9 and MNA 4 are the right levels for a cross-protein base. Both were run and the
     difference is not Holm-significant anywhere, but the grid is two points, not a sweep.
-  * The nested configuration search covers only ABL1 and NT5C2, on a 6-point grid and one outer
-    seed. It is a measurement of selection optimism at two sample sizes, not for all six targets.
+  * The nested configuration search runs on a 6-point grid and one outer seed. It covers the six
+    targets where it is computable; on MET, ESR1 and IDH1 every configuration declines to train on
+    the inner folds, and on BTK and FLT3 none trains even on the flat grid, so for those five the
+    optimism is unquantified rather than small.
   * No power curve is claimed anywhere; only the SE of the AUC difference was validated.
   * The CIViC therapy matching depends on drug-name normalisation; the class 'tyrosine kinase
     inhibitor - NS' has no CIViC member list and was excluded rather than guessed.

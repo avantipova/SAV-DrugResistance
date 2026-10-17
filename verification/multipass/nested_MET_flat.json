@@ -25,5 +25,5 @@
  "flat_max_auc": 0.9339,
  "flat_min_auc": 0.885,
  "flat_median_auc": 0.8962,
- "note": "flat grid only; nested selection not run for this target"
+ "note": "flat grid only; this file is the record of the first stage. The nested selection was attempted afterwards and is not computable: every configuration declines to train on the inner folds -- see nested_MET.json."
 }

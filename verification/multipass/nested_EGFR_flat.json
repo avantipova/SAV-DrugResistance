@@ -25,5 +25,5 @@
  "flat_max_auc": 0.9233,
  "flat_min_auc": 0.8136,
  "flat_median_auc": 0.8267,
- "note": "flat grid only; nested selection not run for this target"
+ "note": "flat grid only; this file is the record of the first stage. The nested selection was completed afterwards -- see nested_EGFR.json."
 }

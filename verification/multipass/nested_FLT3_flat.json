@@ -25,5 +25,5 @@
  "flat_max_auc": null,
  "flat_min_auc": null,
  "flat_median_auc": null,
- "note": "flat grid only; nested selection not run for this target"
+ "note": "flat grid only: no configuration trains even on the flat grid, so the nested selection was not attempted."
 }
