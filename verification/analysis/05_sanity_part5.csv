@@ -1,0 +1,2 @@
+idx,target,task,region,n_pos,n_neg,leak,shuf_pos_only_mean,shuf_pos_only_max,repro_pos_only,mw_diff,shuf_full_gbm_mean,shuf_full_gbm_max,repro_full_gbm
+5,EGFR,any,False,17,1219,0,0.479,0.61,0.0,0.0,0.489,0.646,0.0

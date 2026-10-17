@@ -1,0 +1,91 @@
+gene,variant,civic_drugs,civic_drugs_are_antibodies,our_drugs_for_this_variant,drug_in_our_label_set,covered,our_label
+ABL1,p.E98G,imatinib,False,,imatinib,True,absent
+ABL1,p.M244V,bafetinib|imatinib,False,imatinib|tyrosine kinase inhibitor - ns,imatinib,True,positive
+ABL1,p.L248V,axitinib|dasatinib|imatinib|nilotinib,False,imatinib|tyrosine kinase inhibitor - ns,dasatinib|imatinib|nilotinib,True,positive
+ABL1,p.L248R,axitinib|dasatinib|imatinib,False,bosutinib,dasatinib|imatinib,True,positive
+ABL1,p.G250E,axitinib|bafetinib|imatinib|nilotinib,False,dasatinib|imatinib|nilotinib|tyrosine kinase inhibitor - ns,imatinib|nilotinib,True,positive
+ABL1,p.Q252H,axitinib|bafetinib|dasatinib|imatinib,False,imatinib|tyrosine kinase inhibitor - ns,dasatinib|imatinib,True,positive
+ABL1,p.Y253H,axitinib|imatinib|nilotinib,False,dasatinib|imatinib|nilotinib|tyrosine kinase inhibitor - ns,imatinib|nilotinib,True,positive
+ABL1,p.Y253F,axitinib|imatinib,False,imatinib|tyrosine kinase inhibitor - ns,imatinib,True,positive
+ABL1,p.E255K,axitinib|bosutinib|dasatinib|imatinib|nilotinib,False,dasatinib|imatinib|nilotinib|tyrosine kinase inhibitor - ns,bosutinib|dasatinib|imatinib|nilotinib,True,positive
+ABL1,p.E255V,axitinib|imatinib|nilotinib,False,imatinib|nilotinib|tyrosine kinase inhibitor - ns,imatinib|nilotinib,True,positive
+ABL1,p.D276G,axitinib|imatinib,False,imatinib|tyrosine kinase inhibitor - ns,imatinib,True,positive
+ABL1,p.E292V,nilotinib,False,imatinib,nilotinib,True,positive
+ABL1,p.V299L,dasatinib|imatinib,False,bosutinib|dasatinib|imatinib|tyrosine kinase inhibitor - ns,dasatinib|imatinib,True,positive
+ABL1,p.Q300R,imatinib,False,,imatinib,True,absent
+ABL1,p.F311I,axitinib,False,imatinib,,False,positive
+ABL1,p.F311L,imatinib|nilotinib,False,imatinib|tyrosine kinase inhibitor - ns,imatinib|nilotinib,True,positive
+ABL1,p.T315I,bafetinib|bosutinib|dasatinib|imatinib|nilotinib,False,dasatinib|imatinib|nilotinib|tyrosine kinase inhibitor - ns,bosutinib|dasatinib|imatinib|nilotinib,True,positive
+ABL1,p.T315A,dasatinib|imatinib,False,dasatinib|tyrosine kinase inhibitor - ns,dasatinib|imatinib,True,positive
+ABL1,p.F317L,axitinib|dasatinib|imatinib,False,dasatinib|imatinib|tyrosine kinase inhibitor - ns,dasatinib|imatinib,True,positive
+ABL1,p.F317V,axitinib|dasatinib,False,imatinib|tyrosine kinase inhibitor - ns,dasatinib,True,positive
+ABL1,p.F317I,dasatinib,False,dasatinib|tyrosine kinase inhibitor - ns,dasatinib,True,positive
+ABL1,p.F317S,dasatinib,False,,dasatinib,True,absent
+ABL1,p.F317C,dasatinib,False,tyrosine kinase inhibitor - ns,dasatinib,True,positive
+ABL1,p.F317R,axitinib,False,dasatinib,,False,positive
+ABL1,p.N336S,imatinib,False,,imatinib,True,absent
+ABL1,p.M343T,axitinib,False,imatinib,,False,positive
+ABL1,p.M351T,axitinib|imatinib,False,bosutinib|imatinib|nilotinib|tyrosine kinase inhibitor - ns,imatinib,True,positive
+ABL1,p.E355G,imatinib,False,imatinib|tyrosine kinase inhibitor - ns,imatinib,True,positive
+ABL1,p.F359V,dasatinib|imatinib|nilotinib,False,bosutinib|dasatinib|imatinib|tyrosine kinase inhibitor - ns,dasatinib|imatinib|nilotinib,True,positive
+ABL1,p.F359C,imatinib|nilotinib,False,imatinib|nilotinib|tyrosine kinase inhibitor - ns,imatinib|nilotinib,True,positive
+ABL1,p.F359I,axitinib|imatinib,False,bosutinib|imatinib|tyrosine kinase inhibitor - ns,imatinib,True,positive
+ABL1,p.D363G,imatinib,False,,imatinib,True,negative
+ABL1,p.L364I,imatinib,False,imatinib,imatinib,True,positive
+ABL1,p.V379I,imatinib,False,imatinib|tyrosine kinase inhibitor - ns,imatinib,True,positive
+ABL1,p.L384M,dasatinib|imatinib|nilotinib,False,imatinib|tyrosine kinase inhibitor - ns,dasatinib|imatinib|nilotinib,True,positive
+ABL1,p.L387F,bosutinib|imatinib|nilotinib,False,imatinib|tyrosine kinase inhibitor - ns,bosutinib|imatinib|nilotinib,True,positive
+ABL1,p.H396R,axitinib|bosutinib|imatinib,False,imatinib|nilotinib|tyrosine kinase inhibitor - ns,bosutinib|imatinib,True,positive
+ABL1,p.H396P,imatinib|nilotinib,False,imatinib|tyrosine kinase inhibitor - ns,imatinib|nilotinib,True,positive
+ABL1,p.A397P,imatinib,False,imatinib,imatinib,True,positive
+ABL1,p.S417Y,imatinib,False,imatinib,imatinib,True,positive
+ABL1,p.S438C,dasatinib,False,imatinib,dasatinib,True,positive
+ABL1,p.E453A,imatinib,False,imatinib,imatinib,True,positive
+ABL1,p.E459K,imatinib,False,imatinib|tyrosine kinase inhibitor - ns,imatinib,True,positive
+ABL1,p.C475V,imatinib,False,,imatinib,True,absent
+ABL1,p.F486S,bosutinib|imatinib,False,imatinib,bosutinib|imatinib,True,positive
+ALK,p.L1152R,crizotinib,False,crizotinib,crizotinib,True,positive
+ALK,p.C1156Y,ceritinib|crizotinib|lorlatinib|luminespib,False,crizotinib,ceritinib|crizotinib|lorlatinib,True,positive
+ALK,p.I1171N,alectinib|crizotinib|lorlatinib,False,alectinib|lorlatinib,alectinib|crizotinib|lorlatinib,True,positive
+ALK,p.I1171S,alectinib|crizotinib,False,alectinib|lorlatinib,alectinib|crizotinib,True,positive
+ALK,p.F1174L,crizotinib,False,ceritinib|crizotinib,crizotinib,True,positive
+ALK,p.V1180L,alectinib|crizotinib,False,alectinib,alectinib|crizotinib,True,positive
+ALK,p.L1196M,alectinib|crizotinib|lorlatinib,False,brigatinib|ceritinib|crizotinib|lorlatinib,alectinib|crizotinib|lorlatinib,True,positive
+ALK,p.L1198F,lorlatinib,False,lorlatinib,lorlatinib,True,positive
+ALK,p.G1202R,alectinib|brigatinib|ceritinib|crizotinib|lorlatinib,False,alectinib|brigatinib|ceritinib|crizotinib|lorlatinib,alectinib|brigatinib|ceritinib|crizotinib|lorlatinib,True,positive
+ALK,p.S1206Y,crizotinib,False,crizotinib,crizotinib,True,positive
+ALK,p.F1245C,crizotinib,False,,crizotinib,True,negative
+ALK,p.G1269A,alectinib|crizotinib,False,ceritinib|crizotinib|lorlatinib,alectinib|crizotinib,True,positive
+ALK,p.R1275Q,tae684,False,,,False,negative
+EGFR,p.V441F,cetuximab|panitumumab,True,,,False,absent
+EGFR,p.G465R,cetuximab|panitumumab,True,,,False,negative
+EGFR,p.K467T,cetuximab,True,,,False,negative
+EGFR,p.S492R,cetuximab,True,,,False,negative
+EGFR,p.D761Y,erlotinib|gefitinib,False,gefitinib,erlotinib|gefitinib,True,positive
+EGFR,p.S768I,erlotinib,False,,erlotinib,True,negative
+EGFR,p.T790M,afatinib|dacomitinib|erlotinib|gefitinib|icotinib|lapatinib|multikinase inhibitor aee788|osimertinib,False,afatinib|erlotinib|gefitinib|osimertinib|tyrosine kinase inhibitor - ns,afatinib|erlotinib|gefitinib|osimertinib,True,positive
+EGFR,p.C797S,osimertinib,False,afatinib|osimertinib,osimertinib,True,positive
+EGFR,p.N826S,erlotinib,False,,erlotinib,True,negative
+EGFR,p.L838V,erlotinib|gefitinib,False,,erlotinib|gefitinib,True,negative
+EGFR,p.L858R,crizotinib,False,,,False,negative
+KIT,p.V560D,sunitinib,False,,sunitinib,True,negative
+KIT,p.L576P,imatinib|nilotinib|sorafenib|sunitinib,False,,imatinib|nilotinib|sunitinib,True,negative
+KIT,p.V654A,imatinib,False,imatinib,imatinib,True,positive
+KIT,p.T670I,imatinib|regorafenib anhydrous,False,imatinib,imatinib,True,positive
+KIT,p.C809G,imatinib,False,imatinib,imatinib,True,positive
+KIT,p.D816V,dasatinib|imatinib,False,,imatinib,True,negative
+KIT,p.D816H,imatinib,False,imatinib,imatinib,True,positive
+KIT,p.D816E,imatinib|sunitinib,False,imatinib,imatinib|sunitinib,True,positive
+KIT,p.D820Y,imatinib,False,imatinib,imatinib,True,positive
+KIT,p.D820A,imatinib,False,imatinib,imatinib,True,positive
+KIT,p.D820G,imatinib,False,imatinib,imatinib,True,positive
+KIT,p.N822K,imatinib|regorafenib anhydrous|sunitinib,False,imatinib|sunitinib,imatinib|sunitinib,True,positive
+KIT,p.Y823D,imatinib,False,imatinib,imatinib,True,positive
+KIT,p.A829P,imatinib|sunitinib,False,imatinib,imatinib|sunitinib,True,positive
+NT5C2,p.R238W,mercaptopurine|thioguanine,False,purine,mercaptopurine|thioguanine,True,positive
+NT5C2,p.K359Q,mercaptopurine|thioguanine,False,purine,mercaptopurine|thioguanine,True,positive
+NT5C2,p.R367Q,mercaptopurine|thioguanine,False,purine,mercaptopurine|thioguanine,True,positive
+NT5C2,p.D407A,mercaptopurine|thioguanine,False,purine,mercaptopurine|thioguanine,True,positive
+NT5C2,p.S445F,mercaptopurine|thioguanine,False,purine,mercaptopurine|thioguanine,True,positive
+SMO,p.L412F,vismodegib,False,,vismodegib,True,negative
+SMO,p.D473H,vismodegib,False,vismodegib,vismodegib,True,positive

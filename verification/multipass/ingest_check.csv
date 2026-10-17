@@ -1,0 +1,30 @@
+target,status,use_fasta,wt_agreement,multi_record,n_missense,n_positives,n_dropped,n_drugs,drugs,positions_with_both
+ABL1,ok,ABL1.faa,1.0,0.0,627,34,1.0,5.0,bosutinib;dasatinib;imatinib;nilotinib;tyrosine kinase inhibitor - ns,10.0
+ABL1_ENST00000318560,ok,ABL1_ENST00000318560.faa,1.0,0.0,719,105,3.0,5.0,bosutinib;dasatinib;imatinib;nilotinib;tyrosine kinase inhibitor - ns,34.0
+ALK,ok,ALK.faa,1.0,0.0,1141,24,2.0,5.0,alectinib;brigatinib;ceritinib;crizotinib;lorlatinib,9.0
+ALK_ENST00000618119,ok,ALK_ENST00000618119.faa,1.0,0.0,864,14,1.0,4.0,alectinib;ceritinib;crizotinib;lorlatinib,9.0
+BRAF,no_fasta,,,,638,1,,,,
+BRAF_ENST00000288602,no_fasta,,,,606,1,,,,
+BTK,ok,BTK.faa,1.0,0.0,355,5,0.0,1.0,ibrutinib,0.0
+BTK_ENST00000308731,ok,BTK_ENST00000308731.faa,1.0,0.0,354,5,0.0,1.0,ibrutinib,0.0
+EGFR,ok,EGFR.faa,1.0,0.0,1243,17,0.0,5.0,afatinib;erlotinib;gefitinib;osimertinib;tyrosine kinase inhibitor - ns,8.0
+EGFR_ENST00000454757,ok,EGFR_ENST00000454757.faa,1.0,0.0,1090,15,0.0,5.0,afatinib;erlotinib;gefitinib;osimertinib;tyrosine kinase inhibitor - ns,7.0
+ESR1,ok,ESR1.faa,1.0,0.0,427,7,1.0,1.0,endocrine therapy,2.0
+ESR1_ENST00000206249,ok,ESR1_ENST00000206249.faa,1.0,0.0,417,7,0.0,1.0,endocrine therapy,2.0
+FGFR2_ENST00000346997,no_fasta,,,,553,2,,,,
+FGFR2_ENST00000457416,no_fasta,,,,543,2,,,,
+FLT3,numbering_mismatch,FLT3.faa,0.99881,1.0,845,7,0.0,3.0,quizartinib;sorafenib;sunitinib,2.0
+IDH1_ENST00000345146,ok,IDH1_ENST00000415913.faa,1.0,0.0,233,1,0.0,1.0,ivosidenib,0.0
+IDH1_ENST00000415913,ok,IDH1_ENST00000415913.faa,1.0,0.0,244,6,0.0,1.0,ivosidenib,3.0
+JAK1,no_fasta,,,,595,0,,,,
+JAK2,no_fasta,,,,572,0,,,,
+KIT,ok,KIT.faa,1.0,1.0,987,24,4.0,3.0,imatinib;nilotinib;sunitinib,14.0
+MAP2K1,no_fasta,,,,219,3,,,,
+MAP2K2,no_fasta,,,,220,1,,,,
+MET,ok,MET.faa,1.0,0.0,884,8,1.0,4.0,capmatinib;crizotinib;pf-04217903;savolitinib,1.0
+MET_ENST00000397752,ok,MET_ENST00000397752.faa,1.0,0.0,849,4,0.0,3.0,capmatinib;crizotinib;savolitinib,2.0
+NT5C2,ok,NT5C2.faa,1.0,0.0,149,18,5.0,1.0,purine,3.0
+NT5C2_ENST00000404739,ok,NT5C2_ENST00000404739.faa,1.0,0.0,148,17,5.0,1.0,purine,3.0
+NT5C2_ENST00000470299,numbering_mismatch,NT5C2.faa,0.91667,0.0,12,1,1.0,1.0,purine,0.0
+PDGFRA,no_fasta,,,,950,2,,,,
+SMO,ok,SMO.faa,1.0,1.0,493,18,0.0,1.0,vismodegib,3.0

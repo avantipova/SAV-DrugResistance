@@ -1,0 +1,19 @@
+target,aa_mutation,reason
+ABL1_ENST00000318560,p.?,not a single substitution
+ABL1_ENST00000318560,p.E279Z,"ambiguous/stop residue code, no peptide"
+ABL1_ENST00000318560,p.E355X,"ambiguous/stop residue code, no peptide"
+ABL1_ENST00000318560,p.E450X,"ambiguous/stop residue code, no peptide"
+ABL1_ENST00000318560,p.F359X,"ambiguous/stop residue code, no peptide"
+ABL1_ENST00000318560,p.K294delinsRGG,not a single substitution
+ABL1_ENST00000318560,p.L340L,absent from the COSMIC missense export
+ALK,p.G1202del,not a single substitution
+ALK,p.T1151dup,not a single substitution
+KIT,p.(P627_G664)Xfs*?,not a single substitution
+KIT,p.D579del,not a single substitution
+KIT,p.K818_D820>N,not a single substitution
+KIT,p.V569_Y578del,not a single substitution
+NT5C2,p.D396_L399del,not a single substitution
+NT5C2,p.D407_S408insRD,not a single substitution
+NT5C2,p.K404delinsNQ,not a single substitution
+NT5C2,p.L406delinsSSF,not a single substitution
+NT5C2,p.Q523*,not a single substitution

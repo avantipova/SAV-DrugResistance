@@ -1,0 +1,19 @@
+row,analysed,length,crc64,fasta_header,s7_prints,correct_uniprot,refseq_protein,refseq_mrna,uniprot_isoform,verified_by,verdict
+ABL1,False,1149,DF9D4512F78FFE52,NP_009297.2 ABL1 [organism=Homo sapiens] [GeneID=25] [isofor,P00519,P00519-2,NP_009297.2,NM_007313.3,P00519-2,CRC64 -> UniParc UPI000013E4DE,FIX
+ABL1_ENST00000318560,True,1130,85FE6C1C0E483EA2,NP_005148.2 tyrosine-protein kinase ABL1 isoform a [Homo sap,NM_005157.4,P00519,NP_005148.2,NM_005157.6,P00519-1,CRC64 == UniProt canonical (different accession than S7 prints),FIX
+ALK,True,1620,0733D6C4FD212F41,NP_004295.2 ALK [organism=Homo sapiens] [GeneID=238] [isofor,Q9UM73,Q9UM73,NP_004295.2,,,CRC64 == UniProt canonical,ok
+ALK_ENST00000618119,False,1243,7A43DA6A78687E85,tr|A0A087WZL3|A0A087WZL3_HUMAN Tyrosine-protein kinase recep,A0A087WZL3,A0A087WZL3,,,,CRC64 == UniProt canonical,ok
+BTK,False,693,8C582E0CD4D6280F,NP_001274273.1 BTK [organism=Homo sapiens] [GeneID=695] [iso,Q06187,Q06187-2,NP_001274273.1,NM_001287344.2,Q06187-2,CRC64 -> UniParc UPI000021216F,FIX
+BTK_ENST00000308731,False,659,DF06B5D1FEC257CC,NP_000052.1 BTK [organism=Homo sapiens] [GeneID=695] [isofor,Q06187.3,Q06187,NP_000052.1,NM_000061.3,Q06187-1,CRC64 == UniProt canonical,FIX
+EGFR,True,1210,D8A2A50B4EFB6ED2,NP_005219.2 epidermal growth factor receptor isoform a precu,P00533,P00533,NP_005219.2,NM_005228.5,P00533-1,CRC64 == UniProt canonical,ok
+EGFR_ENST00000454757,False,1165,9CEE26B795A041B2,ENST00000454757.6,NM_005228.3,E9PFD7 (INACTIVE: deleted from Ensembl),,,,CRC64 -> UniParc UPI000387BFB2,FIX
+ESR1,False,595,5455C57AB0CCCAA7,ENST00000440973.5 (ESR1) length=595,P03372,P03372,,,,CRC64 == UniProt canonical,ok
+ESR1_ENST00000206249,False,595,5455C57AB0CCCAA7,NP_000116.2 estrogen receptor isoform 1 [Homo sapiens],P03372,P03372,NP_000116.2,,,CRC64 == UniProt canonical,ok
+FLT3,False,993,6C1995718F352ECE,NP_004110.2 FLT3 [organism=Homo sapiens] [GeneID=2322],P36888,P36888,NP_004110.2,,,CRC64 == UniProt canonical,ok
+IDH1_ENST00000415913,False,414,60428B0B6E5851DC,NP_001269315.1 isocitrate dehydrogenase [NADP] cytoplasmic [,O75874,O75874,NP_001269315.1,,,CRC64 == UniProt canonical,ok
+KIT,True,976,81B0CD76817F3454,NP_000213.1 KIT [organism=Homo sapiens] [GeneID=3815] [isofo,P10721,P10721,NP_000213.1,,,CRC64 == UniProt canonical,ok
+MET,False,1408,C5F64DCBBC13CC88,NP_001120972.1 hepatocyte growth factor receptor isoform a p,P08581,P08581-2,NP_001120972.1,NM_001127500.3,P08581-2,CRC64 -> UniParc UPI000014033E,FIX
+MET_ENST00000397752,False,1390,9CF896D1273905C3,NP_000236.2 hepatocyte growth factor receptor isoform b prep,NM_000245.4,P08581,NP_000236.2,NM_000245.4,P08581-1,CRC64 == UniProt canonical (different accession than S7 prints),FIX
+NT5C2,True,561,4C27D762575E0EA2,NP_036361.1 cytosolic purine 5'-nucleotidase isoform 1 [Homo,P49902,P49902,NP_036361.1,,,CRC64 == UniProt canonical,ok
+NT5C2_ENST00000404739,False,561,4C27D762575E0EA2,NP_001338098.1 cytosolic purine 5'-nucleotidase isoform 1 [H,P49902,P49902,NP_001338098.1,,,CRC64 == UniProt canonical,ok
+SMO,True,787,8B4C459B34D13F83,NP_005622.1 SMO [organism=Homo sapiens] [GeneID=6608],Q99835,Q99835,NP_005622.1,,,CRC64 == UniProt canonical,ok

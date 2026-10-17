@@ -1,0 +1,36 @@
+drugs our labels cover, per target:
+   ABL1_ENST00000318560     bosutinib, dasatinib, imatinib, nilotinib, tyrosine kinase inhibitor - ns
+   ALK                      alectinib, brigatinib, ceritinib, crizotinib, lorlatinib
+   EGFR                     afatinib, erlotinib, gefitinib, osimertinib, tyrosine kinase inhibitor - ns
+   KIT                      imatinib, nilotinib, sunitinib
+   NT5C2                    purine
+   SMO                      vismodegib
+
+CIViC resistance calls examined: 90
+
+=== the discordant ones: CIViC says resistance, our label says negative ===
+gene   variant    covered  CIViC drug(s)                            shared with our label set
+ABL1   p.D363G    True     imatinib                                 imatinib
+ALK    p.F1245C   True     crizotinib                               crizotinib
+ALK    p.R1275Q   False    tae684                                   
+EGFR   p.G465R    False    cetuximab|panitumumab                    
+EGFR   p.K467T    False    cetuximab                                
+EGFR   p.S492R    False    cetuximab                                
+EGFR   p.S768I    True     erlotinib                                erlotinib
+EGFR   p.N826S    True     erlotinib                                erlotinib
+EGFR   p.L838V    True     erlotinib|gefitinib                      erlotinib|gefitinib
+EGFR   p.L858R    False    crizotinib                               
+KIT    p.V560D    True     sunitinib                                sunitinib
+KIT    p.L576P    True     imatinib|nilotinib|sorafenib|sunitinib   imatinib|nilotinib|sunitinib
+KIT    p.D816V    True     dasatinib|imatinib                       imatinib
+SMO    p.L412F    True     vismodegib                               vismodegib
+
+  of 14 discordant calls, 9 name a drug we do label and 5 name a drug outside our coverage
+  antibody-only calls among them: 3
+
+=== agreement on the matched ones: our positives that CIViC also calls resistant ===
+  70 such variants; drug sets overlap for 67 of them
+  positives where CIViC names only drugs outside our label set:
+     ABL1   p.F311I    CIViC=axitinib                                           ours=imatinib
+     ABL1   p.F317R    CIViC=axitinib                                           ours=dasatinib
+     ABL1   p.M343T    CIViC=axitinib                                           ours=imatinib

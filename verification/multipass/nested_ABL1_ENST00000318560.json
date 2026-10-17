@@ -1,0 +1,34 @@
+{
+ "target": "ABL1_ENST00000318560",
+ "n_pos": 101,
+ "n_neg": 606,
+ "n_common": 707,
+ "grid": [
+  "L17_MNA4",
+  "L17_MNA9",
+  "L25_MNA4",
+  "L25_MNA9",
+  "L33_MNA4",
+  "L33_MNA9"
+ ],
+ "flat_auc": {
+  "L17_MNA4": 0.8025,
+  "L17_MNA9": 0.8436,
+  "L25_MNA4": 0.8174,
+  "L25_MNA9": 0.8169,
+  "L33_MNA4": 0.8282,
+  "L33_MNA9": 0.8123
+ },
+ "flat_best_config": "L17_MNA9",
+ "flat_max_auc": 0.8436,
+ "flat_median_auc": 0.8172,
+ "nested_auc": 0.8242,
+ "nested_picked": {
+  "0": "L33_MNA9",
+  "1": "L17_MNA9",
+  "2": "L17_MNA9",
+  "3": "L33_MNA4",
+  "4": "L17_MNA9"
+ },
+ "optimism": 0.0194
+}

@@ -1,0 +1,61 @@
+========================================================================================================
+LEAVE-ONE-TARGET-OUT: MultiPASS base trained on the other five proteins
+========================================================================================================
+model                 MultiPASS_within_protein  MultiPASS_loto_mna9  MultiPASS_loto_mna4  pos_only_loto  full_gbm_loto  subst_lr_loto
+held_out                                                                                                                             
+ABL1_ENST00000318560                     0.860                0.635                0.628          0.461          0.542          0.532
+ALK                                      0.930                0.599                0.577          0.572          0.530          0.602
+EGFR                                     0.922                0.613                0.668          0.595          0.634          0.618
+KIT                                      0.903                0.504                0.619          0.366          0.305          0.609
+NT5C2                                    0.696                0.573                0.558          0.631          0.678          0.455
+SMO                                      0.824                0.700                0.807          0.673          0.529          0.557
+
+mean over the six targets:
+model
+MultiPASS_within_protein    0.856
+MultiPASS_loto_mna9         0.604
+MultiPASS_loto_mna4         0.643
+pos_only_loto               0.550
+full_gbm_loto               0.536
+subst_lr_loto               0.562
+
+--- MultiPASS_loto_mna9 ---
+  ABL1_ENST00000318560   AUC 0.635  CI [0.585, 0.691]  excludes 0.5   within-protein 0.860  drop -0.225
+  ALK                    AUC 0.599  CI [0.499, 0.696]  includes 0.5   within-protein 0.930  drop -0.331
+  EGFR                   AUC 0.613  CI [0.493, 0.721]  includes 0.5   within-protein 0.922  drop -0.309
+  KIT                    AUC 0.504  CI [0.384, 0.603]  includes 0.5   within-protein 0.903  drop -0.399
+  NT5C2                  AUC 0.573  CI [0.459, 0.686]  includes 0.5   within-protein 0.696  drop -0.123
+  SMO                    AUC 0.700  CI [0.626, 0.779]  excludes 0.5   within-protein 0.824  drop -0.124
+  mean 0.604; CI includes 0.5 in 4/6; mean drop from within-protein -0.252
+
+--- MultiPASS_loto_mna4 ---
+  ABL1_ENST00000318560   AUC 0.628  CI [0.574, 0.680]  excludes 0.5   within-protein 0.860  drop -0.232
+  ALK                    AUC 0.577  CI [0.459, 0.692]  includes 0.5   within-protein 0.930  drop -0.353
+  EGFR                   AUC 0.668  CI [0.538, 0.793]  excludes 0.5   within-protein 0.922  drop -0.254
+  KIT                    AUC 0.619  CI [0.490, 0.732]  includes 0.5   within-protein 0.903  drop -0.284
+  NT5C2                  AUC 0.558  CI [0.420, 0.686]  includes 0.5   within-protein 0.696  drop -0.138
+  SMO                    AUC 0.807  CI [0.722, 0.884]  excludes 0.5   within-protein 0.824  drop -0.017
+  mean 0.643; CI includes 0.5 in 3/6; mean drop from within-protein -0.213
+
+--- MNA sensitivity: MultiPASS_loto_mna9 vs MultiPASS_loto_mna4 (paired DeLong, same variants) ---
+  ABL1_ENST00000318560   0.635 -> 0.628  delta -0.007  p=0.751  Holm=1
+  ALK                    0.599 -> 0.577  delta -0.022  p=0.667  Holm=1
+  EGFR                   0.613 -> 0.668  delta +0.055  p=0.266  Holm=1
+  KIT                    0.504 -> 0.619  delta +0.115  p=0.0681  Holm=1
+  NT5C2                  0.573 -> 0.558  delta -0.015  p=0.816  Holm=1
+  SMO                    0.700 -> 0.807  delta +0.107  p=0.0771  Holm=1
+  mean |delta| = 0.054; Holm-significant in 0/6
+
+--- within-protein vs LOTO (MultiPASS_loto_mna9), paired DeLong, Holm across 30 tests ---
+  ABL1_ENST00000318560   p=6.33e-15  Holm=0
+  ALK                    p=1.51e-06  Holm=0
+  EGFR                   p=5.59e-09  Holm=0
+  KIT                    p=3.48e-10  Holm=0
+  NT5C2                  p=0.212  Holm=1
+  SMO                    p=0.0804  Holm=1
+  Holm-significant in 4 of 6
+
+--- LOTO MultiPASS (MultiPASS_loto_mna9) vs each baseline LOTO ---
+  pos_only_loto    mean AUC 0.550  MultiPASS ahead in 5/6  Holm-significant 1/6
+  full_gbm_loto    mean AUC 0.536  MultiPASS ahead in 4/6  Holm-significant 0/6
+  subst_lr_loto    mean AUC 0.562  MultiPASS ahead in 3/6  Holm-significant 0/6

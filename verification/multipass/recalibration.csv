@@ -1,0 +1,13 @@
+target,setting,n_pos,n_neg,prevalence,brier_raw_pa,brier_isotonic,brier_platt,brier_baserate,auc_raw_pa,auc_isotonic,auc_platt,monotone_within_fold_iso,monotone_within_fold_platt,auc_withinfold_raw,auc_withinfold_iso,auc_withinfold_platt,iso_beats_baserate,raw_beats_baserate
+ABL1_ENST00000318560,full,101,611,0.1419,0.0943,0.0977,0.0994,0.1217,0.8615,0.8415,0.8599,True,True,0.8614,0.8513,0.8614,True,True
+ABL1_ENST00000318560,region,101,210,0.3248,0.2176,0.2238,0.2172,0.2193,0.586,0.5347,0.5723,True,True,0.5861,0.5596,0.5859,False,True
+ALK,full,24,1100,0.0214,0.0297,0.0178,0.0204,0.0209,0.9284,0.8908,0.9207,True,True,0.9323,0.9172,0.9323,True,False
+ALK,region,24,137,0.1491,0.1445,0.1222,0.1258,0.1268,0.6738,0.6451,0.6717,True,True,0.6855,0.672,0.6855,True,False
+EGFR,full,17,1197,0.014,0.0193,0.0105,0.0135,0.0138,0.9232,0.8842,0.9207,True,True,0.9113,0.8817,0.9113,True,False
+EGFR,region,17,251,0.0634,0.0823,0.0545,0.0591,0.0594,0.6869,0.6099,0.6178,True,True,0.6355,0.6185,0.6355,True,False
+KIT,full,24,936,0.025,0.0364,0.0221,0.023,0.0244,0.9015,0.8725,0.8899,True,True,0.9012,0.8891,0.9012,True,False
+KIT,region,24,331,0.0676,0.1008,0.0537,0.061,0.063,0.7499,0.7221,0.7177,True,True,0.7557,0.7597,0.7561,True,False
+NT5C2,full,18,124,0.1268,0.1325,0.1105,0.1086,0.1107,0.6965,0.5981,0.6487,True,True,0.7289,0.6757,0.7289,True,False
+NT5C2,region,18,102,0.15,0.1456,0.13,0.126,0.1275,0.6569,0.658,0.6127,True,True,0.6686,0.6848,0.6686,False,False
+SMO,full,18,453,0.0382,0.0396,0.0293,0.0358,0.0368,0.8233,0.746,0.8098,True,True,0.8057,0.7685,0.8057,True,False
+SMO,region,18,204,0.0811,0.0833,0.0719,0.0736,0.0745,0.6366,0.5693,0.5926,True,True,0.6059,0.6417,0.6067,True,False

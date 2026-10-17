@@ -1,0 +1,5 @@
+target,region,n_pos,n_neg,model,length,cv,auc,auc_lo,auc_hi,auprc
+KIT,False,24,935,morgan_nb,25,random,0.79,0.653,0.897,0.251
+KIT,False,24,935,morgan_nb,25,grouped,0.631,0.521,0.715,0.037
+KIT,False,24,935,morgan_lr,25,random,0.843,0.737,0.926,0.221
+KIT,False,24,935,morgan_lr,25,grouped,0.803,0.702,0.883,0.115

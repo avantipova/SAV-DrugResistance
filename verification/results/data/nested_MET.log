@@ -1,0 +1,36 @@
+MET: variants per L L17=875, L25=870, L33=863  -> common set 863
+MET: 8 pos / 855 neg on the common set
+  flat L=17 MNA=4: AUC 0.934
+MET: variants per L L17=875, L25=870, L33=863  -> common set 863
+MET: 8 pos / 855 neg on the common set
+  flat L=17 MNA=4: AUC 0.934
+  flat L=17 MNA=9: AUC 0.897
+  flat L=25 MNA=4: AUC 0.885
+MET: variants per L L17=875, L25=870, L33=863  -> common set 863
+MET: 8 pos / 855 neg on the common set
+  flat L=17 MNA=4: AUC 0.934
+  flat L=17 MNA=9: AUC 0.897
+  flat L=25 MNA=4: AUC 0.885
+  flat L=25 MNA=9: AUC 0.895
+MET: variants per L L17=875, L25=870, L33=863  -> common set 863
+MET: 8 pos / 855 neg on the common set
+  flat L=17 MNA=4: AUC 0.934
+  flat L=17 MNA=9: AUC 0.897
+  flat L=25 MNA=4: AUC 0.885
+  flat L=25 MNA=9: AUC 0.895
+MET: variants per L L17=875, L25=870, L33=863  -> common set 863
+MET: 8 pos / 855 neg on the common set
+  flat L=17 MNA=4: AUC 0.934
+  flat L=17 MNA=9: AUC 0.897
+  flat L=25 MNA=4: AUC 0.885
+  flat L=25 MNA=9: AUC 0.895
+  flat L=33 MNA=4: AUC 0.925
+MET: variants per L L17=875, L25=870, L33=863  -> common set 863
+MET: 8 pos / 855 neg on the common set
+  flat L=17 MNA=4: AUC 0.934
+  flat L=17 MNA=9: AUC 0.897
+  flat L=25 MNA=4: AUC 0.885
+  flat L=25 MNA=9: AUC 0.895
+  flat L=33 MNA=4: AUC 0.925
+  flat L=33 MNA=9: AUC 0.895
+MET: flat grid only -- spread 0.885..0.934

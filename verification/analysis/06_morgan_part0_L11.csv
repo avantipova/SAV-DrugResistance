@@ -1,0 +1,7 @@
+target,region,n_pos,n_neg,model,length,cv,auc,auc_lo,auc_hi,auprc
+ABL1_ENST00000318560,False,101,608,pos_only,-,random,0.875,0.847,0.901,0.457
+ABL1_ENST00000318560,False,101,608,pos_only,-,grouped,0.842,0.811,0.871,0.349
+ABL1_ENST00000318560,False,101,608,morgan_nb,11,random,0.805,0.763,0.846,0.42
+ABL1_ENST00000318560,False,101,608,morgan_nb,11,grouped,0.777,0.734,0.82,0.33
+ABL1_ENST00000318560,False,101,608,morgan_lr,11,random,0.817,0.776,0.856,0.433
+ABL1_ENST00000318560,False,101,608,morgan_lr,11,grouped,0.796,0.757,0.835,0.39

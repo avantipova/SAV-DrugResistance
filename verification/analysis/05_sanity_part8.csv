@@ -1,0 +1,2 @@
+idx,target,task,region,n_pos,n_neg,leak,shuf_pos_only_mean,shuf_pos_only_max,repro_pos_only,mw_diff,shuf_full_gbm_mean,shuf_full_gbm_max,repro_full_gbm
+8,ABL1_ENST00000318560,Tyrosine kinase inhibitor - NS,False,48,667,0,0.472,0.53,0.0,0.0,0.463,0.531,0.0

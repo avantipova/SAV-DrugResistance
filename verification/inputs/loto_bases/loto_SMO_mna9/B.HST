@@ -1,0 +1,44 @@
+Run of Z:\home\claude\repro\loto_SMO_mna9\OLMPASSdoMNABase.exe t.txt
+
+  MSAR Base is created 10/7/2026 10:38:49 PM
+
+Data from Z:\home\claude\repro\loto_SMO_mna9\train.sdf are added to MSAR Base.
+Activity Field  :  Drug
+
+  Begin         :  10/7/2026 10:38:49 PM
+
+  End           :  10/7/2026 10:39:47 PM
+
+Data from Z:\home\claude\repro\loto_SMO_mna9\train.sdf were added to MSAR Base.
+  4152 of 4152 Substances were added to MSAR Base.
+  4152 new Substances were added to MSAR Base.
+  4152 new Activity Data were added to MSAR Base.
+
+  Adding new Data time: 0:00:57.679.
+
+  MSAR Base B.MSAR training.
+9	 Level of MNA Descriptors 
+4152	 Substances 
+662903	 Descriptors 
+2	 Activity Types 
+0	 Selected Activity Types 
+0.0000	 Average IAP
+
+  Begin         :  10/7/2026 10:39:47 PM
+
+ No	Training	 Number	 IAP	 Activity Type
+  1	   Ok	    3968	 0.9410	Not resistant
+  2	   Ok	    184	 0.9410	Resistant
+
+  End           :  10/7/2026 10:39:48 PM
+  Training MSAR Base time: 0:00:01.289.
+
+2	 Selected Activity Types 
+0.9410	 Average IAP
+
+
+  MSAR Base is saved 10/7/2026 10:39:49 PM
+
+  MSAS Base is saved 10/7/2026 10:41:41 PM
+
+MSAR Base Z:\home\claude\repro\loto_SMO_mna9\B.MSAR is closed.  10/7/2026 10:41:41 PM

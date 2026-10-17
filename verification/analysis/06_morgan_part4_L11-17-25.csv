@@ -1,0 +1,15 @@
+target,region,n_pos,n_neg,model,length,cv,auc,auc_lo,auc_hi,auprc
+NT5C2,False,18,124,pos_only,-,random,0.681,0.533,0.825,0.297
+NT5C2,False,18,124,pos_only,-,grouped,0.647,0.478,0.809,0.261
+NT5C2,False,18,124,morgan_nb,11,random,0.51,0.343,0.675,0.153
+NT5C2,False,18,124,morgan_nb,11,grouped,0.22,0.138,0.324,0.082
+NT5C2,False,18,124,morgan_lr,11,random,0.566,0.428,0.696,0.162
+NT5C2,False,18,124,morgan_lr,11,grouped,0.484,0.372,0.603,0.12
+NT5C2,False,18,124,morgan_nb,17,random,0.668,0.523,0.809,0.211
+NT5C2,False,18,124,morgan_nb,17,grouped,0.358,0.234,0.509,0.1
+NT5C2,False,18,124,morgan_lr,17,random,0.69,0.538,0.824,0.333
+NT5C2,False,18,124,morgan_lr,17,grouped,0.638,0.519,0.76,0.231
+NT5C2,False,18,124,morgan_nb,25,random,0.538,0.388,0.682,0.243
+NT5C2,False,18,124,morgan_nb,25,grouped,0.292,0.15,0.448,0.092
+NT5C2,False,18,124,morgan_lr,25,random,0.642,0.494,0.794,0.319
+NT5C2,False,18,124,morgan_lr,25,grouped,0.563,0.42,0.728,0.242

@@ -1,0 +1,272 @@
+SMO: variants per L L17=484, L25=476, L33=468  -> common set 468
+SMO: 18 pos / 450 neg on the common set
+  flat L=17 MNA=4: AUC 0.726
+  flat L=17 MNA=9: AUC 0.679
+SMO: variants per L L17=484, L25=476, L33=468  -> common set 468
+SMO: 18 pos / 450 neg on the common set
+  flat L=17 MNA=4: AUC 0.726
+  flat L=17 MNA=9: AUC 0.679
+  flat L=25 MNA=4: AUC 0.857
+  flat L=25 MNA=9: AUC 0.749
+SMO: variants per L L17=484, L25=476, L33=468  -> common set 468
+SMO: 18 pos / 450 neg on the common set
+  flat L=17 MNA=4: AUC 0.726
+  flat L=17 MNA=9: AUC 0.679
+  flat L=25 MNA=4: AUC 0.857
+  flat L=25 MNA=9: AUC 0.749
+  flat L=33 MNA=4: AUC 0.803
+SMO: variants per L L17=484, L25=476, L33=468  -> common set 468
+SMO: 18 pos / 450 neg on the common set
+  flat L=17 MNA=4: AUC 0.726
+  flat L=17 MNA=9: AUC 0.679
+  flat L=25 MNA=4: AUC 0.857
+  flat L=25 MNA=9: AUC 0.749
+  flat L=33 MNA=4: AUC 0.803
+  flat L=33 MNA=9: AUC 0.731
+  outer 0 inner L=17 MNA=4: 0.771
+  outer 0 inner L=17 MNA=9: 0.640
+  outer 0 inner L=25 MNA=4: 0.850
+SMO: variants per L L17=484, L25=476, L33=468  -> common set 468
+SMO: 18 pos / 450 neg on the common set
+  flat L=17 MNA=4: AUC 0.726
+  flat L=17 MNA=9: AUC 0.679
+  flat L=25 MNA=4: AUC 0.857
+  flat L=25 MNA=9: AUC 0.749
+  flat L=33 MNA=4: AUC 0.803
+  flat L=33 MNA=9: AUC 0.731
+  outer 0 inner L=17 MNA=4: 0.771
+  outer 0 inner L=17 MNA=9: 0.640
+  outer 0 inner L=25 MNA=4: 0.850
+  outer 0 inner L=25 MNA=9: 0.745
+  outer 0 inner L=33 MNA=4: 0.785
+  outer 0 inner L=33 MNA=9: 0.663
+  outer 0: picked L=25 MNA=4 (inner AUC 0.850)
+  outer 1 inner L=17 MNA=4: 0.739
+SMO: variants per L L17=484, L25=476, L33=468  -> common set 468
+SMO: 18 pos / 450 neg on the common set
+  flat L=17 MNA=4: AUC 0.726
+  flat L=17 MNA=9: AUC 0.679
+  flat L=25 MNA=4: AUC 0.857
+  flat L=25 MNA=9: AUC 0.749
+  flat L=33 MNA=4: AUC 0.803
+  flat L=33 MNA=9: AUC 0.731
+  outer 0 inner L=17 MNA=4: 0.771
+  outer 0 inner L=17 MNA=9: 0.640
+  outer 0 inner L=25 MNA=4: 0.850
+  outer 0 inner L=25 MNA=9: 0.745
+  outer 0 inner L=33 MNA=4: 0.785
+  outer 0 inner L=33 MNA=9: 0.663
+  outer 0: picked L=25 MNA=4 (inner AUC 0.850)
+  outer 1 inner L=17 MNA=4: 0.739
+  outer 1 inner L=17 MNA=9: 0.783
+  outer 1 inner L=25 MNA=4: 0.850
+  outer 1 inner L=25 MNA=9: 0.835
+  outer 1 inner L=33 MNA=4: 0.818
+SMO: variants per L L17=484, L25=476, L33=468  -> common set 468
+SMO: 18 pos / 450 neg on the common set
+  flat L=17 MNA=4: AUC 0.726
+  flat L=17 MNA=9: AUC 0.679
+  flat L=25 MNA=4: AUC 0.857
+  flat L=25 MNA=9: AUC 0.749
+  flat L=33 MNA=4: AUC 0.803
+  flat L=33 MNA=9: AUC 0.731
+  outer 0 inner L=17 MNA=4: 0.771
+  outer 0 inner L=17 MNA=9: 0.640
+  outer 0 inner L=25 MNA=4: 0.850
+  outer 0 inner L=25 MNA=9: 0.745
+  outer 0 inner L=33 MNA=4: 0.785
+  outer 0 inner L=33 MNA=9: 0.663
+  outer 0: picked L=25 MNA=4 (inner AUC 0.850)
+  outer 1 inner L=17 MNA=4: 0.739
+  outer 1 inner L=17 MNA=9: 0.783
+  outer 1 inner L=25 MNA=4: 0.850
+  outer 1 inner L=25 MNA=9: 0.835
+  outer 1 inner L=33 MNA=4: 0.818
+  outer 1 inner L=33 MNA=9: 0.829
+  outer 1: picked L=25 MNA=4 (inner AUC 0.850)
+  outer 2 inner L=17 MNA=4: 0.766
+  outer 2 inner L=17 MNA=9: 0.702
+  outer 2 inner L=25 MNA=4: 0.893
+  outer 2 inner L=25 MNA=9: 0.767
+SMO: variants per L L17=484, L25=476, L33=468  -> common set 468
+SMO: 18 pos / 450 neg on the common set
+  flat L=17 MNA=4: AUC 0.726
+  flat L=17 MNA=9: AUC 0.679
+  flat L=25 MNA=4: AUC 0.857
+  flat L=25 MNA=9: AUC 0.749
+  flat L=33 MNA=4: AUC 0.803
+  flat L=33 MNA=9: AUC 0.731
+  outer 0 inner L=17 MNA=4: 0.771
+  outer 0 inner L=17 MNA=9: 0.640
+  outer 0 inner L=25 MNA=4: 0.850
+  outer 0 inner L=25 MNA=9: 0.745
+  outer 0 inner L=33 MNA=4: 0.785
+  outer 0 inner L=33 MNA=9: 0.663
+  outer 0: picked L=25 MNA=4 (inner AUC 0.850)
+  outer 1 inner L=17 MNA=4: 0.739
+  outer 1 inner L=17 MNA=9: 0.783
+  outer 1 inner L=25 MNA=4: 0.850
+  outer 1 inner L=25 MNA=9: 0.835
+  outer 1 inner L=33 MNA=4: 0.818
+  outer 1 inner L=33 MNA=9: 0.829
+  outer 1: picked L=25 MNA=4 (inner AUC 0.850)
+  outer 2 inner L=17 MNA=4: 0.766
+  outer 2 inner L=17 MNA=9: 0.702
+  outer 2 inner L=25 MNA=4: 0.893
+  outer 2 inner L=25 MNA=9: 0.767
+  outer 2 inner L=33 MNA=4: 0.850
+  outer 2 inner L=33 MNA=9: 0.807
+  outer 2: picked L=25 MNA=4 (inner AUC 0.893)
+  outer 3 inner L=17 MNA=4: 0.749
+  outer 3 inner L=17 MNA=9: 0.768
+SMO: variants per L L17=484, L25=476, L33=468  -> common set 468
+SMO: 18 pos / 450 neg on the common set
+  flat L=17 MNA=4: AUC 0.726
+  flat L=17 MNA=9: AUC 0.679
+  flat L=25 MNA=4: AUC 0.857
+  flat L=25 MNA=9: AUC 0.749
+  flat L=33 MNA=4: AUC 0.803
+  flat L=33 MNA=9: AUC 0.731
+  outer 0 inner L=17 MNA=4: 0.771
+  outer 0 inner L=17 MNA=9: 0.640
+  outer 0 inner L=25 MNA=4: 0.850
+  outer 0 inner L=25 MNA=9: 0.745
+  outer 0 inner L=33 MNA=4: 0.785
+  outer 0 inner L=33 MNA=9: 0.663
+  outer 0: picked L=25 MNA=4 (inner AUC 0.850)
+  outer 1 inner L=17 MNA=4: 0.739
+  outer 1 inner L=17 MNA=9: 0.783
+  outer 1 inner L=25 MNA=4: 0.850
+  outer 1 inner L=25 MNA=9: 0.835
+  outer 1 inner L=33 MNA=4: 0.818
+  outer 1 inner L=33 MNA=9: 0.829
+  outer 1: picked L=25 MNA=4 (inner AUC 0.850)
+  outer 2 inner L=17 MNA=4: 0.766
+  outer 2 inner L=17 MNA=9: 0.702
+  outer 2 inner L=25 MNA=4: 0.893
+  outer 2 inner L=25 MNA=9: 0.767
+  outer 2 inner L=33 MNA=4: 0.850
+  outer 2 inner L=33 MNA=9: 0.807
+  outer 2: picked L=25 MNA=4 (inner AUC 0.893)
+  outer 3 inner L=17 MNA=4: 0.749
+  outer 3 inner L=17 MNA=9: 0.768
+  outer 3 inner L=25 MNA=4: 0.851
+  outer 3 inner L=25 MNA=9: 0.825
+  outer 3 inner L=33 MNA=4: 0.878
+SMO: variants per L L17=484, L25=476, L33=468  -> common set 468
+SMO: 18 pos / 450 neg on the common set
+  flat L=17 MNA=4: AUC 0.726
+  flat L=17 MNA=9: AUC 0.679
+  flat L=25 MNA=4: AUC 0.857
+  flat L=25 MNA=9: AUC 0.749
+  flat L=33 MNA=4: AUC 0.803
+  flat L=33 MNA=9: AUC 0.731
+  outer 0 inner L=17 MNA=4: 0.771
+  outer 0 inner L=17 MNA=9: 0.640
+  outer 0 inner L=25 MNA=4: 0.850
+  outer 0 inner L=25 MNA=9: 0.745
+  outer 0 inner L=33 MNA=4: 0.785
+  outer 0 inner L=33 MNA=9: 0.663
+  outer 0: picked L=25 MNA=4 (inner AUC 0.850)
+  outer 1 inner L=17 MNA=4: 0.739
+  outer 1 inner L=17 MNA=9: 0.783
+  outer 1 inner L=25 MNA=4: 0.850
+  outer 1 inner L=25 MNA=9: 0.835
+  outer 1 inner L=33 MNA=4: 0.818
+  outer 1 inner L=33 MNA=9: 0.829
+  outer 1: picked L=25 MNA=4 (inner AUC 0.850)
+  outer 2 inner L=17 MNA=4: 0.766
+  outer 2 inner L=17 MNA=9: 0.702
+  outer 2 inner L=25 MNA=4: 0.893
+  outer 2 inner L=25 MNA=9: 0.767
+  outer 2 inner L=33 MNA=4: 0.850
+  outer 2 inner L=33 MNA=9: 0.807
+  outer 2: picked L=25 MNA=4 (inner AUC 0.893)
+  outer 3 inner L=17 MNA=4: 0.749
+  outer 3 inner L=17 MNA=9: 0.768
+  outer 3 inner L=25 MNA=4: 0.851
+  outer 3 inner L=25 MNA=9: 0.825
+  outer 3 inner L=33 MNA=4: 0.878
+  outer 3 inner L=33 MNA=9: 0.841
+  outer 3: picked L=33 MNA=4 (inner AUC 0.878)
+  outer 4 inner L=17 MNA=4: 0.712
+  outer 4 inner L=17 MNA=9: 0.674
+  outer 4 inner L=25 MNA=4: 0.835
+  outer 4 inner L=25 MNA=9: 0.726
+SMO: variants per L L17=484, L25=476, L33=468  -> common set 468
+SMO: 18 pos / 450 neg on the common set
+  flat L=17 MNA=4: AUC 0.726
+  flat L=17 MNA=9: AUC 0.679
+  flat L=25 MNA=4: AUC 0.857
+  flat L=25 MNA=9: AUC 0.749
+  flat L=33 MNA=4: AUC 0.803
+  flat L=33 MNA=9: AUC 0.731
+  outer 0 inner L=17 MNA=4: 0.771
+  outer 0 inner L=17 MNA=9: 0.640
+  outer 0 inner L=25 MNA=4: 0.850
+  outer 0 inner L=25 MNA=9: 0.745
+  outer 0 inner L=33 MNA=4: 0.785
+  outer 0 inner L=33 MNA=9: 0.663
+  outer 0: picked L=25 MNA=4 (inner AUC 0.850)
+  outer 1 inner L=17 MNA=4: 0.739
+  outer 1 inner L=17 MNA=9: 0.783
+  outer 1 inner L=25 MNA=4: 0.850
+  outer 1 inner L=25 MNA=9: 0.835
+  outer 1 inner L=33 MNA=4: 0.818
+  outer 1 inner L=33 MNA=9: 0.829
+  outer 1: picked L=25 MNA=4 (inner AUC 0.850)
+  outer 2 inner L=17 MNA=4: 0.766
+  outer 2 inner L=17 MNA=9: 0.702
+  outer 2 inner L=25 MNA=4: 0.893
+  outer 2 inner L=25 MNA=9: 0.767
+  outer 2 inner L=33 MNA=4: 0.850
+  outer 2 inner L=33 MNA=9: 0.807
+  outer 2: picked L=25 MNA=4 (inner AUC 0.893)
+  outer 3 inner L=17 MNA=4: 0.749
+  outer 3 inner L=17 MNA=9: 0.768
+  outer 3 inner L=25 MNA=4: 0.851
+  outer 3 inner L=25 MNA=9: 0.825
+  outer 3 inner L=33 MNA=4: 0.878
+  outer 3 inner L=33 MNA=9: 0.841
+  outer 3: picked L=33 MNA=4 (inner AUC 0.878)
+  outer 4 inner L=17 MNA=4: 0.712
+  outer 4 inner L=17 MNA=9: 0.674
+  outer 4 inner L=25 MNA=4: 0.835
+  outer 4 inner L=25 MNA=9: 0.726
+  outer 4 inner L=33 MNA=4: 0.732
+  outer 4 inner L=33 MNA=9: 0.681
+  outer 4: picked L=25 MNA=4 (inner AUC 0.835)
+{
+ "target": "SMO",
+ "n_pos": 18,
+ "n_neg": 450,
+ "n_common": 468,
+ "grid": [
+  "L17_MNA4",
+  "L17_MNA9",
+  "L25_MNA4",
+  "L25_MNA9",
+  "L33_MNA4",
+  "L33_MNA9"
+ ],
+ "flat_auc": {
+  "L17_MNA4": 0.7264,
+  "L17_MNA9": 0.6791,
+  "L25_MNA4": 0.8572,
+  "L25_MNA9": 0.7493,
+  "L33_MNA4": 0.8029,
+  "L33_MNA9": 0.7306
+ },
+ "flat_best_config": "L25_MNA4",
+ "flat_max_auc": 0.8572,
+ "flat_median_auc": 0.7399,
+ "nested_auc": 0.8209,
+ "nested_picked": {
+  "0": "L25_MNA4",
+  "1": "L25_MNA4",
+  "2": "L25_MNA4",
+  "3": "L33_MNA4",
+  "4": "L25_MNA4"
+ },
+ "optimism": 0.0363
+}

@@ -1,0 +1,15 @@
+target,region,n_pos,n_neg,model,length,cv,auc,auc_lo,auc_hi,auprc
+EGFR,True,17,251,pos_only,-,random,0.785,0.612,0.914,0.32
+EGFR,True,17,251,pos_only,-,grouped,0.688,0.487,0.847,0.248
+EGFR,True,17,251,morgan_nb,11,random,0.773,0.609,0.909,0.475
+EGFR,True,17,251,morgan_nb,11,grouped,0.517,0.348,0.67,0.103
+EGFR,True,17,251,morgan_lr,11,random,0.856,0.719,0.951,0.501
+EGFR,True,17,251,morgan_lr,11,grouped,0.789,0.649,0.903,0.369
+EGFR,True,17,251,morgan_nb,17,random,0.743,0.573,0.891,0.447
+EGFR,True,17,251,morgan_nb,17,grouped,0.36,0.22,0.493,0.054
+EGFR,True,17,251,morgan_lr,17,random,0.831,0.68,0.94,0.369
+EGFR,True,17,251,morgan_lr,17,grouped,0.731,0.578,0.861,0.206
+EGFR,True,17,251,morgan_nb,25,random,0.72,0.555,0.861,0.276
+EGFR,True,17,251,morgan_nb,25,grouped,0.255,0.15,0.371,0.044
+EGFR,True,17,251,morgan_lr,25,random,0.798,0.62,0.929,0.499
+EGFR,True,17,251,morgan_lr,25,grouped,0.66,0.501,0.8,0.116

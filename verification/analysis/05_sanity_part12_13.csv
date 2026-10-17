@@ -1,0 +1,3 @@
+idx,target,task,region,n_pos,n_neg,leak,shuf_pos_only_mean,shuf_pos_only_max,repro_pos_only,mw_diff,shuf_full_gbm_mean,shuf_full_gbm_max,repro_full_gbm
+12,NT5C2,Purine,False,18,131,0,0.432,0.548,0.0,1.1102230246251565e-16,0.52,0.582,0.0
+13,SMO,Vismodegib,False,18,474,0,0.498,0.556,0.0,1.1102230246251565e-16,0.487,0.611,0.0

@@ -1,0 +1,5 @@
+target,region,n_pos,n_neg,model,length,cv,auc,auc_lo,auc_hi,auprc
+EGFR,False,17,1204,morgan_nb,25,random,0.806,0.649,0.944,0.397
+EGFR,False,17,1204,morgan_nb,25,grouped,0.237,0.12,0.376,0.012
+EGFR,False,17,1204,morgan_lr,25,random,0.872,0.759,0.974,0.298
+EGFR,False,17,1204,morgan_lr,25,grouped,0.842,0.736,0.941,0.089

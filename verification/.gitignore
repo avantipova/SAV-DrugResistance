@@ -1,0 +1,54 @@
+# ---------------------------------------------------------------------------
+# Third-party source data. NOT redistributed -- see external/README.md for the
+# source of each file and the exact path to place it at.
+# The leading slash matters: a bare "data/" would also exclude results/data/,
+# which is ours and is required by the verifiers.
+# ---------------------------------------------------------------------------
+/data/
+external/primeedit/
+external/mdrdb/
+external/drsp/
+external/source-data/alphamissense/
+external/source-data/dbnsfp/
+
+# Published third-party dataset -- not ours to redistribute. Our derived
+# overlap table (multipass/drsp_overlap.csv) is included instead.
+multipass/DRSP_Dataset.xlsx
+
+# MultiPASS is proprietary and is not distributed (see Code Availability).
+*.exe
+*.dll
+*.MSAR
+*.MBFA
+*.MSAS
+.wine/
+
+# Broken symlink into a local Downloads folder; ESM-2 weights come from HuggingFace.
+esm2/esm2_650M/model.safetensors
+
+# Regenerable bulk intermediates
+multipass/table1_all_configs.csv
+multipass/nested_checkpoints.tar.gz
+
+# Build artefacts and archives
+*.tar.gz
+*.docx
+*.pdf
+node_modules/
+package-lock.json
+__pycache__/
+*.pyc
+.DS_Store
+
+# ---------------------------------------------------------------------------
+# Superseded duplicates. The canonical copies live in results/ and are the ones
+# the manuscript cites; these older ones disagree with them.
+#   multipass/REPORT_SELECTION_OPTIMISM.md  -> results/ (3 nested targets vs 5)
+#   multipass/REPORT_11TARGETS.md           -> results/
+#   multipass/REPORT_MISSED_METHODS.md      -> results/ (predates ActivArk)
+#   results/code/verify_egfr_anomaly.py     -> results/verify_egfr_anomaly.py
+# ---------------------------------------------------------------------------
+multipass/REPORT_SELECTION_OPTIMISM.md
+multipass/REPORT_11TARGETS.md
+multipass/REPORT_MISSED_METHODS.md
+results/code/verify_egfr_anomaly.py

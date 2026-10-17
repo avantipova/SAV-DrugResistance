@@ -1,0 +1,15 @@
+target,region,n_pos,n_neg,model,length,cv,auc,auc_lo,auc_hi,auprc
+KIT,True,24,331,pos_only,-,random,0.747,0.609,0.869,0.245
+KIT,True,24,331,pos_only,-,grouped,0.737,0.631,0.856,0.211
+KIT,True,24,331,morgan_nb,11,random,0.699,0.554,0.829,0.171
+KIT,True,24,331,morgan_nb,11,grouped,0.443,0.342,0.554,0.06
+KIT,True,24,331,morgan_lr,11,random,0.695,0.537,0.838,0.198
+KIT,True,24,331,morgan_lr,11,grouped,0.57,0.437,0.706,0.105
+KIT,True,24,331,morgan_nb,17,random,0.715,0.573,0.845,0.228
+KIT,True,24,331,morgan_nb,17,grouped,0.599,0.469,0.727,0.104
+KIT,True,24,331,morgan_lr,17,random,0.716,0.571,0.849,0.203
+KIT,True,24,331,morgan_lr,17,grouped,0.663,0.512,0.808,0.167
+KIT,True,24,331,morgan_nb,25,random,0.683,0.524,0.839,0.287
+KIT,True,24,331,morgan_nb,25,grouped,0.61,0.471,0.745,0.101
+KIT,True,24,331,morgan_lr,25,random,0.732,0.602,0.858,0.273
+KIT,True,24,331,morgan_lr,25,grouped,0.674,0.534,0.804,0.149

@@ -1,0 +1,13 @@
+target,task,n_pos,n_neg,pos_positions,model,cv,auc,auc_lo,auc_hi,auc_rep_sd,auprc,auprc_lo,auprc_hi,prevalence
+ABL1,Imatinib,30,597,20,pos_only,random,0.864,0.823,0.903,0.007,0.168,0.13,0.256,0.0478
+ABL1,Imatinib,30,597,20,pos_only,grouped,0.841,0.795,0.88,0.011,0.177,0.123,0.305,0.0478
+ABL1,Imatinib,30,597,20,subst_lr,random,0.667,0.567,0.764,0.017,0.13,0.072,0.277,0.0478
+ABL1,Imatinib,30,597,20,subst_lr,grouped,0.569,0.442,0.698,0.023,0.111,0.058,0.233,0.0478
+ABL1,Imatinib,30,597,20,full_gbm,random,0.882,0.794,0.944,0.024,0.333,0.226,0.499,0.0478
+ABL1,Imatinib,30,597,20,full_gbm,grouped,0.81,0.715,0.887,0.019,0.178,0.123,0.298,0.0478
+ABL1_ENST00000318560,Imatinib,83,632,54,pos_only,random,0.877,0.848,0.904,0.006,0.397,0.333,0.494,0.1161
+ABL1_ENST00000318560,Imatinib,83,632,54,pos_only,grouped,0.873,0.843,0.899,0.005,0.377,0.317,0.47,0.1161
+ABL1_ENST00000318560,Imatinib,83,632,54,subst_lr,random,0.685,0.612,0.749,0.015,0.244,0.194,0.326,0.1161
+ABL1_ENST00000318560,Imatinib,83,632,54,subst_lr,grouped,0.639,0.56,0.716,0.02,0.235,0.185,0.319,0.1161
+ABL1_ENST00000318560,Imatinib,83,632,54,full_gbm,random,0.889,0.858,0.919,0.002,0.548,0.46,0.643,0.1161
+ABL1_ENST00000318560,Imatinib,83,632,54,full_gbm,grouped,0.888,0.86,0.913,0.006,0.435,0.362,0.536,0.1161

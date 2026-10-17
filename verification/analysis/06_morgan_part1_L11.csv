@@ -1,0 +1,7 @@
+target,region,n_pos,n_neg,model,length,cv,auc,auc_lo,auc_hi,auprc
+ALK,False,24,1104,pos_only,-,random,0.959,0.933,0.98,0.294
+ALK,False,24,1104,pos_only,-,grouped,0.95,0.922,0.971,0.217
+ALK,False,24,1104,morgan_nb,11,random,0.726,0.596,0.836,0.085
+ALK,False,24,1104,morgan_nb,11,grouped,0.482,0.35,0.604,0.025
+ALK,False,24,1104,morgan_lr,11,random,0.795,0.699,0.874,0.087
+ALK,False,24,1104,morgan_lr,11,grouped,0.686,0.575,0.783,0.039

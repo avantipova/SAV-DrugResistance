@@ -1,0 +1,5 @@
+target,region,n_pos,n_neg,model,length,cv,auc,auc_lo,auc_hi,auprc
+ABL1_ENST00000318560,False,101,608,morgan_nb,25,random,0.828,0.794,0.86,0.402
+ABL1_ENST00000318560,False,101,608,morgan_nb,25,grouped,0.801,0.762,0.838,0.337
+ABL1_ENST00000318560,False,101,608,morgan_lr,25,random,0.857,0.83,0.886,0.433
+ABL1_ENST00000318560,False,101,608,morgan_lr,25,grouped,0.838,0.808,0.866,0.383

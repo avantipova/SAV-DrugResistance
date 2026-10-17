@@ -1,0 +1,71 @@
+{
+ "ALK": {
+  "whole protein": {
+   "n": 1128,
+   "pos": 24,
+   "auc": 0.6878,
+   "lo": 0.5645,
+   "hi": 0.7908
+  },
+  "ActivArk window 1087-1412": {
+   "n": 254,
+   "pos": 24,
+   "auc": 0.5094,
+   "lo": 0.3998,
+   "hi": 0.6175
+  },
+  "ActivArk-scored variants only": {
+   "n": 254,
+   "pos": 24,
+   "auc": 0.5094,
+   "lo": 0.3998,
+   "hi": 0.6175
+  }
+ },
+ "KIT": {
+  "whole protein": {
+   "n": 959,
+   "pos": 24,
+   "auc": 0.6676,
+   "lo": 0.5366,
+   "hi": 0.791
+  },
+  "ActivArk window 559-952": {
+   "n": 493,
+   "pos": 24,
+   "auc": 0.6326,
+   "lo": 0.5004,
+   "hi": 0.762
+  },
+  "ActivArk-scored variants only": {
+   "n": 493,
+   "pos": 24,
+   "auc": 0.6326,
+   "lo": 0.5004,
+   "hi": 0.762
+  }
+ },
+ "EGFR": {
+  "whole protein": {
+   "n": 1221,
+   "pos": 17,
+   "auc": 0.6777,
+   "lo": 0.5248,
+   "hi": 0.8105
+  },
+  "ActivArk window 685-992": {
+   "n": 557,
+   "pos": 17,
+   "auc": 0.6231,
+   "lo": 0.4729,
+   "hi": 0.7667
+  },
+  "ActivArk-scored variants only": {
+   "n": 557,
+   "pos": 17,
+   "auc": 0.6231,
+   "lo": 0.4729,
+   "hi": 0.7667
+  }
+ }
+}

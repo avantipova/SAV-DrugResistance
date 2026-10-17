@@ -1,0 +1,281 @@
+aa,mut,pos,y,drugs,wt_struct,wt_matches_1IEP
+p.I242M,I242M,242,0,,I,True
+p.T243I,T243I,243,0,,T,True
+p.M244V,M244V,244,1,Imatinib;Tyrosine kinase inhibitor - NS,M,True
+p.H246D,H246D,246,0,,H,True
+p.H246Y,H246Y,246,0,,H,True
+p.H246R,H246R,246,0,,H,True
+p.K247R,K247R,247,0,,K,True
+p.K247E,K247E,247,0,,K,True
+p.L248V,L248V,248,1,Imatinib;Tyrosine kinase inhibitor - NS,L,True
+p.L248R,L248R,248,1,Bosutinib,L,True
+p.G250R,G250R,250,0,,G,True
+p.G250E,G250E,250,1,Dasatinib;Imatinib;Nilotinib;Tyrosine kinase inhibitor - NS,G,True
+p.G251C,G251C,251,0,,G,True
+p.G251D,G251D,251,1,Imatinib,G,True
+p.G251E,G251E,251,1,Imatinib,G,True
+p.Q252P,Q252P,252,0,,Q,True
+p.Q252H,Q252H,252,1,Imatinib;Tyrosine kinase inhibitor - NS,Q,True
+p.Q252E,Q252E,252,1,Imatinib,Q,True
+p.Q252K,Q252K,252,1,Imatinib,Q,True
+p.Q252M,Q252M,252,1,Tyrosine kinase inhibitor - NS,Q,True
+p.Q252R,Q252R,252,1,Imatinib,Q,True
+p.Y253N,Y253N,253,0,,Y,True
+p.Y253H,Y253H,253,1,Dasatinib;Imatinib;Nilotinib;Tyrosine kinase inhibitor - NS,Y,True
+p.Y253F,Y253F,253,1,Imatinib;Tyrosine kinase inhibitor - NS,Y,True
+p.Y253C,Y253C,253,0,,Y,True
+p.G254R,G254R,254,0,,G,True
+p.G254W,G254W,254,0,,G,True
+p.G254E,G254E,254,0,,G,True
+p.E255K,E255K,255,1,Dasatinib;Imatinib;Nilotinib;Tyrosine kinase inhibitor - NS,E,True
+p.E255V,E255V,255,1,Imatinib;Nilotinib;Tyrosine kinase inhibitor - NS,E,True
+p.E255D,E255D,255,0,,E,True
+p.E255L,E255L,255,0,,E,True
+p.V256L,V256L,256,1,Imatinib,V,True
+p.Y257C,Y257C,257,0,,Y,True
+p.E258A,E258A,258,0,,E,True
+p.E258V,E258V,258,0,,E,True
+p.V260A,V260A,260,0,,V,True
+p.K263N,K263N,263,0,,K,True
+p.Y264N,Y264N,264,0,,Y,True
+p.Y264C,Y264C,264,0,,Y,True
+p.S265N,S265N,265,0,,S,True
+p.S265R,S265R,265,0,,S,True
+p.T267M,T267M,267,0,,T,True
+p.T267A,T267A,267,0,,T,True
+p.V268L,V268L,268,0,,V,True
+p.V268A,V268A,268,1,Tyrosine kinase inhibitor - NS,V,True
+p.A269V,A269V,269,0,,A,True
+p.V270M,V270M,270,0,,V,True
+p.L273F,L273F,273,0,,L,True
+p.L273M,L273M,273,1,Imatinib;Tyrosine kinase inhibitor - NS,L,True
+p.E275K,E275K,275,1,Imatinib,E,True
+p.E275Q,E275Q,275,0,,E,True
+p.D276N,D276N,276,1,Imatinib,D,True
+p.D276G,D276G,276,1,Imatinib;Tyrosine kinase inhibitor - NS,D,True
+p.D276A,D276A,276,1,Imatinib,D,True
+p.T277N,T277N,277,0,,T,True
+p.T277I,T277I,277,0,,T,True
+p.T277A,T277A,277,1,Imatinib,T,True
+p.E279K,E279K,279,1,Imatinib;Tyrosine kinase inhibitor - NS,E,True
+p.E279A,E279A,279,1,Imatinib,E,True
+p.E279Y,E279Y,279,1,Imatinib,E,True
+p.E282Q,E282Q,282,0,,E,True
+p.E282V,E282V,282,0,,E,True
+p.E282G,E282G,282,1,Imatinib,E,True
+p.E282K,E282K,282,1,Tyrosine kinase inhibitor - NS,E,True
+p.L284M,L284M,284,0,,L,True
+p.A288V,A288V,288,0,,A,True
+p.V289A,V289A,289,1,Tyrosine kinase inhibitor - NS,V,True
+p.V289F,V289F,289,1,Imatinib,V,True
+p.M290R,M290R,290,0,,M,True
+p.M290I,M290I,290,0,,M,True
+p.K291E,K291E,291,0,,K,True
+p.K291Q,K291Q,291,0,,K,True
+p.E292D,E292D,292,0,,E,True
+p.E292V,E292V,292,1,Imatinib,E,True
+p.I293M,I293M,293,0,,I,True
+p.H295Y,H295Y,295,0,,H,True
+p.P296S,P296S,296,0,,P,True
+p.P296L,P296L,296,0,,P,True
+p.L298R,L298R,298,0,,L,True
+p.L298V,L298V,298,1,Imatinib;Tyrosine kinase inhibitor - NS,L,True
+p.V299M,V299M,299,0,,V,True
+p.V299L,V299L,299,1,Bosutinib;Dasatinib;Imatinib;Tyrosine kinase inhibitor - NS,V,True
+p.Q300H,Q300H,300,0,,Q,True
+p.L301F,L301F,301,0,,L,True
+p.G303R,G303R,303,0,,G,True
+p.G303E,G303E,303,0,,G,True
+p.V304G,V304G,304,0,,V,True
+p.C305S,C305S,305,0,,C,True
+p.C305R,C305R,305,0,,C,True
+p.E308K,E308K,308,0,,E,True
+p.P309S,P309S,309,0,,P,True
+p.P310T,P310T,310,0,,P,True
+p.P310S,P310S,310,1,Tyrosine kinase inhibitor - NS,P,True
+p.P310L,P310L,310,0,,P,True
+p.F311I,F311I,311,1,Imatinib,F,True
+p.F311L,F311L,311,1,Imatinib;Tyrosine kinase inhibitor - NS,F,True
+p.Y312C,Y312C,312,0,,Y,True
+p.I313L,I313L,313,0,,I,True
+p.I313V,I313V,313,0,,I,True
+p.I313T,I313T,313,0,,I,True
+p.I314T,I314T,314,0,,I,True
+p.T315L,T315L,315,0,,T,True
+p.T315V,T315V,315,1,Nilotinib,T,True
+p.T315N,T315N,315,1,Imatinib,T,True
+p.T315I,T315I,315,1,Dasatinib;Imatinib;Nilotinib;Tyrosine kinase inhibitor - NS,T,True
+p.T315A,T315A,315,1,Dasatinib;Tyrosine kinase inhibitor - NS,T,True
+p.E316K,E316K,316,0,,E,True
+p.F317L,F317L,317,1,Dasatinib;Imatinib;Tyrosine kinase inhibitor - NS,F,True
+p.F317V,F317V,317,1,Imatinib;Tyrosine kinase inhibitor - NS,F,True
+p.F317R,F317R,317,1,Dasatinib,F,True
+p.F317C,F317C,317,1,Tyrosine kinase inhibitor - NS,F,True
+p.F317I,F317I,317,1,Dasatinib;Tyrosine kinase inhibitor - NS,F,True
+p.M318I,M318I,318,0,,M,True
+p.M318T,M318T,318,0,,M,True
+p.T319I,T319I,319,0,,T,True
+p.Y320C,Y320C,320,1,Imatinib,Y,True
+p.G321R,G321R,321,0,,G,True
+p.G321W,G321W,321,0,,G,True
+p.G321V,G321V,321,0,,G,True
+p.G321E,G321E,321,0,,G,True
+p.L324P,L324P,324,0,,L,True
+p.L324Q,L324Q,324,1,Tyrosine kinase inhibitor - NS,L,True
+p.D325N,D325N,325,0,,D,True
+p.D325G,D325G,325,1,Tyrosine kinase inhibitor - NS,D,True
+p.Y326H,Y326H,326,0,,Y,True
+p.R328W,R328W,328,0,,R,True
+p.R328K,R328K,328,0,,R,True
+p.R328M,R328M,328,1,Imatinib,R,True
+p.E329D,E329D,329,0,,E,True
+p.C330G,C330G,330,0,,C,True
+p.C330Y,C330Y,330,0,,C,True
+p.N331S,N331S,331,0,,N,True
+p.R332W,R332W,332,0,,R,True
+p.R332L,R332L,332,0,,R,True
+p.R332Q,R332Q,332,0,,R,True
+p.V335M,V335M,335,0,,V,True
+p.A337T,A337T,337,0,,A,True
+p.V338F,V338F,338,1,Tyrosine kinase inhibitor - NS,V,True
+p.V339A,V339A,339,0,,V,True
+p.V339L,V339L,339,0,,V,True
+p.M343I,M343I,343,0,,M,True
+p.M343T,M343T,343,1,Imatinib,M,True
+p.A344T,A344T,344,0,,A,True
+p.Q346L,Q346L,346,0,,Q,True
+p.S348L,S348L,348,0,,S,True
+p.S349L,S349L,349,0,,S,True
+p.M351V,M351V,351,0,,M,True
+p.M351T,M351T,351,1,Bosutinib;Imatinib;Nilotinib;Tyrosine kinase inhibitor - NS,M,True
+p.M351K,M351K,351,1,Imatinib,M,True
+p.E352D,E352D,352,1,Imatinib,E,True
+p.E352G,E352G,352,1,Imatinib,E,True
+p.E352K,E352K,352,0,,E,True
+p.Y353H,Y353H,353,1,Imatinib;Tyrosine kinase inhibitor - NS,Y,True
+p.E355G,E355G,355,1,Imatinib;Tyrosine kinase inhibitor - NS,E,True
+p.E355A,E355A,355,1,Imatinib,E,True
+p.K356R,K356R,356,0,,K,True
+p.K357R,K357R,357,0,,K,True
+p.F359I,F359I,359,1,Bosutinib;Imatinib;Tyrosine kinase inhibitor - NS,F,True
+p.F359V,F359V,359,1,Bosutinib;Dasatinib;Imatinib;Tyrosine kinase inhibitor - NS,F,True
+p.F359C,F359C,359,1,Imatinib;Nilotinib;Tyrosine kinase inhibitor - NS,F,True
+p.F359A,F359A,359,1,Imatinib,F,True
+p.F359Y,F359Y,359,0,,F,True
+p.I360V,I360V,360,0,,I,True
+p.I360S,I360S,360,0,,I,True
+p.R362K,R362K,362,0,,R,True
+p.D363G,D363G,363,0,,D,True
+p.L364I,L364I,364,1,Imatinib,L,True
+p.A365V,A365V,365,0,,A,True
+p.A366V,A366V,366,0,,A,True
+p.R367Q,R367Q,367,0,,R,True
+p.N368D,N368D,368,0,,N,True
+p.N368S,N368S,368,1,Imatinib,N,True
+p.C369Y,C369Y,369,0,,C,True
+p.L370R,L370R,370,0,,L,True
+p.V371I,V371I,371,0,,V,True
+p.V371L,V371L,371,0,,V,True
+p.V371A,V371A,371,0,,V,True
+p.E373G,E373G,373,0,,E,True
+p.N374S,N374S,374,0,,N,True
+p.N374Y,N374Y,374,1,Imatinib,N,True
+p.L376F,L376F,376,0,,L,True
+p.V377M,V377M,377,0,,V,True
+p.K378R,K378R,378,1,Imatinib,K,True
+p.V379I,V379I,379,1,Imatinib;Tyrosine kinase inhibitor - NS,V,True
+p.A380V,A380V,380,0,,A,True
+p.D381Y,D381Y,381,0,,D,True
+p.F382L,F382L,382,1,Imatinib,F,True
+p.L384M,L384M,384,1,Imatinib;Tyrosine kinase inhibitor - NS,L,True
+p.S385R,S385R,385,0,,S,True
+p.L387M,L387M,387,1,Imatinib;Tyrosine kinase inhibitor - NS,L,True
+p.L387F,L387F,387,1,Imatinib;Tyrosine kinase inhibitor - NS,L,True
+p.M388L,M388L,388,1,Imatinib;Tyrosine kinase inhibitor - NS,M,True
+p.M388I,M388I,388,0,,M,True
+p.T389A,T389A,389,0,,T,True
+p.G390W,G390W,390,0,,G,True
+p.G390E,G390E,390,0,,G,True
+p.D391N,D391N,391,0,,D,True
+p.D391G,D391G,391,0,,D,True
+p.T394A,T394A,394,0,,T,True
+p.H396Y,H396Y,396,0,,H,True
+p.H396P,H396P,396,1,Imatinib;Tyrosine kinase inhibitor - NS,H,True
+p.H396R,H396R,396,1,Imatinib;Nilotinib;Tyrosine kinase inhibitor - NS,H,True
+p.A397T,A397T,397,0,,A,True
+p.A397P,A397P,397,1,Imatinib,A,True
+p.G398R,G398R,398,1,Imatinib,G,True
+p.A399T,A399T,399,1,Imatinib;Tyrosine kinase inhibitor - NS,A,True
+p.K400E,K400E,400,0,,K,True
+p.P402S,P402S,402,0,,P,True
+p.I403T,I403T,403,0,,I,True
+p.K404T,K404T,404,0,,K,True
+p.W405C,W405C,405,0,,W,True
+p.T406I,T406I,406,0,,T,True
+p.A407V,A407V,407,0,,A,True
+p.P408R,P408R,408,0,,P,True
+p.P408L,P408L,408,0,,P,True
+p.E409K,E409K,409,0,,E,True
+p.E409A,E409A,409,0,,E,True
+p.E409D,E409D,409,0,,E,True
+p.L411P,L411P,411,0,,L,True
+p.Y413C,Y413C,413,0,,Y,True
+p.S417Y,S417Y,417,1,Imatinib,S,True
+p.I418M,I418M,418,0,,I,True
+p.I418V,I418V,418,1,Imatinib,I,True
+p.K419E,K419E,419,1,Imatinib,K,True
+p.S420F,S420F,420,0,,S,True
+p.D421N,D421N,421,0,,D,True
+p.V422I,V422I,422,0,,V,True
+p.W423R,W423R,423,0,,W,True
+p.G426K,G426K,426,0,,G,True
+p.G426V,G426V,426,0,,G,True
+p.W430L,W430L,430,0,,W,True
+p.W430C,W430C,430,0,,W,True
+p.E431K,E431K,431,0,,E,True
+p.E431G,E431G,431,0,,E,True
+p.A433T,A433T,433,1,Imatinib,A,True
+p.S438P,S438P,438,0,,S,True
+p.S438Y,S438Y,438,0,,S,True
+p.S438C,S438C,438,1,Imatinib,S,True
+p.P439S,P439S,439,0,,P,True
+p.P439R,P439R,439,0,,P,True
+p.Y440H,Y440H,440,0,,Y,True
+p.P441S,P441S,441,0,,P,True
+p.P441L,P441L,441,0,,P,True
+p.D444Y,D444Y,444,1,Tyrosine kinase inhibitor - NS,D,True
+p.L445M,L445M,445,0,,L,True
+p.S446P,S446P,446,0,,S,True
+p.Q447P,Q447P,447,0,,Q,True
+p.Y449C,Y449C,449,0,,Y,True
+p.E450Q,E450Q,450,0,,E,True
+p.E450A,E450A,450,1,Imatinib,E,True
+p.E450G,E450G,450,1,Imatinib,E,True
+p.E450K,E450K,450,1,Imatinib,E,True
+p.E453K,E453K,453,1,Imatinib;Tyrosine kinase inhibitor - NS,E,True
+p.E453Q,E453Q,453,0,,E,True
+p.E453A,E453A,453,1,Imatinib,E,True
+p.E453G,E453G,453,1,Imatinib,E,True
+p.E453D,E453D,453,1,Imatinib,E,True
+p.E453L,E453L,453,1,Imatinib,E,True
+p.E459K,E459K,459,1,Imatinib;Tyrosine kinase inhibitor - NS,E,True
+p.E459G,E459G,459,1,Imatinib,E,True
+p.E459Q,E459Q,459,1,Imatinib,E,True
+p.R460C,R460C,460,0,,R,True
+p.R460H,R460H,460,0,,R,True
+p.E466D,E466D,466,0,,E,True
+p.Y469C,Y469C,469,0,,Y,True
+p.M472L,M472L,472,0,,M,True
+p.R473Q,R473Q,473,0,,R,True
+p.W478R,W478R,478,0,,W,True
+p.W478C,W478C,478,0,,W,True
+p.P480S,P480S,480,0,,P,True
+p.P480L,P480L,480,1,Imatinib,P,True
+p.D482E,D482E,482,0,,D,True
+p.D482V,D482V,482,1,Imatinib,D,True
+p.R483G,R483G,483,0,,R,True
+p.R483W,R483W,483,0,,R,True
+p.P484T,P484T,484,0,,P,True
+p.F486S,F486S,486,1,Imatinib,F,True
+p.A492D,A492D,492,0,,A,True
+p.F493L,F493L,493,0,,F,True

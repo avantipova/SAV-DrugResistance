@@ -1,0 +1,4 @@
+score,n,n_pos,spec_achieved,sens,sens_ci
+"MultiPASS, within-protein CV (5 genes)",302,108,0.9124,0.491,0.370-0.611
+"MultiPASS, LOTO (9 genes)",440,130,0.9129,0.2,0.077-0.323
+"MultiPASS, LOTO (same 5 genes)",302,108,0.9124,0.167,0.046-0.296

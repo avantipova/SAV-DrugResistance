@@ -1,0 +1,4 @@
+idx,target,task,region,n_pos,n_neg,leak,shuf_pos_only_mean,shuf_pos_only_max,repro_pos_only,mw_diff,shuf_full_gbm_mean,shuf_full_gbm_max,repro_full_gbm
+14,ABL1_ENST00000318560,any,True,101,210,0,0.497,0.558,0.0,1.1102230246251565e-16,0.485,0.53,0.0
+15,ALK,any,True,24,137,0,0.44,0.552,0.0,0.0,0.452,0.541,0.0
+16,KIT,any,True,24,331,0,0.473,0.592,0.0,0.0,0.456,0.588,0.0

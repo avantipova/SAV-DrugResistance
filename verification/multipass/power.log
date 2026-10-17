@@ -1,0 +1,109 @@
+====================================================================================================
+MINIMUM DETECTABLE AUC DIFFERENCE (two-sided alpha=0.05, 80% power, paired DeLong)
+====================================================================================================
+              target setting baseline  n_pos  n_neg  auc_multipass  auc_baseline  delta_obs     se  mde_80  excl_95  score_corr
+ABL1_ENST00000318560    full pos_only    101    611          0.860         0.842      0.019 0.0105   0.029    0.036       0.830
+ABL1_ENST00000318560    full full_gbm    101    611          0.860         0.875     -0.014 0.0112   0.032    0.004       0.816
+ABL1_ENST00000318560    full subst_lr    101    611          0.860         0.665      0.195 0.0364   0.102    0.255       0.212
+ABL1_ENST00000318560  region pos_only    101    210          0.589         0.529      0.059 0.0271   0.076    0.104       0.703
+ABL1_ENST00000318560  region full_gbm    101    210          0.589         0.610     -0.021 0.0312   0.087    0.030       0.601
+ABL1_ENST00000318560  region subst_lr    101    210          0.589         0.576      0.013 0.0484   0.136    0.092       0.076
+                 ALK    full pos_only     24   1100          0.930         0.950     -0.020 0.0178   0.050    0.009       0.257
+                 ALK    full full_gbm     24   1100          0.930         0.919      0.011 0.0366   0.102    0.071       0.249
+                 ALK    full subst_lr     24   1100          0.930         0.436      0.494 0.0710   0.199    0.611      -0.025
+                 ALK  region pos_only     24    137          0.676         0.697     -0.021 0.0404   0.113    0.045       0.792
+                 ALK  region full_gbm     24    137          0.676         0.705     -0.029 0.0564   0.158    0.064       0.580
+                 ALK  region subst_lr     24    137          0.676         0.508      0.168 0.0891   0.250    0.315      -0.020
+                EGFR    full pos_only     17   1197          0.922         0.921      0.001 0.0195   0.055    0.033       0.508
+                EGFR    full full_gbm     17   1197          0.922         0.892      0.030 0.0270   0.076    0.075       0.340
+                EGFR    full subst_lr     17   1197          0.922         0.631      0.291 0.0866   0.243    0.433       0.073
+                EGFR  region pos_only     17    251          0.698         0.722     -0.024 0.0318   0.089    0.029       0.334
+                EGFR  region full_gbm     17    251          0.698         0.756     -0.058 0.0646   0.181    0.049       0.485
+                EGFR  region subst_lr     17    251          0.698         0.677      0.021 0.1167   0.327    0.213       0.218
+                 KIT    full pos_only     24    936          0.903         0.869      0.035 0.0207   0.058    0.069       0.598
+                 KIT    full full_gbm     24    936          0.903         0.831      0.072 0.0257   0.072    0.114       0.494
+                 KIT    full subst_lr     24    936          0.903         0.700      0.203 0.0574   0.161    0.297       0.044
+                 KIT  region pos_only     24    331          0.753         0.745      0.008 0.0355   0.099    0.066       0.767
+                 KIT  region full_gbm     24    331          0.753         0.691      0.062 0.0331   0.093    0.116       0.653
+                 KIT  region subst_lr     24    331          0.753         0.658      0.095 0.0622   0.174    0.198       0.158
+               NT5C2    full pos_only     18    124          0.696         0.660      0.036 0.0443   0.124    0.108       0.584
+               NT5C2    full full_gbm     18    124          0.696         0.741     -0.046 0.0610   0.171    0.055       0.447
+               NT5C2    full subst_lr     18    124          0.696         0.487      0.209 0.1061   0.297    0.383       0.041
+               NT5C2  region pos_only     18    102          0.645         0.606      0.038 0.0743   0.208    0.161       0.402
+               NT5C2  region full_gbm     18    102          0.645         0.694     -0.049 0.0594   0.166    0.048       0.470
+               NT5C2  region subst_lr     18    102          0.645         0.505      0.140 0.1058   0.296    0.314       0.033
+                 SMO    full pos_only     18    453          0.824         0.785      0.038 0.0473   0.133    0.116       0.800
+                 SMO    full full_gbm     18    453          0.824         0.844     -0.020 0.0448   0.126    0.054       0.579
+                 SMO    full subst_lr     18    453          0.824         0.454      0.370 0.1100   0.308    0.550      -0.034
+                 SMO  region pos_only     18    204          0.637         0.586      0.051 0.0446   0.125    0.124       0.784
+                 SMO  region full_gbm     18    204          0.637         0.660     -0.023 0.0785   0.220    0.106       0.490
+                 SMO  region subst_lr     18    204          0.637         0.470      0.167 0.1423   0.399    0.401      -0.046
+
+--- the headline null: MultiPASS vs pos_only ---
+              target setting  n_pos  n_neg  delta_obs     se  mde_80  excl_95
+ABL1_ENST00000318560    full    101    611      0.019 0.0105   0.029    0.036
+ABL1_ENST00000318560  region    101    210      0.059 0.0271   0.076    0.104
+                 ALK    full     24   1100     -0.020 0.0178   0.050    0.009
+                 ALK  region     24    137     -0.021 0.0404   0.113    0.045
+                EGFR    full     17   1197      0.001 0.0195   0.055    0.033
+                EGFR  region     17    251     -0.024 0.0318   0.089    0.029
+                 KIT    full     24    936      0.035 0.0207   0.058    0.069
+                 KIT  region     24    331      0.008 0.0355   0.099    0.066
+               NT5C2    full     18    124      0.036 0.0443   0.124    0.108
+               NT5C2  region     18    102      0.038 0.0743   0.208    0.161
+                 SMO    full     18    453      0.038 0.0473   0.133    0.116
+                 SMO  region     18    204      0.051 0.0446   0.125    0.124
+
+median MDE at 80% power: 0.094 AUC
+range                   : 0.029 - 0.208
+cells where |delta_obs| already exceeds the MDE: 0 of 12
+strongest exclusion (smallest excl_95): 0.009 (ALK full)
+weakest   exclusion (largest  excl_95): 0.161 (NT5C2 region)
+
+====================================================================================================
+CHECK: DeLong analytic SE of the AUC difference vs stratified paired bootstrap SE
+(the MDE is 2.8016 x SE, so the MDE is only as good as this SE; B=4000 on real scores)
+====================================================================================================
+              target setting baseline  se_delong  se_bootstrap  ratio  mde_delong  mde_bootstrap
+ABL1_ENST00000318560    full pos_only     0.0105        0.0107  1.021       0.029          0.030
+ABL1_ENST00000318560    full full_gbm     0.0112        0.0111  0.988       0.032          0.031
+ABL1_ENST00000318560    full subst_lr     0.0364        0.0358  0.984       0.102          0.100
+ABL1_ENST00000318560  region pos_only     0.0271        0.0274  1.012       0.076          0.077
+ABL1_ENST00000318560  region full_gbm     0.0312        0.0316  1.013       0.087          0.088
+ABL1_ENST00000318560  region subst_lr     0.0484        0.0477  0.986       0.136          0.134
+                 ALK    full pos_only     0.0178        0.0173  0.974       0.050          0.049
+                 ALK    full full_gbm     0.0366        0.0359  0.983       0.102          0.101
+                 ALK    full subst_lr     0.0710        0.0688  0.969       0.199          0.193
+                 ALK  region pos_only     0.0404        0.0404  1.001       0.113          0.113
+                 ALK  region full_gbm     0.0564        0.0555  0.985       0.158          0.156
+                 ALK  region subst_lr     0.0891        0.0905  1.016       0.250          0.254
+                EGFR    full pos_only     0.0195        0.0187  0.961       0.055          0.052
+                EGFR    full full_gbm     0.0270        0.0265  0.981       0.076          0.074
+                EGFR    full subst_lr     0.0866        0.0839  0.969       0.243          0.235
+                EGFR  region pos_only     0.0318        0.0310  0.975       0.089          0.087
+                EGFR  region full_gbm     0.0646        0.0638  0.987       0.181          0.179
+                EGFR  region subst_lr     0.1167        0.1150  0.986       0.327          0.322
+                 KIT    full pos_only     0.0207        0.0207  1.001       0.058          0.058
+                 KIT    full full_gbm     0.0257        0.0252  0.979       0.072          0.071
+                 KIT    full subst_lr     0.0574        0.0570  0.993       0.161          0.160
+                 KIT  region pos_only     0.0355        0.0351  0.989       0.099          0.098
+                 KIT  region full_gbm     0.0331        0.0329  0.996       0.093          0.092
+                 KIT  region subst_lr     0.0622        0.0610  0.980       0.174          0.171
+               NT5C2    full pos_only     0.0443        0.0439  0.991       0.124          0.123
+               NT5C2    full full_gbm     0.0610        0.0593  0.972       0.171          0.166
+               NT5C2    full subst_lr     0.1061        0.1020  0.961       0.297          0.286
+               NT5C2  region pos_only     0.0743        0.0728  0.981       0.208          0.204
+               NT5C2  region full_gbm     0.0594        0.0591  0.996       0.166          0.166
+               NT5C2  region subst_lr     0.1058        0.1031  0.974       0.296          0.289
+                 SMO    full pos_only     0.0473        0.0459  0.971       0.133          0.129
+                 SMO    full full_gbm     0.0448        0.0434  0.968       0.126          0.122
+                 SMO    full subst_lr     0.1100        0.1057  0.961       0.308          0.296
+                 SMO  region pos_only     0.0446        0.0431  0.965       0.125          0.121
+                 SMO  region full_gbm     0.0785        0.0773  0.985       0.220          0.217
+                 SMO  region subst_lr     0.1423        0.1363  0.958       0.399          0.382
+
+bootstrap/DeLong SE ratio: median 0.984, range 0.958-1.021
+max absolute MDE discrepancy: 0.017 AUC
+
+NOTE: the binormal power simulation was tried and rejected -- see boot_se_delta() docstring.
+What is validated here is the SE, hence the MDE and the exclusion bound; no power curve is claimed.

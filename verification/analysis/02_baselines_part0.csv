@@ -1,0 +1,7 @@
+target,task,n_pos,n_neg,pos_positions,model,cv,auc,auc_lo,auc_hi,auc_rep_sd,auprc,auprc_lo,auprc_hi,prevalence
+ABL1_ENST00000318560,any,101,614,63,pos_only,random,0.875,0.846,0.902,0.006,0.456,0.388,0.556,0.1413
+ABL1_ENST00000318560,any,101,614,63,pos_only,grouped,0.842,0.813,0.871,0.011,0.353,0.307,0.424,0.1413
+ABL1_ENST00000318560,any,101,614,63,subst_lr,random,0.704,0.644,0.76,0.019,0.295,0.242,0.384,0.1413
+ABL1_ENST00000318560,any,101,614,63,subst_lr,grouped,0.668,0.598,0.731,0.015,0.276,0.223,0.36,0.1413
+ABL1_ENST00000318560,any,101,614,63,full_gbm,random,0.881,0.851,0.907,0.005,0.569,0.491,0.656,0.1413
+ABL1_ENST00000318560,any,101,614,63,full_gbm,grouped,0.863,0.829,0.892,0.007,0.484,0.406,0.571,0.1413

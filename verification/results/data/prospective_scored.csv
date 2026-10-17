@@ -1,0 +1,41 @@
+gene,variant,L,MNA,drug,n_pos,kind,Pa,Pi,call
+BTK,T474I,9,3,Ibrutinib,5,prospective,0.18,0.132,resistant
+BTK,L528W,9,3,Ibrutinib,5,prospective,0.103,0.576,not resistant
+BTK,T316A,9,3,Ibrutinib,5,training positive,0.412,0.006,resistant
+BTK,C481S,9,3,Ibrutinib,5,training positive,0.548,0.004,resistant
+BTK,C481R,9,3,Ibrutinib,5,training positive,0.473,0.005,resistant
+BTK,C481Y,9,3,Ibrutinib,5,training positive,0.582,0.004,resistant
+BTK,C481F,9,3,Ibrutinib,5,training positive,0.567,0.004,resistant
+EGFR,V802F,37,30,Osimertinib,16,prospective,0.095,0.141,not resistant
+EGFR,L844V,37,30,Osimertinib,16,prospective,0.003,0.892,not resistant
+EGFR,L718V,37,30,Osimertinib,16,training positive,0.698,0.002,resistant
+EGFR,L718Q,37,30,Osimertinib,16,training positive,0.687,0.002,resistant
+EGFR,G719A,37,30,Osimertinib,16,training positive,0.606,0.003,resistant
+EGFR,L747P,37,30,Osimertinib,16,training positive,0.682,0.002,resistant
+EGFR,M766Q,37,30,Osimertinib,16,training positive,0.603,0.003,resistant
+EGFR,T790M,37,30,Osimertinib,16,training positive,0.728,0.002,resistant
+EGFR,L792V,37,30,Osimertinib,16,training positive,0.954,0.0,resistant
+EGFR,L792F,37,30,Osimertinib,16,training positive,0.956,0.0,resistant
+EGFR,L792H,37,30,Osimertinib,16,training positive,0.956,0.0,resistant
+EGFR,L792P,37,30,Osimertinib,16,training positive,0.964,0.0,resistant
+EGFR,L792R,37,30,Osimertinib,16,training positive,0.951,0.001,resistant
+EGFR,G796S,37,30,Osimertinib,16,training positive,0.816,0.001,resistant
+EGFR,G796R,37,30,Osimertinib,16,training positive,0.825,0.001,resistant
+EGFR,G796D,37,30,Osimertinib,16,training positive,0.817,0.001,resistant
+EGFR,C797S,37,30,Osimertinib,16,training positive,0.814,0.001,resistant
+EGFR,C797G,37,30,Osimertinib,16,training positive,0.83,0.001,resistant
+ESR1,L536R,11,12,Endocrine therapy,7,prospective,0.523,0.007,resistant
+ESR1,L370F,11,12,Endocrine therapy,7,prospective,0.012,0.9,not resistant
+ESR1,E380Q,11,12,Endocrine therapy,7,training positive,0.944,0.001,resistant
+ESR1,L536H,11,12,Endocrine therapy,7,training positive,0.885,0.003,resistant
+ESR1,L536Q,11,12,Endocrine therapy,7,training positive,0.866,0.003,resistant
+ESR1,Y537N,11,12,Endocrine therapy,7,training positive,0.929,0.002,resistant
+ESR1,Y537S,11,12,Endocrine therapy,7,training positive,0.935,0.002,resistant
+ESR1,Y537C,11,12,Endocrine therapy,7,training positive,0.947,0.001,resistant
+ESR1,D538G,11,12,Endocrine therapy,7,training positive,0.966,0.001,resistant
+FLT3,Y842C,7,5,Quizartinib,5,prospective,0.086,0.524,not resistant
+FLT3,F691L,7,5,Quizartinib,5,training positive,0.447,0.005,resistant
+FLT3,D835Y,7,5,Quizartinib,5,training positive,0.588,0.004,resistant
+FLT3,D835F,7,5,Quizartinib,5,training positive,0.586,0.004,resistant
+FLT3,D835V,7,5,Quizartinib,5,training positive,0.643,0.004,resistant
+FLT3,D835I,7,5,Quizartinib,5,training positive,0.685,0.003,resistant

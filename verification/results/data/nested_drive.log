@@ -1,0 +1,17 @@
+--- ALK (3000s left)
+  ALK                      blocks= 62  finished=no
+  KIT                      blocks= 30  finished=no
+  EGFR                     blocks= 30  finished=no
+  MET                      blocks= 30  finished=no
+--- ALK (3000s left)
+  ALK                      blocks= 92  finished=no
+  KIT                      blocks= 30  finished=no
+  EGFR                     blocks= 30  finished=no
+  MET                      blocks= 30  finished=no
+--- ALK (3400s left)
+    ALK DONE
+--- KIT (101s left)
+  ALK                      blocks=120  finished=yes
+  KIT                      blocks= 33  finished=no
+  EGFR                     blocks= 30  finished=no
+  MET                      blocks= 30  finished=no

@@ -1,0 +1,111 @@
+
+ABL1_ENST00000318560 L17 MNA9 full: 101 pos / 611 neg, 5 seeds
+   {'model': 'pos_only', 'seeds': 5, 'auc_mean_over_seeds': 0.842, 'auc_sd_over_seeds': 0.011, 'auc_pooled': 0.842, 'ci_lo': np.float64(0.81), 'ci_hi': np.float64(0.87), 'auprc': 0.354, 'delong_p_vs_multipass': np.float64(0.0781)}
+   {'model': 'subst_lr', 'seeds': 5, 'auc_mean_over_seeds': 0.657, 'auc_sd_over_seeds': 0.023, 'auc_pooled': 0.665, 'ci_lo': np.float64(0.6), 'ci_hi': np.float64(0.73), 'auprc': 0.281, 'delong_p_vs_multipass': np.float64(0.0)}
+   {'model': 'full_gbm', 'seeds': 5, 'auc_mean_over_seeds': 0.866, 'auc_sd_over_seeds': 0.007, 'auc_pooled': 0.875, 'ci_lo': np.float64(0.847), 'ci_hi': np.float64(0.901), 'auprc': 0.504, 'delong_p_vs_multipass': np.float64(0.2093)}
+   {'model': 'MultiPASS', 'seeds': 5, 'auc_mean_over_seeds': 0.857, 'auc_sd_over_seeds': 0.005, 'auc_pooled': 0.86, 'ci_lo': np.float64(0.833), 'ci_hi': np.float64(0.888), 'auprc': 0.4}
+
+ABL1_ENST00000318560 L17 MNA9 region: 101 pos / 210 neg, 5 seeds
+   {'model': 'pos_only', 'seeds': 5, 'auc_mean_over_seeds': 0.523, 'auc_sd_over_seeds': 0.038, 'auc_pooled': 0.529, 'ci_lo': np.float64(0.463), 'ci_hi': np.float64(0.597), 'auprc': 0.336, 'delong_p_vs_multipass': np.float64(0.028)}
+   {'model': 'subst_lr', 'seeds': 5, 'auc_mean_over_seeds': 0.57, 'auc_sd_over_seeds': 0.008, 'auc_pooled': 0.576, 'ci_lo': np.float64(0.503), 'ci_hi': np.float64(0.651), 'auprc': 0.414, 'delong_p_vs_multipass': np.float64(0.7958)}
+   {'model': 'full_gbm', 'seeds': 5, 'auc_mean_over_seeds': 0.597, 'auc_sd_over_seeds': 0.025, 'auc_pooled': 0.61, 'ci_lo': np.float64(0.547), 'ci_hi': np.float64(0.675), 'auprc': 0.429, 'delong_p_vs_multipass': np.float64(0.4907)}
+   {'model': 'MultiPASS', 'seeds': 5, 'auc_mean_over_seeds': 0.582, 'auc_sd_over_seeds': 0.024, 'auc_pooled': 0.589, 'ci_lo': np.float64(0.518), 'ci_hi': np.float64(0.658), 'auprc': 0.396}
+
+ALK L33 MNA4 full: 24 pos / 1100 neg, 5 seeds
+   {'model': 'pos_only', 'seeds': 5, 'auc_mean_over_seeds': 0.95, 'auc_sd_over_seeds': 0.01, 'auc_pooled': 0.95, 'ci_lo': np.float64(0.924), 'ci_hi': np.float64(0.97), 'auprc': 0.221, 'delong_p_vs_multipass': np.float64(0.2534)}
+   {'model': 'subst_lr', 'seeds': 5, 'auc_mean_over_seeds': 0.447, 'auc_sd_over_seeds': 0.032, 'auc_pooled': 0.436, 'ci_lo': np.float64(0.336), 'ci_hi': np.float64(0.536), 'auprc': 0.019, 'delong_p_vs_multipass': np.float64(0.0)}
+   {'model': 'full_gbm', 'seeds': 5, 'auc_mean_over_seeds': 0.909, 'auc_sd_over_seeds': 0.034, 'auc_pooled': 0.919, 'ci_lo': np.float64(0.835), 'ci_hi': np.float64(0.972), 'auprc': 0.278, 'delong_p_vs_multipass': np.float64(0.7634)}
+   {'model': 'MultiPASS', 'seeds': 5, 'auc_mean_over_seeds': 0.924, 'auc_sd_over_seeds': 0.012, 'auc_pooled': 0.93, 'ci_lo': np.float64(0.868), 'ci_hi': np.float64(0.972), 'auprc': 0.262}
+
+ALK L33 MNA4 region: 24 pos / 137 neg, 5 seeds
+   {'model': 'pos_only', 'seeds': 5, 'auc_mean_over_seeds': 0.686, 'auc_sd_over_seeds': 0.024, 'auc_pooled': 0.697, 'ci_lo': np.float64(0.589), 'ci_hi': np.float64(0.799), 'auprc': 0.246, 'delong_p_vs_multipass': np.float64(0.6006)}
+   {'model': 'subst_lr', 'seeds': 5, 'auc_mean_over_seeds': 0.51, 'auc_sd_over_seeds': 0.02, 'auc_pooled': 0.508, 'ci_lo': np.float64(0.409), 'ci_hi': np.float64(0.623), 'auprc': 0.148, 'delong_p_vs_multipass': np.float64(0.0587)}
+   {'model': 'full_gbm', 'seeds': 5, 'auc_mean_over_seeds': 0.677, 'auc_sd_over_seeds': 0.029, 'auc_pooled': 0.705, 'ci_lo': np.float64(0.611), 'ci_hi': np.float64(0.816), 'auprc': 0.292, 'delong_p_vs_multipass': np.float64(0.6119)}
+   {'model': 'MultiPASS', 'seeds': 5, 'auc_mean_over_seeds': 0.665, 'auc_sd_over_seeds': 0.016, 'auc_pooled': 0.676, 'ci_lo': np.float64(0.562), 'ci_hi': np.float64(0.789), 'auprc': 0.225}
+
+EGFR L37 MNA30 full: 17 pos / 1197 neg, 5 seeds  [MultiPASS declined to predict the class in some folds: seed 0 1/1214 -> scored 0]
+   {'model': 'pos_only', 'seeds': 5, 'auc_mean_over_seeds': 0.9, 'auc_sd_over_seeds': 0.058, 'auc_pooled': 0.921, 'ci_lo': np.float64(0.879), 'ci_hi': np.float64(0.956), 'auprc': 0.232, 'delong_p_vs_multipass': np.float64(0.9597)}
+   {'model': 'subst_lr', 'seeds': 5, 'auc_mean_over_seeds': 0.616, 'auc_sd_over_seeds': 0.053, 'auc_pooled': 0.631, 'ci_lo': np.float64(0.482), 'ci_hi': np.float64(0.779), 'auprc': 0.027, 'delong_p_vs_multipass': np.float64(0.0008)}
+   {'model': 'full_gbm', 'seeds': 5, 'auc_mean_over_seeds': 0.861, 'auc_sd_over_seeds': 0.021, 'auc_pooled': 0.892, 'ci_lo': np.float64(0.827), 'ci_hi': np.float64(0.949), 'auprc': 0.163, 'delong_p_vs_multipass': np.float64(0.2606)}
+   {'model': 'MultiPASS', 'seeds': 5, 'auc_mean_over_seeds': 0.921, 'auc_sd_over_seeds': 0.02, 'auc_pooled': 0.922, 'ci_lo': np.float64(0.871), 'ci_hi': np.float64(0.969), 'auprc': 0.529}
+
+EGFR L37 MNA30 region: 17 pos / 251 neg, 5 seeds
+   {'model': 'pos_only', 'seeds': 5, 'auc_mean_over_seeds': 0.717, 'auc_sd_over_seeds': 0.055, 'auc_pooled': 0.722, 'ci_lo': np.float64(0.542), 'ci_hi': np.float64(0.877), 'auprc': 0.304, 'delong_p_vs_multipass': np.float64(0.4545)}
+   {'model': 'subst_lr', 'seeds': 5, 'auc_mean_over_seeds': 0.669, 'auc_sd_over_seeds': 0.043, 'auc_pooled': 0.677, 'ci_lo': np.float64(0.524), 'ci_hi': np.float64(0.827), 'auprc': 0.141, 'delong_p_vs_multipass': np.float64(0.8542)}
+   {'model': 'full_gbm', 'seeds': 5, 'auc_mean_over_seeds': 0.74, 'auc_sd_over_seeds': 0.022, 'auc_pooled': 0.756, 'ci_lo': np.float64(0.603), 'ci_hi': np.float64(0.884), 'auprc': 0.202, 'delong_p_vs_multipass': np.float64(0.3734)}
+   {'model': 'MultiPASS', 'seeds': 5, 'auc_mean_over_seeds': 0.701, 'auc_sd_over_seeds': 0.025, 'auc_pooled': 0.698, 'ci_lo': np.float64(0.515), 'ci_hi': np.float64(0.859), 'auprc': 0.52}
+
+KIT L23 MNA9 full: 24 pos / 936 neg, 5 seeds
+   {'model': 'pos_only', 'seeds': 5, 'auc_mean_over_seeds': 0.863, 'auc_sd_over_seeds': 0.016, 'auc_pooled': 0.869, 'ci_lo': np.float64(0.781), 'ci_hi': np.float64(0.935), 'auprc': 0.197, 'delong_p_vs_multipass': np.float64(0.0935)}
+   {'model': 'subst_lr', 'seeds': 5, 'auc_mean_over_seeds': 0.689, 'auc_sd_over_seeds': 0.013, 'auc_pooled': 0.7, 'ci_lo': np.float64(0.58), 'ci_hi': np.float64(0.809), 'auprc': 0.083, 'delong_p_vs_multipass': np.float64(0.0004)}
+   {'model': 'full_gbm', 'seeds': 5, 'auc_mean_over_seeds': 0.812, 'auc_sd_over_seeds': 0.027, 'auc_pooled': 0.831, 'ci_lo': np.float64(0.727), 'ci_hi': np.float64(0.905), 'auprc': 0.222, 'delong_p_vs_multipass': np.float64(0.0052)}
+   {'model': 'MultiPASS', 'seeds': 5, 'auc_mean_over_seeds': 0.89, 'auc_sd_over_seeds': 0.012, 'auc_pooled': 0.903, 'ci_lo': np.float64(0.846), 'ci_hi': np.float64(0.947), 'auprc': 0.304}
+
+KIT L23 MNA9 region: 24 pos / 331 neg, 5 seeds
+   {'model': 'pos_only', 'seeds': 5, 'auc_mean_over_seeds': 0.732, 'auc_sd_over_seeds': 0.015, 'auc_pooled': 0.745, 'ci_lo': np.float64(0.637), 'ci_hi': np.float64(0.853), 'auprc': 0.201, 'delong_p_vs_multipass': np.float64(0.8218)}
+   {'model': 'subst_lr', 'seeds': 5, 'auc_mean_over_seeds': 0.648, 'auc_sd_over_seeds': 0.033, 'auc_pooled': 0.658, 'ci_lo': np.float64(0.532), 'ci_hi': np.float64(0.776), 'auprc': 0.156, 'delong_p_vs_multipass': np.float64(0.1259)}
+   {'model': 'full_gbm', 'seeds': 5, 'auc_mean_over_seeds': 0.68, 'auc_sd_over_seeds': 0.023, 'auc_pooled': 0.691, 'ci_lo': np.float64(0.557), 'ci_hi': np.float64(0.829), 'auprc': 0.221, 'delong_p_vs_multipass': np.float64(0.062)}
+   {'model': 'MultiPASS', 'seeds': 5, 'auc_mean_over_seeds': 0.739, 'auc_sd_over_seeds': 0.018, 'auc_pooled': 0.753, 'ci_lo': np.float64(0.629), 'ci_hi': np.float64(0.87), 'auprc': 0.336}
+
+NT5C2 L25 MNA4 full: 18 pos / 124 neg, 5 seeds  [MultiPASS declined to predict the class in some folds: seed 2 31/142 -> scored 0]
+   {'model': 'pos_only', 'seeds': 5, 'auc_mean_over_seeds': 0.669, 'auc_sd_over_seeds': 0.015, 'auc_pooled': 0.66, 'ci_lo': np.float64(0.497), 'ci_hi': np.float64(0.818), 'auprc': 0.351, 'delong_p_vs_multipass': np.float64(0.4215)}
+   {'model': 'subst_lr', 'seeds': 5, 'auc_mean_over_seeds': 0.483, 'auc_sd_over_seeds': 0.025, 'auc_pooled': 0.487, 'ci_lo': np.float64(0.355), 'ci_hi': np.float64(0.618), 'auprc': 0.122, 'delong_p_vs_multipass': np.float64(0.0493)}
+   {'model': 'full_gbm', 'seeds': 5, 'auc_mean_over_seeds': 0.716, 'auc_sd_over_seeds': 0.033, 'auc_pooled': 0.741, 'ci_lo': np.float64(0.598), 'ci_hi': np.float64(0.869), 'auprc': 0.378, 'delong_p_vs_multipass': np.float64(0.4539)}
+   {'model': 'MultiPASS', 'seeds': 5, 'auc_mean_over_seeds': 0.67, 'auc_sd_over_seeds': 0.044, 'auc_pooled': 0.696, 'ci_lo': np.float64(0.563), 'ci_hi': np.float64(0.827), 'auprc': 0.283}
+
+NT5C2 L25 MNA4 region: 18 pos / 102 neg, 5 seeds  [MultiPASS declined to predict the class in some folds: seed 2 23/120, seed 4 27/120 -> scored 0]
+   {'model': 'pos_only', 'seeds': 5, 'auc_mean_over_seeds': 0.62, 'auc_sd_over_seeds': 0.026, 'auc_pooled': 0.606, 'ci_lo': np.float64(0.455), 'ci_hi': np.float64(0.768), 'auprc': 0.289, 'delong_p_vs_multipass': np.float64(0.605)}
+   {'model': 'subst_lr', 'seeds': 5, 'auc_mean_over_seeds': 0.508, 'auc_sd_over_seeds': 0.033, 'auc_pooled': 0.505, 'ci_lo': np.float64(0.363), 'ci_hi': np.float64(0.64), 'auprc': 0.149, 'delong_p_vs_multipass': np.float64(0.1868)}
+   {'model': 'full_gbm', 'seeds': 5, 'auc_mean_over_seeds': 0.674, 'auc_sd_over_seeds': 0.021, 'auc_pooled': 0.694, 'ci_lo': np.float64(0.552), 'ci_hi': np.float64(0.821), 'auprc': 0.345, 'delong_p_vs_multipass': np.float64(0.4063)}
+   {'model': 'MultiPASS', 'seeds': 5, 'auc_mean_over_seeds': 0.62, 'auc_sd_over_seeds': 0.052, 'auc_pooled': 0.645, 'ci_lo': np.float64(0.499), 'ci_hi': np.float64(0.776), 'auprc': 0.317}
+
+SMO L31 MNA7 full: 18 pos / 453 neg, 5 seeds
+   {'model': 'pos_only', 'seeds': 5, 'auc_mean_over_seeds': 0.775, 'auc_sd_over_seeds': 0.067, 'auc_pooled': 0.785, 'ci_lo': np.float64(0.692), 'ci_hi': np.float64(0.872), 'auprc': 0.174, 'delong_p_vs_multipass': np.float64(0.4173)}
+   {'model': 'subst_lr', 'seeds': 5, 'auc_mean_over_seeds': 0.459, 'auc_sd_over_seeds': 0.019, 'auc_pooled': 0.454, 'ci_lo': np.float64(0.274), 'ci_hi': np.float64(0.617), 'auprc': 0.07, 'delong_p_vs_multipass': np.float64(0.0008)}
+   {'model': 'full_gbm', 'seeds': 5, 'auc_mean_over_seeds': 0.806, 'auc_sd_over_seeds': 0.04, 'auc_pooled': 0.844, 'ci_lo': np.float64(0.779), 'ci_hi': np.float64(0.909), 'auprc': 0.146, 'delong_p_vs_multipass': np.float64(0.6537)}
+   {'model': 'MultiPASS', 'seeds': 5, 'auc_mean_over_seeds': 0.805, 'auc_sd_over_seeds': 0.028, 'auc_pooled': 0.824, 'ci_lo': np.float64(0.741), 'ci_hi': np.float64(0.912), 'auprc': 0.382}
+
+SMO L31 MNA7 region: 18 pos / 204 neg, 5 seeds
+   {'model': 'pos_only', 'seeds': 5, 'auc_mean_over_seeds': 0.594, 'auc_sd_over_seeds': 0.038, 'auc_pooled': 0.586, 'ci_lo': np.float64(0.449), 'ci_hi': np.float64(0.731), 'auprc': 0.193, 'delong_p_vs_multipass': np.float64(0.2527)}
+   {'model': 'subst_lr', 'seeds': 5, 'auc_mean_over_seeds': 0.474, 'auc_sd_over_seeds': 0.013, 'auc_pooled': 0.47, 'ci_lo': np.float64(0.312), 'ci_hi': np.float64(0.635), 'auprc': 0.133, 'delong_p_vs_multipass': np.float64(0.2407)}
+   {'model': 'full_gbm', 'seeds': 5, 'auc_mean_over_seeds': 0.636, 'auc_sd_over_seeds': 0.047, 'auc_pooled': 0.66, 'ci_lo': np.float64(0.545), 'ci_hi': np.float64(0.778), 'auprc': 0.143, 'delong_p_vs_multipass': np.float64(0.7682)}
+   {'model': 'MultiPASS', 'seeds': 5, 'auc_mean_over_seeds': 0.639, 'auc_sd_over_seeds': 0.039, 'auc_pooled': 0.637, 'ci_lo': np.float64(0.485), 'ci_hi': np.float64(0.793), 'auprc': 0.327}
+
+Holm-corrected DeLong p-values ( 36 tests )
+              target setting    model  auc_pooled  delong_p_vs_multipass  delong_p_holm
+ABL1_ENST00000318560    full pos_only       0.842                 0.0781         1.0000
+ABL1_ENST00000318560    full subst_lr       0.665                 0.0000         0.0000
+ABL1_ENST00000318560    full full_gbm       0.875                 0.2093         1.0000
+ABL1_ENST00000318560  region pos_only       0.529                 0.0280         0.8400
+ABL1_ENST00000318560  region subst_lr       0.576                 0.7958         1.0000
+ABL1_ENST00000318560  region full_gbm       0.610                 0.4907         1.0000
+                 ALK    full pos_only       0.950                 0.2534         1.0000
+                 ALK    full subst_lr       0.436                 0.0000         0.0000
+                 ALK    full full_gbm       0.919                 0.7634         1.0000
+                 ALK  region pos_only       0.697                 0.6006         1.0000
+                 ALK  region subst_lr       0.508                 0.0587         1.0000
+                 ALK  region full_gbm       0.705                 0.6119         1.0000
+                EGFR    full pos_only       0.921                 0.9597         1.0000
+                EGFR    full subst_lr       0.631                 0.0008         0.0264
+                EGFR    full full_gbm       0.892                 0.2606         1.0000
+                EGFR  region pos_only       0.722                 0.4545         1.0000
+                EGFR  region subst_lr       0.677                 0.8542         1.0000
+                EGFR  region full_gbm       0.756                 0.3734         1.0000
+                 KIT    full pos_only       0.869                 0.0935         1.0000
+                 KIT    full subst_lr       0.700                 0.0004         0.0136
+                 KIT    full full_gbm       0.831                 0.0052         0.1612
+                 KIT  region pos_only       0.745                 0.8218         1.0000
+                 KIT  region subst_lr       0.658                 0.1259         1.0000
+                 KIT  region full_gbm       0.691                 0.0620         1.0000
+               NT5C2    full pos_only       0.660                 0.4215         1.0000
+               NT5C2    full subst_lr       0.487                 0.0493         1.0000
+               NT5C2    full full_gbm       0.741                 0.4539         1.0000
+               NT5C2  region pos_only       0.606                 0.6050         1.0000
+               NT5C2  region subst_lr       0.505                 0.1868         1.0000
+               NT5C2  region full_gbm       0.694                 0.4063         1.0000
+                 SMO    full pos_only       0.785                 0.4173         1.0000
+                 SMO    full subst_lr       0.454                 0.0008         0.0264
+                 SMO    full full_gbm       0.844                 0.6537         1.0000
+                 SMO  region pos_only       0.586                 0.2527         1.0000
+                 SMO  region subst_lr       0.470                 0.2407         1.0000
+                 SMO  region full_gbm       0.660                 0.7682         1.0000

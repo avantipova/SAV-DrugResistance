@@ -1,0 +1,8 @@
+ClassLimit     3
+BaseCreate     9  ABL1E17
+BaseAddNewData abl1e_17.sdf  Drug
+BaseTraining
+BaseSave
+BaseValidation
+BaseSaveAsSAS
+BaseClose

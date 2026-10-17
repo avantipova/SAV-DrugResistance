@@ -1,0 +1,29 @@
+{
+ "target": "EGFR",
+ "flat_only": true,
+ "n_pos": 17,
+ "n_neg": 1198,
+ "n_common": 1215,
+ "grid": [
+  "L17_MNA4",
+  "L17_MNA9",
+  "L25_MNA4",
+  "L25_MNA9",
+  "L33_MNA4",
+  "L33_MNA9"
+ ],
+ "flat_auc": {
+  "L17_MNA4": 0.8216,
+  "L17_MNA9": 0.8239,
+  "L25_MNA4": 0.8295,
+  "L25_MNA9": 0.9011,
+  "L33_MNA4": 0.8136,
+  "L33_MNA9": 0.9233
+ },
+ "flat_not_trainable": [],
+ "flat_best_config": "L33_MNA9",
+ "flat_max_auc": 0.9233,
+ "flat_min_auc": 0.8136,
+ "flat_median_auc": 0.8267,
+ "note": "flat grid only; nested selection not run for this target"
+}

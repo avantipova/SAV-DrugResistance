@@ -1,0 +1,259 @@
+[
+ {
+  "target": "BTK_ENST00000308731",
+  "n": 348,
+  "n_pos": 5,
+  "trials": [
+   {
+    "target": "BTK_ENST00000308731",
+    "mna": 4,
+    "inner": 0,
+    "n_train": 184,
+    "n_pos_train": 0,
+    "trained": false
+   },
+   {
+    "target": "BTK_ENST00000308731",
+    "mna": 4,
+    "inner": 1,
+    "n_train": 184,
+    "n_pos_train": 1,
+    "trained": false
+   },
+   {
+    "target": "BTK_ENST00000308731",
+    "mna": 4,
+    "inner": 2,
+    "n_train": 184,
+    "n_pos_train": 1,
+    "trained": false
+   },
+   {
+    "target": "BTK_ENST00000308731",
+    "mna": 9,
+    "inner": 0,
+    "n_train": 184,
+    "n_pos_train": 0,
+    "trained": false
+   },
+   {
+    "target": "BTK_ENST00000308731",
+    "mna": 9,
+    "inner": 1,
+    "n_train": 184,
+    "n_pos_train": 1,
+    "trained": false
+   },
+   {
+    "target": "BTK_ENST00000308731",
+    "mna": 9,
+    "inner": 2,
+    "n_train": 184,
+    "n_pos_train": 1,
+    "trained": false
+   }
+  ],
+  "n_trained": 0,
+  "all_inner_trained_per_mna": {
+   "4": false,
+   "9": false
+  },
+  "computable": false
+ },
+ {
+  "target": "FLT3",
+  "n": 817,
+  "n_pos": 6,
+  "trials": [
+   {
+    "target": "FLT3",
+    "mna": 4,
+    "inner": 0,
+    "n_train": 437,
+    "n_pos_train": 5,
+    "trained": true
+   },
+   {
+    "target": "FLT3",
+    "mna": 4,
+    "inner": 1,
+    "n_train": 437,
+    "n_pos_train": 5,
+    "trained": true
+   },
+   {
+    "target": "FLT3",
+    "mna": 4,
+    "inner": 2,
+    "n_train": 432,
+    "n_pos_train": 0,
+    "trained": false
+   },
+   {
+    "target": "FLT3",
+    "mna": 9,
+    "inner": 0,
+    "n_train": 437,
+    "n_pos_train": 5,
+    "trained": true
+   },
+   {
+    "target": "FLT3",
+    "mna": 9,
+    "inner": 1,
+    "n_train": 437,
+    "n_pos_train": 5,
+    "trained": true
+   },
+   {
+    "target": "FLT3",
+    "mna": 9,
+    "inner": 2,
+    "n_train": 432,
+    "n_pos_train": 0,
+    "trained": false
+   }
+  ],
+  "n_trained": 4,
+  "all_inner_trained_per_mna": {
+   "4": false,
+   "9": false
+  },
+  "computable": false
+ },
+ {
+  "target": "IDH1_ENST00000415913",
+  "n": 233,
+  "n_pos": 6,
+  "trials": [],
+  "n_trained": 0,
+  "all_inner_trained_per_mna": {
+   "4": false,
+   "9": false
+  },
+  "computable": false,
+  "note": "established by nested_config.py itself: all 6 inner configs declined in outer fold 0"
+ },
+ {
+  "target": "ESR1_ENST00000206249",
+  "n": 396,
+  "n_pos": 7,
+  "trials": [
+   {
+    "target": "ESR1_ENST00000206249",
+    "mna": 4,
+    "inner": 0,
+    "n_train": 214,
+    "n_pos_train": 5,
+    "trained": true
+   },
+   {
+    "target": "ESR1_ENST00000206249",
+    "mna": 4,
+    "inner": 1,
+    "n_train": 212,
+    "n_pos_train": 3,
+    "trained": true
+   },
+   {
+    "target": "ESR1_ENST00000206249",
+    "mna": 4,
+    "inner": 2,
+    "n_train": 210,
+    "n_pos_train": 4,
+    "trained": true
+   },
+   {
+    "target": "ESR1_ENST00000206249",
+    "mna": 9,
+    "inner": 0,
+    "n_train": 214,
+    "n_pos_train": 5,
+    "trained": true
+   },
+   {
+    "target": "ESR1_ENST00000206249",
+    "mna": 9,
+    "inner": 1,
+    "n_train": 212,
+    "n_pos_train": 3,
+    "trained": true
+   },
+   {
+    "target": "ESR1_ENST00000206249",
+    "mna": 9,
+    "inner": 2,
+    "n_train": 210,
+    "n_pos_train": 4,
+    "trained": true
+   }
+  ],
+  "n_trained": 6,
+  "all_inner_trained_per_mna": {
+   "4": true,
+   "9": true
+  },
+  "computable": true
+ },
+ {
+  "target": "MET",
+  "n": 870,
+  "n_pos": 8,
+  "trials": [
+   {
+    "target": "MET",
+    "mna": 4,
+    "inner": 0,
+    "n_train": 464,
+    "n_pos_train": 4,
+    "trained": true
+   },
+   {
+    "target": "MET",
+    "mna": 4,
+    "inner": 1,
+    "n_train": 465,
+    "n_pos_train": 4,
+    "trained": true
+   },
+   {
+    "target": "MET",
+    "mna": 4,
+    "inner": 2,
+    "n_train": 465,
+    "n_pos_train": 6,
+    "trained": true
+   },
+   {
+    "target": "MET",
+    "mna": 9,
+    "inner": 0,
+    "n_train": 464,
+    "n_pos_train": 4,
+    "trained": true
+   },
+   {
+    "target": "MET",
+    "mna": 9,
+    "inner": 1,
+    "n_train": 465,
+    "n_pos_train": 4,
+    "trained": true
+   },
+   {
+    "target": "MET",
+    "mna": 9,
+    "inner": 2,
+    "n_train": 465,
+    "n_pos_train": 6,
+    "trained": false
+   }
+  ],
+  "n_trained": 5,
+  "all_inner_trained_per_mna": {
+   "4": true,
+   "9": false
+  },
+  "computable": true
+ }
+]

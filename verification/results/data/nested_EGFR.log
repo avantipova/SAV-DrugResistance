@@ -1,0 +1,117 @@
+EGFR: variants per L L17=1229, L25=1221, L33=1215  -> common set 1215
+EGFR: 17 pos / 1198 neg on the common set
+  flat L=17 MNA=4: AUC 0.822
+EGFR: variants per L L17=1229, L25=1221, L33=1215  -> common set 1215
+EGFR: 17 pos / 1198 neg on the common set
+  flat L=17 MNA=4: AUC 0.822
+  flat L=17 MNA=9: AUC 0.824
+EGFR: variants per L L17=1229, L25=1221, L33=1215  -> common set 1215
+EGFR: 17 pos / 1198 neg on the common set
+  flat L=17 MNA=4: AUC 0.822
+  flat L=17 MNA=9: AUC 0.824
+  flat L=25 MNA=4: AUC 0.829
+EGFR: variants per L L17=1229, L25=1221, L33=1215  -> common set 1215
+EGFR: 17 pos / 1198 neg on the common set
+  flat L=17 MNA=4: AUC 0.822
+  flat L=17 MNA=9: AUC 0.824
+  flat L=25 MNA=4: AUC 0.829
+  flat L=25 MNA=9: AUC 0.901
+EGFR: variants per L L17=1229, L25=1221, L33=1215  -> common set 1215
+EGFR: 17 pos / 1198 neg on the common set
+  flat L=17 MNA=4: AUC 0.822
+  flat L=17 MNA=9: AUC 0.824
+  flat L=25 MNA=4: AUC 0.829
+  flat L=25 MNA=9: AUC 0.901
+EGFR: variants per L L17=1229, L25=1221, L33=1215  -> common set 1215
+EGFR: 17 pos / 1198 neg on the common set
+  flat L=17 MNA=4: AUC 0.822
+  flat L=17 MNA=9: AUC 0.824
+  flat L=25 MNA=4: AUC 0.829
+  flat L=25 MNA=9: AUC 0.901
+  flat L=33 MNA=4: AUC 0.814
+EGFR: variants per L L17=1229, L25=1221, L33=1215  -> common set 1215
+EGFR: 17 pos / 1198 neg on the common set
+  flat L=17 MNA=4: AUC 0.822
+  flat L=17 MNA=9: AUC 0.824
+  flat L=25 MNA=4: AUC 0.829
+  flat L=25 MNA=9: AUC 0.901
+  flat L=33 MNA=4: AUC 0.814
+EGFR: variants per L L17=1229, L25=1221, L33=1215  -> common set 1215
+EGFR: 17 pos / 1198 neg on the common set
+  flat L=17 MNA=4: AUC 0.822
+  flat L=17 MNA=9: AUC 0.824
+  flat L=25 MNA=4: AUC 0.829
+  flat L=25 MNA=9: AUC 0.901
+  flat L=33 MNA=4: AUC 0.814
+EGFR: variants per L L17=1229, L25=1221, L33=1215  -> common set 1215
+EGFR: 17 pos / 1198 neg on the common set
+  flat L=17 MNA=4: AUC 0.822
+  flat L=17 MNA=9: AUC 0.824
+  flat L=25 MNA=4: AUC 0.829
+  flat L=25 MNA=9: AUC 0.901
+  flat L=33 MNA=4: AUC 0.814
+  flat L=33 MNA=9: AUC 0.923
+EGFR: flat grid only -- spread 0.814..0.923
+EGFR: variants per L L17=1229, L25=1221, L33=1215  -> common set 1215
+EGFR: 17 pos / 1198 neg on the common set
+  flat L=17 MNA=4: AUC 0.822
+  flat L=17 MNA=9: AUC 0.824
+  flat L=25 MNA=4: AUC 0.829
+  flat L=25 MNA=9: AUC 0.901
+  flat L=33 MNA=4: AUC 0.814
+  flat L=33 MNA=9: AUC 0.923
+EGFR: variants per L L17=1229, L25=1221, L33=1215  -> common set 1215
+EGFR: 17 pos / 1198 neg on the common set
+  flat L=17 MNA=4: AUC 0.822
+  flat L=17 MNA=9: AUC 0.824
+  flat L=25 MNA=4: AUC 0.829
+  flat L=25 MNA=9: AUC 0.901
+  flat L=33 MNA=4: AUC 0.814
+  flat L=33 MNA=9: AUC 0.923
+  outer 0 inner L=17 MNA=4: 0.804
+  outer 0 inner L=17 MNA=4: 0.554
+  outer 0 inner L=17 MNA=9: 0.797
+  outer 0 inner L=17 MNA=9: 0.455
+  outer 0 inner L=25 MNA=4: 0.781
+  outer 0 inner L=25 MNA=4: 0.623
+EGFR: variants per L L17=1229, L25=1221, L33=1215  -> common set 1215
+EGFR: 17 pos / 1198 neg on the common set
+  flat L=17 MNA=4: AUC 0.822
+  flat L=17 MNA=9: AUC 0.824
+  flat L=25 MNA=4: AUC 0.829
+  flat L=25 MNA=9: AUC 0.901
+  flat L=33 MNA=4: AUC 0.814
+  flat L=33 MNA=9: AUC 0.923
+  outer 0 inner L=17 MNA=4: 0.554
+  outer 0 inner L=17 MNA=9: 0.455
+  outer 0 inner L=25 MNA=4: 0.623
+  outer 0 inner L=25 MNA=9: 0.810
+  outer 0 inner L=33 MNA=4: 0.789
+  outer 0 inner L=33 MNA=9: 0.811
+  outer 0: picked L=33 MNA=9 (inner AUC 0.811)
+  outer 1 inner L=17 MNA=4: 0.830
+  outer 1 inner L=17 MNA=9: 0.823
+  outer 1 inner L=25 MNA=4: 0.758
+  outer 1 inner L=25 MNA=9: 0.839
+EGFR: variants per L L17=1229, L25=1221, L33=1215  -> common set 1215
+EGFR: 17 pos / 1198 neg on the common set
+  flat L=17 MNA=4: AUC 0.822
+  flat L=17 MNA=9: AUC 0.824
+  flat L=25 MNA=4: AUC 0.829
+  flat L=25 MNA=9: AUC 0.901
+  flat L=33 MNA=4: AUC 0.814
+  flat L=33 MNA=9: AUC 0.923
+  outer 0 inner L=17 MNA=4: 0.554
+  outer 0 inner L=17 MNA=9: 0.455
+  outer 0 inner L=25 MNA=4: 0.623
+  outer 0 inner L=25 MNA=9: 0.810
+  outer 0 inner L=33 MNA=4: 0.789
+  outer 0 inner L=33 MNA=9: 0.811
+  outer 0: picked L=33 MNA=9 (inner AUC 0.811)
+  outer 1 inner L=17 MNA=4: 0.830
+  outer 1 inner L=17 MNA=9: 0.823
+  outer 1 inner L=25 MNA=4: 0.758
+  outer 1 inner L=25 MNA=9: 0.839
+  outer 1 inner L=33 MNA=4: 0.806
+  outer 1 inner L=33 MNA=9: 0.843
+  outer 1: picked L=33 MNA=9 (inner AUC 0.843)

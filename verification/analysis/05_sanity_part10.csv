@@ -1,0 +1,2 @@
+idx,target,task,region,n_pos,n_neg,leak,shuf_pos_only_mean,shuf_pos_only_max,repro_pos_only,mw_diff,shuf_full_gbm_mean,shuf_full_gbm_max,repro_full_gbm
+10,EGFR,Osimertinib,False,16,1220,0,0.482,0.594,0.0,0.0,0.463,0.594,0.0

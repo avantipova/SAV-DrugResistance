@@ -1,0 +1,21 @@
+target,drug,model,n_pos,n_neg,n_excluded,seeds,auc,ci_lo,ci_hi,auprc,multipass_declined,delong_p_vs_multipass,delong_p_holm
+ABL1_ENST00000318560,Dasatinib,MultiPASS,10,611,91,5,0.838,0.71,0.933,0.139,seed 3 130,,
+ABL1_ENST00000318560,Dasatinib,pos_only,10,611,91,5,0.833,0.644,0.944,0.097,,0.9494,1.0
+ABL1_ENST00000318560,Dasatinib,subst_lr,10,611,91,5,0.571,0.394,0.768,0.058,,0.0413,0.4543
+ABL1_ENST00000318560,Dasatinib,full_gbm,10,611,91,5,0.834,0.634,0.944,0.093,,0.9573,1.0
+ABL1_ENST00000318560,Imatinib,MultiPASS,83,611,18,5,0.863,0.834,0.891,0.423,,,
+ABL1_ENST00000318560,Imatinib,pos_only,83,611,18,5,0.856,0.828,0.882,0.318,,0.4853,1.0
+ABL1_ENST00000318560,Imatinib,subst_lr,83,611,18,5,0.641,0.566,0.715,0.247,,0.0,0.0
+ABL1_ENST00000318560,Imatinib,full_gbm,83,611,18,5,0.884,0.854,0.911,0.457,,0.0981,0.8829
+ABL1_ENST00000318560,Tyrosine kinase inhibitor - NS,MultiPASS,48,611,53,5,0.862,0.817,0.9,0.317,,,
+ABL1_ENST00000318560,Tyrosine kinase inhibitor - NS,pos_only,48,611,53,5,0.822,0.789,0.858,0.176,,0.0351,0.4212
+ABL1_ENST00000318560,Tyrosine kinase inhibitor - NS,subst_lr,48,611,53,5,0.697,0.606,0.786,0.166,,0.0013,0.0169
+ABL1_ENST00000318560,Tyrosine kinase inhibitor - NS,full_gbm,48,611,53,5,0.873,0.836,0.907,0.296,,0.5527,1.0
+ALK,Crizotinib,MultiPASS,16,1100,8,5,0.921,0.839,0.977,0.207,,,
+ALK,Crizotinib,pos_only,16,1100,8,5,0.94,0.889,0.979,0.212,,0.3335,1.0
+ALK,Crizotinib,subst_lr,16,1100,8,5,0.562,0.437,0.682,0.017,,0.0,0.0
+ALK,Crizotinib,full_gbm,16,1100,8,5,0.884,0.78,0.964,0.193,,0.3943,1.0
+NT5C2,Purine,MultiPASS,18,124,0,5,0.696,0.563,0.827,0.283,seed 2 31,,
+NT5C2,Purine,pos_only,18,124,0,5,0.66,0.497,0.818,0.351,,0.4215,1.0
+NT5C2,Purine,subst_lr,18,124,0,5,0.487,0.355,0.618,0.122,,0.0493,0.493
+NT5C2,Purine,full_gbm,18,124,0,5,0.741,0.598,0.869,0.378,,0.4539,1.0

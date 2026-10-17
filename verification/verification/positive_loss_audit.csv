@@ -1,0 +1,7 @@
+target,resistance_mutations_listed,kept,not_single_substitution,not_in_cosmic_missense,window_off_protein_end,unparseable_residue_code
+ABL1_ENST00000318560,108,101,2,1,0,4
+ALK,26,24,2,0,0,0
+EGFR,17,17,0,0,0,0
+KIT,28,24,4,0,0,0
+NT5C2,23,18,5,0,0,0
+SMO,18,18,0,0,0,0

@@ -1,0 +1,18 @@
+{
+ "target": "IDH1_ENST00000415913",
+ "nested_computable": false,
+ "inner_failed": 6,
+ "n_pos": 6,
+ "n_neg": 226,
+ "flat_auc": {
+  "L17_MNA9": 0.5,
+  "L25_MNA9": 0.4985,
+  "L33_MNA4": 0.5,
+  "L33_MNA9": 0.5
+ },
+ "flat_not_trainable": [
+  "L17_MNA4",
+  "L25_MNA4"
+ ],
+ "note": "MultiPASS declines to train on the inner training folds: B.HST reports every activity type Failed, 0 selected, average IAP 0.0000"
+}

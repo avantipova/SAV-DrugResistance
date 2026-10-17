@@ -1,0 +1,26 @@
+FLT3: variants per L L17=822, L25=818, L33=814  -> common set 814
+FLT3: 6 pos / 808 neg on the common set
+  flat_L17_M4_f0: MultiPASS declined to train on 648 variants (1 resistant)
+  flat L=17 MNA=4: not trainable
+  flat_L17_M9_f0: MultiPASS declined to train on 648 variants (1 resistant)
+  flat L=17 MNA=9: not trainable
+  flat_L25_M4_f0: MultiPASS declined to train on 648 variants (1 resistant)
+  flat L=25 MNA=4: not trainable
+  flat_L25_M9_f0: MultiPASS declined to train on 648 variants (1 resistant)
+  flat L=25 MNA=9: not trainable
+  flat_L33_M4_f0: MultiPASS declined to train on 648 variants (1 resistant)
+  flat L=33 MNA=4: not trainable
+FLT3: variants per L L17=822, L25=818, L33=814  -> common set 814
+FLT3: 6 pos / 808 neg on the common set
+  flat L=17 MNA=4: not trainable
+  flat L=17 MNA=9: not trainable
+  flat L=25 MNA=4: not trainable
+  flat L=25 MNA=9: not trainable
+  flat L=33 MNA=4: not trainable
+  flat_L33_M9_f0: MultiPASS declined to train on 648 variants (1 resistant)
+  flat L=33 MNA=9: not trainable
+Traceback (most recent call last):
+  File "/home/claude/repro/nested_config.py", line 225, in <module>
+    f'{min(flat.values()):.3f}..{max(flat.values()):.3f}', flush=True)
+       ^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence

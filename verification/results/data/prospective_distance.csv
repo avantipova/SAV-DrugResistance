@@ -1,0 +1,8 @@
+gene,variant,pos,Pa,Pi,call,same_position_is_a_training_positive,nearest_training_positive,nearest_variant,training_positive_positions
+ESR1,L536R,536,0.523,0.007,resistant,True,0,L536H,"[380, 536, 537, 538]"
+EGFR,V802F,802,0.095,0.141,not resistant,False,5,C797S,"[718, 719, 747, 766, 790, 792, 796, 797]"
+FLT3,Y842C,842,0.086,0.524,not resistant,False,7,D835Y,"[691, 835]"
+BTK,T474I,474,0.18,0.132,resistant,False,7,C481S,"[316, 481]"
+ESR1,L370F,370,0.012,0.9,not resistant,False,10,E380Q,"[380, 536, 537, 538]"
+BTK,L528W,528,0.103,0.576,not resistant,False,47,C481S,"[316, 481]"
+EGFR,L844V,844,0.003,0.892,not resistant,False,47,C797S,"[718, 719, 747, 766, 790, 792, 796, 797]"

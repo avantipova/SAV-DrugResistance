@@ -1,0 +1,80 @@
+ESR1_ENST00000206249: variants per L L17=404, L25=396, L33=394  -> common set 394
+ESR1_ENST00000206249: 7 pos / 387 neg on the common set
+  flat L=17 MNA=4: AUC 0.858
+  flat L=17 MNA=9: AUC 0.861
+ESR1_ENST00000206249: variants per L L17=404, L25=396, L33=394  -> common set 394
+ESR1_ENST00000206249: 7 pos / 387 neg on the common set
+  flat L=17 MNA=4: AUC 0.858
+  flat L=17 MNA=9: AUC 0.861
+  flat L=25 MNA=4: AUC 0.497
+  flat L=25 MNA=9: AUC 0.500
+ESR1_ENST00000206249: variants per L L17=404, L25=396, L33=394  -> common set 394
+ESR1_ENST00000206249: 7 pos / 387 neg on the common set
+  flat L=17 MNA=4: AUC 0.858
+  flat L=17 MNA=9: AUC 0.861
+  flat L=25 MNA=4: AUC 0.497
+  flat L=25 MNA=9: AUC 0.500
+  flat L=33 MNA=4: AUC 0.498
+  flat L=33 MNA=9: AUC 0.856
+ESR1_ENST00000206249: variants per L L17=404, L25=396, L33=394  -> common set 394
+ESR1_ENST00000206249: 7 pos / 387 neg on the common set
+  flat L=17 MNA=4: AUC 0.858
+  flat L=17 MNA=9: AUC 0.861
+  flat L=25 MNA=4: AUC 0.497
+  flat L=25 MNA=9: AUC 0.500
+  flat L=33 MNA=4: AUC 0.498
+  flat L=33 MNA=9: AUC 0.856
+  outer 0 inner L=17 MNA=4: 0.649
+  outer 0 inner L=17 MNA=9: 0.643
+  outer 0 inner L=25 MNA=4: 0.392
+  outer 0 inner L=25 MNA=9: 0.395
+  outer 0 inner L=33 MNA=4: 0.398
+ESR1_ENST00000206249: variants per L L17=404, L25=396, L33=394  -> common set 394
+ESR1_ENST00000206249: 7 pos / 387 neg on the common set
+  flat L=17 MNA=4: AUC 0.858
+  flat L=17 MNA=9: AUC 0.861
+  flat L=25 MNA=4: AUC 0.497
+  flat L=25 MNA=9: AUC 0.500
+  flat L=33 MNA=4: AUC 0.498
+  flat L=33 MNA=9: AUC 0.856
+  outer 0 inner L=17 MNA=4: 0.649
+  outer 0 inner L=17 MNA=9: 0.643
+  outer 0 inner L=25 MNA=4: 0.392
+  outer 0 inner L=25 MNA=9: 0.395
+  outer 0 inner L=33 MNA=4: 0.398
+  outer 0 inner L=33 MNA=9: 0.402
+  outer 0: picked L=17 MNA=4 (inner AUC 0.649)
+  outer 1 inner L=17 MNA=4: 0.979
+  outer 1 inner L=17 MNA=9: 0.986
+  outer 1 inner L=25 MNA=4: 0.981
+  outer 1 inner L=25 MNA=9: 0.984
+  outer 1 inner L=33 MNA=4: 0.975
+ESR1_ENST00000206249: variants per L L17=404, L25=396, L33=394  -> common set 394
+ESR1_ENST00000206249: 7 pos / 387 neg on the common set
+  flat L=17 MNA=4: AUC 0.858
+  flat L=17 MNA=9: AUC 0.861
+  flat L=25 MNA=4: AUC 0.497
+  flat L=25 MNA=9: AUC 0.500
+  flat L=33 MNA=4: AUC 0.498
+  flat L=33 MNA=9: AUC 0.856
+  outer 0 inner L=17 MNA=4: 0.649
+  outer 0 inner L=17 MNA=9: 0.643
+  outer 0 inner L=25 MNA=4: 0.392
+  outer 0 inner L=25 MNA=9: 0.395
+  outer 0 inner L=33 MNA=4: 0.398
+  outer 0 inner L=33 MNA=9: 0.402
+  outer 0: picked L=17 MNA=4 (inner AUC 0.649)
+  outer 1 inner L=17 MNA=4: 0.979
+  outer 1 inner L=17 MNA=9: 0.986
+  outer 1 inner L=25 MNA=4: 0.981
+  outer 1 inner L=25 MNA=9: 0.984
+  outer 1 inner L=33 MNA=4: 0.975
+  outer 1 inner L=33 MNA=9: 0.985
+  outer 1: picked L=17 MNA=9 (inner AUC 0.986)
+  inner_L17_M4_o2_i1: MultiPASS declined to train on 208 variants (2 resistant)
+  inner_L17_M9_o2_i1: MultiPASS declined to train on 208 variants (2 resistant)
+  inner_L25_M4_o2_i1: MultiPASS declined to train on 208 variants (2 resistant)
+  inner_L25_M9_o2_i1: MultiPASS declined to train on 208 variants (2 resistant)
+  inner_L33_M4_o2_i1: MultiPASS declined to train on 208 variants (2 resistant)
+  inner_L33_M9_o2_i1: MultiPASS declined to train on 208 variants (2 resistant)
+  outer 2: no configuration trainable on the inner folds -- nested selection not computable for ESR1_ENST00000206249

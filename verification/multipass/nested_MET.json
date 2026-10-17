@@ -1,0 +1,17 @@
+{
+ "target": "MET",
+ "nested_computable": false,
+ "inner_failed": 6,
+ "n_pos": 8,
+ "n_neg": 855,
+ "flat_auc": {
+  "L17_MNA4": 0.9339,
+  "L17_MNA9": 0.897,
+  "L25_MNA4": 0.885,
+  "L25_MNA9": 0.8953,
+  "L33_MNA4": 0.9252,
+  "L33_MNA9": 0.8953
+ },
+ "flat_not_trainable": [],
+ "note": "MultiPASS declines to train on the inner training folds: B.HST reports every activity type Failed, 0 selected, average IAP 0.0000"
+}

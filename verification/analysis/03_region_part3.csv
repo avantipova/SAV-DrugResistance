@@ -1,0 +1,7 @@
+target,span,n_pos,n_neg,model,cv,auc,auc_lo,auc_hi,auprc,prevalence
+SMO,221-545,18,204,pos_only,random,0.775,0.675,0.864,0.326,0.081
+SMO,221-545,18,204,pos_only,grouped,0.638,0.5,0.788,0.198,0.081
+SMO,221-545,18,204,subst_lr,random,0.602,0.445,0.743,0.156,0.081
+SMO,221-545,18,204,subst_lr,grouped,0.454,0.295,0.611,0.116,0.081
+SMO,221-545,18,204,full_gbm,random,0.761,0.605,0.888,0.487,0.081
+SMO,221-545,18,204,full_gbm,grouped,0.606,0.472,0.747,0.138,0.081

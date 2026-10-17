@@ -1,0 +1,4 @@
+panel,n,n_pos,n_neg,auc,ci_lo,ci_hi,auprc,acc_prev,mcc_prev,f1_prev,prec_prev,rec_prev,mcc_best,acc_at_best,f1_at_best,acc_all_negative
+"A. LOTO, 9 shared genes",440,130,310,0.608,0.552,0.669,0.384,0.661,0.192,0.433,0.429,0.438,0.212,0.709,0.366,0.705
+"B. within-protein CV, 5 genes",302,108,194,0.805,0.755,0.849,0.722,0.728,0.409,0.62,0.62,0.62,0.483,0.772,0.606,0.642
+"A5. LOTO, the same 5 genes as B",302,108,194,0.597,0.534,0.669,0.442,0.619,0.173,0.47,0.468,0.472,0.208,0.603,0.531,0.642

@@ -1,0 +1,23 @@
+IDH1_ENST00000415913: variants per L L17=237, L25=233, L33=232  -> common set 232
+IDH1_ENST00000415913: 6 pos / 226 neg on the common set
+  flat L=17 MNA=4: not trainable
+  flat L=17 MNA=9: AUC 0.500
+  flat L=25 MNA=4: not trainable
+  flat L=25 MNA=9: AUC 0.499
+  flat L=33 MNA=4: AUC 0.500
+  flat L=33 MNA=9: AUC 0.500
+  inner_L17_M4_o0_i0: MultiPASS declined to train on 124 variants (3 resistant)
+  inner_L17_M9_o0_i1: MultiPASS declined to train on 125 variants (4 resistant)
+  inner_L25_M4_o0_i1: MultiPASS declined to train on 125 variants (4 resistant)
+  inner_L25_M9_o0_i1: MultiPASS declined to train on 125 variants (4 resistant)
+  inner_L33_M4_o0_i0: MultiPASS declined to train on 124 variants (3 resistant)
+IDH1_ENST00000415913: variants per L L17=237, L25=233, L33=232  -> common set 232
+IDH1_ENST00000415913: 6 pos / 226 neg on the common set
+  flat L=17 MNA=4: not trainable
+  flat L=17 MNA=9: AUC 0.500
+  flat L=25 MNA=4: not trainable
+  flat L=25 MNA=9: AUC 0.499
+  flat L=33 MNA=4: AUC 0.500
+  flat L=33 MNA=9: AUC 0.500
+  inner_L33_M9_o0_i1: MultiPASS declined to train on 125 variants (4 resistant)
+  outer 0: no configuration trainable on the inner folds -- nested selection not computable for IDH1_ENST00000415913

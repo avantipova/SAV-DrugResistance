@@ -1,0 +1,35 @@
+distinct CIViC resistance SAVs (Supports): 90
+wild-type residue mismatches against our reference FASTA: 0
+
+our_label  total  positive  negative  absent  contested_in_civic
+gene                                                            
+ABL1          45        39         1       5                  33
+ALK           13        11         2       0                   0
+EGFR          11         3         7       1                   0
+KIT           14        11         3       0                   5
+NT5C2          5         5         0       0                   5
+SMO            2         1         1       0                   0
+
+CIViC resistance (Supports) that our labels call NOT resistant:
+  ABL1   p.D363G    level=C      Imatinib
+  ALK    p.F1245C   level=C,D    Crizotinib
+  ALK    p.R1275Q   level=D      ALK Inhibitor TAE684
+  EGFR   p.G465R    level=C      Panitumumab,Cetuximab
+  EGFR   p.K467T    level=D      Cetuximab
+  EGFR   p.S492R    level=C,D    Cetuximab
+  EGFR   p.S768I    level=C      Erlotinib
+  EGFR   p.N826S    level=D      Erlotinib
+  EGFR   p.L838V    level=D      Gefitinib,Erlotinib
+  EGFR   p.L858R    level=C      Crizotinib
+  KIT    p.V560D    level=C      Sunitinib
+  KIT    p.L576P    level=C,D    Sorafenib,Imatinib,Nilotinib; Sunitinib
+  KIT    p.D816V    level=B,D    Dasatinib,Imatinib; Imatinib
+  SMO    p.L412F    level=C,D    Vismodegib
+
+In CIViC but absent from our variant set:
+  ABL1   p.E98G     level=C      Imatinib
+  ABL1   p.Q300R    level=C      Imatinib Mesylate
+  ABL1   p.F317S    level=D      Dasatinib
+  ABL1   p.N336S    level=C      Imatinib Mesylate
+  ABL1   p.C475V    level=C      Imatinib Mesylate
+  EGFR   p.V441F    level=E      Cetuximab,Panitumumab

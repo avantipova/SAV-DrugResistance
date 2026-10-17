@@ -92,7 +92,24 @@ Its command-line interface needs a source checkout — clone it to `external/pyP
 git clone https://github.com/Boehringer-Ingelheim/pyPept.git external/pyPept
 ```
 
+## Verification
+
+`verification/` holds the independent re-derivation of every number reported in the manuscript:
+one script per analysis, each asserting exact values and exiting non-zero on any disagreement,
+plus `verification/notebook/verification.ipynb`, which runs them all and plots the four headline
+results. The notebook is committed **with its outputs**, so the evidence can be read without
+installing or downloading anything.
+
+```bash
+python3 verification/check_inputs.py     # what is ready, and what each remaining script needs
+```
+
+Seven scripts (812 assertions) run with no downloads at all. Six more are waiting on a dataset
+that is not ours to redistribute; `verification/README.md` names the source of each and the path
+to drop it at. No COSMIC export is redistributed there either.
+
 ## Running
+
 
 ```bash
 jupyter lab notebooks/aas_analysis.ipynb

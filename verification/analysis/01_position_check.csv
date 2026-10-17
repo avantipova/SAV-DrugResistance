@@ -1,0 +1,59 @@
+target,source,fasta_header,fasta_len,n_fasta_records,unique_aas,clean_missense,unparsable,wt_match,match_frac,pos_beyond_seq,best_offset,best_offset_match
+ABL1,csv,NP_009297.2 ABL1 [organism=Homo sapiens] [GeneID=25] [isofor,1149,1,627,627,0,627,1.0,0,0,627
+ABL1,mutations,NP_009297.2 ABL1 [organism=Homo sapiens] [GeneID=25] [isofor,1149,1,35,34,1,34,1.0,0,0,34
+ABL1_ENST00000318560,csv,NP_005148.2 tyrosine-protein kinase ABL1 isoform a [Homo sap,1130,1,719,715,4,715,1.0,0,0,715
+ABL1_ENST00000318560,mutations,NP_005148.2 tyrosine-protein kinase ABL1 isoform a [Homo sap,1130,1,108,101,7,101,1.0,0,0,101
+ALK,csv,NP_004295.2 ALK [organism=Homo sapiens] [GeneID=238] [isofor,1620,1,1141,1139,2,1139,1.0,0,0,1139
+ALK,mutations,NP_004295.2 ALK [organism=Homo sapiens] [GeneID=238] [isofor,1620,1,26,24,2,24,1.0,0,0,24
+ALK_ENST00000618119,csv,tr|A0A087WZL3|A0A087WZL3_HUMAN Tyrosine-protein kinase recep,1243,1,864,864,0,864,1.0,0,0,864
+ALK_ENST00000618119,mutations,tr|A0A087WZL3|A0A087WZL3_HUMAN Tyrosine-protein kinase recep,1243,1,15,14,1,14,1.0,0,0,14
+BRAF,csv,NP_004324.2 serine/threonine-protein kinase B-raf isoform 1 ,766,1,638,631,7,631,1.0,0,0,631
+BRAF,mutations,NP_004324.2 serine/threonine-protein kinase B-raf isoform 1 ,766,1,3,1,2,1,1.0,0,0,1
+BRAF_ENST00000288602,csv,tr|A0A2U3TZI2|A0A2U3TZI2_HUMAN non-specific serine/threonine,806,1,606,601,5,601,1.0,0,0,601
+BRAF_ENST00000288602,mutations,tr|A0A2U3TZI2|A0A2U3TZI2_HUMAN non-specific serine/threonine,806,1,1,1,0,1,1.0,0,0,1
+BTK,csv,NP_001274273.1 BTK [organism=Homo sapiens] [GeneID=695] [iso,693,1,355,355,0,355,1.0,0,0,355
+BTK,mutations,NP_001274273.1 BTK [organism=Homo sapiens] [GeneID=695] [iso,693,1,5,5,0,5,1.0,0,0,5
+BTK_ENST00000308731,csv,NP_000052.1 BTK [organism=Homo sapiens] [GeneID=695] [isofor,659,1,354,354,0,354,1.0,0,0,354
+BTK_ENST00000308731,mutations,NP_000052.1 BTK [organism=Homo sapiens] [GeneID=695] [isofor,659,1,5,5,0,5,1.0,0,0,5
+EGFR,csv,NP_005219.2 epidermal growth factor receptor isoform a precu,1210,1,1243,1236,7,1236,1.0,0,0,1236
+EGFR,mutations,NP_005219.2 epidermal growth factor receptor isoform a precu,1210,1,17,17,0,17,1.0,0,0,17
+EGFR_ENST00000454757,csv,ENST00000454757.6,1165,1,1090,1084,6,1084,1.0,0,0,1084
+EGFR_ENST00000454757,mutations,ENST00000454757.6,1165,1,15,15,0,15,1.0,0,0,15
+ESR1,csv,ENST00000440973.5 (ESR1) length=595,595,1,427,426,1,426,1.0,0,0,426
+ESR1,mutations,ENST00000440973.5 (ESR1) length=595,595,1,8,7,1,7,1.0,0,0,7
+ESR1_ENST00000206249,csv,NP_000116.2 estrogen receptor isoform 1 [Homo sapiens],595,1,417,416,1,416,1.0,0,0,416
+ESR1_ENST00000206249,mutations,NP_000116.2 estrogen receptor isoform 1 [Homo sapiens],595,1,7,7,0,7,1.0,0,0,7
+FGFR2_ENST00000346997,csv,NP_001307587.1 fibroblast growth factor receptor 2 isoform 1,819,1,553,552,1,552,1.0,0,0,552
+FGFR2_ENST00000346997,mutations,NP_001307587.1 fibroblast growth factor receptor 2 isoform 1,819,1,2,2,0,2,1.0,0,0,2
+FGFR2_ENST00000457416,csv,NP_075259.4 fibroblast growth factor receptor 2 isoform 2 pr,822,1,543,542,1,542,1.0,0,0,542
+FGFR2_ENST00000457416,mutations,NP_075259.4 fibroblast growth factor receptor 2 isoform 2 pr,822,1,2,2,0,2,1.0,0,0,2
+FLT3,csv,NP_004110.2 FLT3 [organism=Homo sapiens] [GeneID=2322],993,11,845,839,6,838,0.999,0,0,838
+FLT3,mutations,NP_004110.2 FLT3 [organism=Homo sapiens] [GeneID=2322],993,11,7,6,1,6,1.0,0,0,6
+IDH1_ENST00000345146,csv,NP_005887.2 isocitrate dehydrogenase [NADP] cytoplasmic [Hom,414,1,233,232,1,232,1.0,0,0,232
+IDH1_ENST00000345146,mutations,NP_005887.2 isocitrate dehydrogenase [NADP] cytoplasmic [Hom,414,1,1,1,0,1,1.0,0,0,1
+IDH1_ENST00000415913,csv,NP_001269315.1 isocitrate dehydrogenase [NADP] cytoplasmic [,414,1,244,242,2,242,1.0,0,0,242
+IDH1_ENST00000415913,mutations,NP_001269315.1 isocitrate dehydrogenase [NADP] cytoplasmic [,414,1,6,6,0,6,1.0,0,0,6
+JAK1,csv,NP_001307852.1 JAK1 [organism=Homo sapiens] [GeneID=3716] [i,1154,15,595,595,0,595,1.0,0,0,595
+JAK1,mutations,NP_001307852.1 JAK1 [organism=Homo sapiens] [GeneID=3716] [i,1154,15,1,0,1,0,,0,0,0
+JAK2,csv,NP_001309123.1 JAK2 [organism=Homo sapiens] [GeneID=3717] [i,1132,7,572,568,4,568,1.0,0,0,568
+JAK2,mutations,NP_001309123.1 JAK2 [organism=Homo sapiens] [GeneID=3717] [i,1132,7,1,0,1,0,,0,0,0
+KIT,csv,NP_000213.1 KIT [organism=Homo sapiens] [GeneID=3815] [isofo,976,8,987,974,13,974,1.0,0,0,974
+KIT,mutations,NP_000213.1 KIT [organism=Homo sapiens] [GeneID=3815] [isofo,976,8,28,24,4,24,1.0,0,0,24
+MAP2K1,csv,NP_001397994.1 MAP2K1 [organism=Homo sapiens] [GeneID=5604] ,345,6,219,219,0,11,0.05,21,-48,113
+MAP2K1,mutations,NP_001397994.1 MAP2K1 [organism=Homo sapiens] [GeneID=5604] ,345,6,3,3,0,0,0.0,0,-22,3
+MAP2K2,csv,NP_109587.1 MAP2K2 [organism=Homo sapiens] [GeneID=5605],400,5,220,220,0,220,1.0,0,0,220
+MAP2K2,mutations,NP_109587.1 MAP2K2 [organism=Homo sapiens] [GeneID=5605],400,5,1,1,0,1,1.0,0,0,1
+MET,csv,NP_001120972.1 hepatocyte growth factor receptor isoform a p,1408,1,884,883,1,883,1.0,0,0,883
+MET,mutations,NP_001120972.1 hepatocyte growth factor receptor isoform a p,1408,1,9,8,1,8,1.0,0,0,8
+MET_ENST00000397752,csv,NP_000236.2 hepatocyte growth factor receptor isoform b prep,1390,1,849,848,1,848,1.0,0,0,848
+MET_ENST00000397752,mutations,NP_000236.2 hepatocyte growth factor receptor isoform b prep,1390,1,4,4,0,4,1.0,0,0,4
+NT5C2,csv,NP_036361.1 cytosolic purine 5'-nucleotidase isoform 1 [Homo,561,1,149,149,0,149,1.0,0,0,149
+NT5C2,mutations,NP_036361.1 cytosolic purine 5'-nucleotidase isoform 1 [Homo,561,1,23,18,5,18,1.0,0,0,18
+NT5C2_ENST00000404739,csv,NP_001338098.1 cytosolic purine 5'-nucleotidase isoform 1 [H,561,1,148,148,0,148,1.0,0,0,148
+NT5C2_ENST00000404739,mutations,NP_001338098.1 cytosolic purine 5'-nucleotidase isoform 1 [H,561,1,22,17,5,17,1.0,0,0,17
+NT5C2_ENST00000470299,csv,"tr|S4R3E7|S4R3E7_HUMAN 5'-nucleotidase, cytosolic II OS=Homo",44,1,12,12,0,12,1.0,0,0,12
+NT5C2_ENST00000470299,mutations,"tr|S4R3E7|S4R3E7_HUMAN 5'-nucleotidase, cytosolic II OS=Homo",44,1,2,1,1,1,1.0,0,0,1
+PDGFRA,csv,NP_001334756.1 PDGFRA [organism=Homo sapiens] [GeneID=5156] ,807,13,951,945,6,644,0.681,278,0,644
+PDGFRA,mutations,NP_001334756.1 PDGFRA [organism=Homo sapiens] [GeneID=5156] ,807,13,4,2,2,1,0.5,1,0,1
+SMO,csv,NP_005622.1 SMO [organism=Homo sapiens] [GeneID=6608],787,3,493,492,1,492,1.0,0,0,492
+SMO,mutations,NP_005622.1 SMO [organism=Homo sapiens] [GeneID=6608],787,3,18,18,0,18,1.0,0,0,18

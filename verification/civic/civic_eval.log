@@ -1,0 +1,101 @@
+<string>:52: RuntimeWarning: Degrees of freedom <= 0 for slice
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+<string>:52: RuntimeWarning: Degrees of freedom <= 0 for slice
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+<string>:52: RuntimeWarning: Degrees of freedom <= 0 for slice
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+<string>:52: RuntimeWarning: Degrees of freedom <= 0 for slice
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+<string>:52: RuntimeWarning: Degrees of freedom <= 0 for slice
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+<string>:52: RuntimeWarning: Degrees of freedom <= 0 for slice
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+
+===== A_all_civic =====
+ABL1_ENST00000318560       40 pos /   610 neg
+    MultiPASS  AUC=0.856 CI[0.822-0.890] AUPRC=0.195
+    pos_only   AUC=0.826 CI[0.791-0.859] AUPRC=0.170  p=0.0367  pHolm=1.000
+    full_gbm   AUC=0.896 CI[0.863-0.926] AUPRC=0.309  p=0.0044  pHolm=0.150
+    subst_lr   AUC=0.722 CI[0.615-0.811] AUPRC=0.180  p=0.0103  pHolm=0.330
+ALK                        13 pos /  1098 neg
+    MultiPASS  AUC=0.906 CI[0.803-0.974] AUPRC=0.139
+    pos_only   AUC=0.940 CI[0.897-0.972] AUPRC=0.120  p=0.2287  pHolm=1.000
+    full_gbm   AUC=0.903 CI[0.776-0.983] AUPRC=0.174  p=0.9594  pHolm=1.000
+    subst_lr   AUC=0.550 CI[0.393-0.699] AUPRC=0.015  p=0.0005  pHolm=0.018
+EGFR                       10 pos /  1190 neg
+    MultiPASS  AUC=0.641 CI[0.482-0.804] AUPRC=0.026
+    pos_only   AUC=0.580 CI[0.365-0.796] AUPRC=0.020  p=0.4154  pHolm=1.000
+    full_gbm   AUC=0.582 CI[0.402-0.752] AUPRC=0.013  p=0.4720  pHolm=1.000
+    subst_lr   AUC=0.433 CI[0.203-0.658] AUPRC=0.017  p=0.2832  pHolm=1.000
+KIT                        14 pos /   933 neg
+    MultiPASS  AUC=0.886 CI[0.775-0.972] AUPRC=0.263
+    pos_only   AUC=0.843 CI[0.718-0.938] AUPRC=0.116  p=0.0209  pHolm=0.648
+    full_gbm   AUC=0.788 CI[0.660-0.913] AUPRC=0.165  p=0.0045  pHolm=0.150
+    subst_lr   AUC=0.614 CI[0.450-0.793] AUPRC=0.051  p=0.0028  pHolm=0.098
+NT5C2                       5 pos /   124 neg
+    MultiPASS  AUC=0.642 CI[0.285-0.934] AUPRC=0.152
+    pos_only   AUC=0.575 CI[0.207-0.926] AUPRC=0.102  p=0.2873  pHolm=1.000
+    full_gbm   AUC=0.751 CI[0.414-0.969] AUPRC=0.236  p=0.3311  pHolm=1.000
+    subst_lr   AUC=0.663 CI[0.560-0.760] AUPRC=0.063  p=0.9191  pHolm=1.000
+SMO                         2 pos /   452 neg
+    MultiPASS  AUC=0.838 CI[0.653-1.000] AUPRC=0.507
+    pos_only   AUC=0.832 CI[0.644-0.993] AUPRC=0.069  p=0.6147  pHolm=1.000
+    full_gbm   AUC=0.836 CI[0.673-0.985] AUPRC=0.049  p=0.9290  pHolm=1.000
+    subst_lr   AUC=0.038 CI[0.007-0.077] AUPRC=0.003  p=0.0000  pHolm=0.000
+POOLED                     84 pos /  4407 neg
+    MultiPASS  AUC=0.821 CI[0.774-0.863] AUPRC=0.104
+    pos_only   AUC=0.799 CI[0.746-0.846] AUPRC=0.072  p=0.1008  pHolm=1.000
+    full_gbm   AUC=0.828 CI[0.780-0.874] AUPRC=0.096  p=0.7096  pHolm=1.000
+    subst_lr   AUC=0.619 CI[0.548-0.687] AUPRC=0.042  p=0.0000  pHolm=0.000
+
+===== B_discordant =====
+ABL1_ENST00000318560        1 pos /   610 neg
+    MultiPASS  AUC=0.775 CI[0.743-0.807] AUPRC=0.007
+    pos_only   AUC=0.893 CI[0.869-0.916] AUPRC=0.015  p=1.0000  pHolm=1.000
+    full_gbm   AUC=0.970 CI[0.957-0.982] AUPRC=0.053  p=1.0000  pHolm=1.000
+    subst_lr   AUC=0.913 CI[0.890-0.933] AUPRC=0.019  p=1.0000  pHolm=1.000
+ALK                         2 pos /  1098 neg
+    MultiPASS  AUC=0.846 CI[0.812-0.878] AUPRC=0.009
+    pos_only   AUC=0.912 CI[0.877-0.944] AUPRC=0.015  p=0.1159  pHolm=1.000
+    full_gbm   AUC=0.555 CI[0.138-0.965] AUPRC=0.012  p=0.4915  pHolm=1.000
+    subst_lr   AUC=0.474 CI[0.041-0.911] AUPRC=0.005  p=0.4013  pHolm=1.000
+EGFR                        7 pos /  1190 neg
+    MultiPASS  AUC=0.529 CI[0.366-0.692] AUPRC=0.008
+    pos_only   AUC=0.438 CI[0.192-0.671] AUPRC=0.007  p=0.3601  pHolm=1.000
+    full_gbm   AUC=0.505 CI[0.291-0.735] AUPRC=0.009  p=0.8394  pHolm=1.000
+    subst_lr   AUC=0.565 CI[0.271-0.831] AUPRC=0.020  p=0.8666  pHolm=1.000
+KIT                         3 pos /   933 neg
+    MultiPASS  AUC=0.657 CI[0.134-0.951] AUPRC=0.043
+    pos_only   AUC=0.583 CI[0.098-0.874] AUPRC=0.008  p=0.0011  pHolm=0.040
+    full_gbm   AUC=0.561 CI[0.111-0.861] AUPRC=0.015  p=0.2008  pHolm=1.000
+    subst_lr   AUC=0.660 CI[0.462-0.841] AUPRC=0.015  p=0.9873  pHolm=1.000
+SMO                         1 pos /   452 neg
+    MultiPASS  AUC=0.677 CI[0.635-0.721] AUPRC=0.007
+    pos_only   AUC=0.679 CI[0.637-0.726] AUPRC=0.007  p=1.0000  pHolm=1.000
+    full_gbm   AUC=0.697 CI[0.657-0.741] AUPRC=0.007  p=1.0000  pHolm=1.000
+    subst_lr   AUC=0.062 CI[0.040-0.086] AUPRC=0.002  p=1.0000  pHolm=1.000
+POOLED                     14 pos /  4283 neg
+    MultiPASS  AUC=0.626 CI[0.484-0.759] AUPRC=0.006
+    pos_only   AUC=0.596 CI[0.412-0.765] AUPRC=0.006  p=0.5679  pHolm=1.000
+    full_gbm   AUC=0.579 CI[0.410-0.740] AUPRC=0.007  p=0.5429  pHolm=1.000
+    subst_lr   AUC=0.566 CI[0.379-0.751] AUPRC=0.008  p=0.6448  pHolm=1.000
+
+Holm correction applied across 39 DeLong tests in this file

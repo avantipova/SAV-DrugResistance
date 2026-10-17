@@ -1,0 +1,29 @@
+{
+ "target": "ALK",
+ "flat_only": true,
+ "n_pos": 24,
+ "n_neg": 1100,
+ "n_common": 1124,
+ "grid": [
+  "L17_MNA4",
+  "L17_MNA9",
+  "L25_MNA4",
+  "L25_MNA9",
+  "L33_MNA4",
+  "L33_MNA9"
+ ],
+ "flat_auc": {
+  "L17_MNA4": 0.7836,
+  "L17_MNA9": 0.8958,
+  "L25_MNA4": 0.8961,
+  "L25_MNA9": 0.9275,
+  "L33_MNA4": 0.9288,
+  "L33_MNA9": 0.9278
+ },
+ "flat_not_trainable": [],
+ "flat_best_config": "L33_MNA4",
+ "flat_max_auc": 0.9288,
+ "flat_min_auc": 0.7836,
+ "flat_median_auc": 0.9118,
+ "note": "flat grid only; nested selection not run for this target"
+}

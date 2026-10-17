@@ -1,0 +1,13 @@
+target,task,n_pos,n_neg,pos_positions,model,cv,auc,auc_lo,auc_hi,auc_rep_sd,auprc,auprc_lo,auprc_hi,prevalence
+NT5C2,Purine,18,131,14,pos_only,random,0.662,0.482,0.815,0.019,0.328,0.193,0.566,0.1208
+NT5C2,Purine,18,131,14,pos_only,grouped,0.651,0.485,0.805,0.047,0.26,0.164,0.45,0.1208
+NT5C2,Purine,18,131,14,subst_lr,random,0.506,0.403,0.615,0.039,0.12,0.105,0.159,0.1208
+NT5C2,Purine,18,131,14,subst_lr,grouped,0.506,0.389,0.625,0.053,0.121,0.103,0.171,0.1208
+NT5C2,Purine,18,131,14,full_gbm,random,0.718,0.572,0.843,0.055,0.368,0.216,0.572,0.1208
+NT5C2,Purine,18,131,14,full_gbm,grouped,0.693,0.557,0.814,0.051,0.225,0.16,0.398,0.1208
+SMO,Vismodegib,18,474,12,pos_only,random,0.89,0.824,0.943,0.017,0.304,0.163,0.522,0.0366
+SMO,Vismodegib,18,474,12,pos_only,grouped,0.802,0.714,0.888,0.004,0.191,0.094,0.401,0.0366
+SMO,Vismodegib,18,474,12,subst_lr,random,0.582,0.411,0.738,0.026,0.092,0.043,0.241,0.0366
+SMO,Vismodegib,18,474,12,subst_lr,grouped,0.43,0.268,0.59,0.06,0.041,0.028,0.088,0.0366
+SMO,Vismodegib,18,474,12,full_gbm,random,0.891,0.808,0.953,0.015,0.503,0.291,0.714,0.0366
+SMO,Vismodegib,18,474,12,full_gbm,grouped,0.815,0.727,0.89,0.013,0.128,0.083,0.262,0.0366

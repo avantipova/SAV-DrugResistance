@@ -1,0 +1,60 @@
+mutation,set,our_label,d3egfr
+L718V,our EGFR positive (688-875),1,PENDING
+L718Q,our EGFR positive (688-875),1,PENDING
+G719A,our EGFR positive (688-875),1,PENDING
+L747P,our EGFR positive (688-875),1,PENDING
+D761Y,our EGFR positive (688-875),1,PENDING
+M766Q,our EGFR positive (688-875),1,PENDING
+T790M,our EGFR positive (688-875),1,PENDING
+L792V,our EGFR positive (688-875),1,PENDING
+L792F,our EGFR positive (688-875),1,PENDING
+L792H,our EGFR positive (688-875),1,PENDING
+L792P,our EGFR positive (688-875),1,PENDING
+L792R,our EGFR positive (688-875),1,PENDING
+G796S,our EGFR positive (688-875),1,PENDING
+G796R,our EGFR positive (688-875),1,PENDING
+G796D,our EGFR positive (688-875),1,PENDING
+C797S,our EGFR positive (688-875),1,PENDING
+C797G,our EGFR positive (688-875),1,PENDING
+V845E,sampled negative (seed 0),0,PENDING
+K708M,sampled negative (seed 0),0,PENDING
+Y801C,sampled negative (seed 0),0,PENDING
+S811F,sampled negative (seed 0),0,PENDING
+L788F,sampled negative (seed 0),0,PENDING
+A743S,sampled negative (seed 0),0,PENDING
+T785P,sampled negative (seed 0),0,PENDING
+P691T,sampled negative (seed 0),0,PENDING
+G696R,sampled negative (seed 0),0,PENDING
+P741L,sampled negative (seed 0),0,PENDING
+G874S,sampled negative (seed 0),0,PENDING
+R841K,sampled negative (seed 0),0,PENDING
+E829K,sampled negative (seed 0),0,PENDING
+L704F,sampled negative (seed 0),0,PENDING
+A698T,sampled negative (seed 0),0,PENDING
+Q787R,sampled negative (seed 0),0,PENDING
+L861F,sampled negative (seed 0),0,PENDING
+E746G,sampled negative (seed 0),0,PENDING
+R776H,sampled negative (seed 0),0,PENDING
+T854S,sampled negative (seed 0),0,PENDING
+A864T,sampled negative (seed 0),0,PENDING
+L688F,sampled negative (seed 0),0,PENDING
+L833M,sampled negative (seed 0),0,PENDING
+I759L,sampled negative (seed 0),0,PENDING
+F723S,sampled negative (seed 0),0,PENDING
+H805I,sampled negative (seed 0),0,PENDING
+L858R,sampled negative (seed 0),0,OK
+L798H,sampled negative (seed 0),0,PENDING
+G721S,sampled negative (seed 0),0,PENDING
+R776C,sampled negative (seed 0),0,PENDING
+E804G,sampled negative (seed 0),0,PENDING
+L844P,sampled negative (seed 0),0,PENDING
+D837Y,sampled negative (seed 0),0,PENDING
+G719S,canonical-mutation probe,,PENDING
+G719C,canonical-mutation probe,,PENDING
+S768I,canonical-mutation probe,,PENDING
+L861Q,canonical-mutation probe,,OK
+E746K,canonical-mutation probe,,PENDING
+A750P,canonical-mutation probe,,PENDING
+T854A,canonical-mutation probe,,PENDING
+L833V,canonical-mutation probe,,PENDING
+V769L,canonical-mutation probe,,PENDING

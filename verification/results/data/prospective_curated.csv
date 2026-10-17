@@ -1,0 +1,16 @@
+gene,variant,verdict,drug,source,evidence
+BTK,T474I,resistance,pirtobrutinib,"Blood 2026, 10.1182/blood.2024027009","55 acquired BTK mutations in 39 patients, including gatekeeper mutations (T474I/F/S/Y/L, 26%)"
+BTK,L528W,resistance,pirtobrutinib,"Blood 2026, 10.1182/blood.2024027009",kinase-impaired L528W (16%) among 55 acquired BTK mutations in 39 patients
+EGFR,V802F,resistance,osimertinib,"Cancer Sci 2026, 10.1111/cas.70431",secondary Egfr V804F / EGFR V802F established as an on-target osimertinib resistance mechanism
+EGFR,L844V,resistance,osimertinib,"Cancer Drug Resist 2026, 10.20517/cdr.2026.79","on-target resistance mechanisms include additional mutations (C797S/G/N, L718Q, L844V, G724X)"
+FLT3,Y842C,resistance,FLT3 inhibitors,"npj Precis Oncol 2026, 10.1038/s41698-026-01550-7","AML lines harbouring FLT3-ITD and multiple resistant mutations, including D835Y/V/F, Y842C and F691L"
+ESR1,L536R,resistance,endocrine therapy,"Cancer Med 2026, 10.1002/cam4.72208","hotspot ESR1 mutations (D538G, L536R, Y537S) identified in 50% of the metastatic cohort"
+ESR1,L370F,resistance,endocrine therapy,"preprint 2026, 10.21203/rs.3.rs-9781236/v1",non-hotspot L370F ERa mutation confers distinct endocrine therapy sensitivities
+EGFR,L858R,sensitising,-,"Lung Cancer 2026, 10.1016/j.lungcan.2026.109637",described as a common activating mutation and the standard first-line osimertinib indication
+EGFR,S768I,activating,-,"Exp Ther Med 2026, 10.3892/etm.2026.13272","favourable PFS with afatinib/dacomitinib in S768I compound mutations - sensitivity, not resistance"
+EGFR,V843I,germline risk,-,"Ann Med Surg 2026, 10.1097/ms9.0000000000004845","reported as a germline EGFR risk variant for NSCLC, not an acquired resistance mutation"
+EGFR,D761N,activating,-,"CSBJ 2025, 10.1016/j.csbj.2025.07.046",experimental studies suggest S768I and D761N are oncogenic; the paper models overactivation
+EGFR,L747S,unclear,-,"Oncologist 2026, 10.1093/oncolo/oyag227",reported as a compound L747S/L858R case and in a TKI-sensitivity panel; not a resistance call
+FLT3,V579A,not TKI resistance,-,"Ann Hematol 2026, 10.1007/s00277-026-07061-6","rare JMD missense mutation with early relapse after chemotherapy, no TKI resistance claim"
+ABL1,Y167H,not resistance,-,"preprint 2026, 10.21203/rs.3.rs-9989394/v1",de novo SH2-domain mutation paired with SH3 T117P; not a kinase-domain resistance report
+IDH1,R132H,driver,-,"Mol Oncol 2026, 10.1002/1878-0261.70334","the predominant IDH1 driver mutation in glioma, discussed as a mutational-signature artefact"

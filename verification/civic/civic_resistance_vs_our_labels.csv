@@ -1,0 +1,91 @@
+gene,target,variant,wt_matches_reference,civic_levels,civic_therapies,civic_also_contradicted,in_our_variant_set,our_label
+ABL1,ABL1_ENST00000318560,p.E98G,True,C,Imatinib,True,False,absent
+ABL1,ABL1_ENST00000318560,p.M244V,True,"C,D","Bafetinib,Imatinib; Imatinib; Imatinib Mesylate",True,True,positive
+ABL1,ABL1_ENST00000318560,p.L248V,True,"C,D","Axitinib; Imatinib; Imatinib Mesylate; Nilotinib,Dasatinib,Imatinib Mesylate; Nilotinib,Imatinib Mesylate",True,True,positive
+ABL1,ABL1_ENST00000318560,p.L248R,True,D,"Axitinib; Dasatinib,Imatinib Mesylate; Imatinib Mesylate",False,True,positive
+ABL1,ABL1_ENST00000318560,p.G250E,True,"B,C,D","Axitinib; Bafetinib,Imatinib; Imatinib; Imatinib Mesylate; Nilotinib",True,True,positive
+ABL1,ABL1_ENST00000318560,p.Q252H,True,"C,D","Axitinib; Dasatinib; Imatinib; Imatinib Mesylate; Imatinib,Bafetinib",True,True,positive
+ABL1,ABL1_ENST00000318560,p.Y253H,True,"B,C,D","Axitinib; Imatinib Mesylate; Imatinib Mesylate,Nilotinib; Nilotinib,Imatinib Mesylate",True,True,positive
+ABL1,ABL1_ENST00000318560,p.Y253F,True,"C,D",Axitinib; Imatinib,True,True,positive
+ABL1,ABL1_ENST00000318560,p.E255K,True,"C,D","Axitinib; Bosutinib; Dasatinib; Imatinib; Imatinib Mesylate; Imatinib Mesylate,Dasatinib; Imatinib Mesylate,Nilotinib; Nilotinib; Nilotinib,Imatinib Mesylate,Dasatinib",True,True,positive
+ABL1,ABL1_ENST00000318560,p.E255V,True,"C,D","Axitinib; Imatinib; Imatinib Mesylate; Imatinib Mesylate,Nilotinib; Nilotinib; Nilotinib,Imatinib Mesylate",True,True,positive
+ABL1,ABL1_ENST00000318560,p.D276G,True,D,Axitinib; Imatinib; Imatinib Mesylate,True,True,positive
+ABL1,ABL1_ENST00000318560,p.E292V,True,D,Nilotinib,False,True,positive
+ABL1,ABL1_ENST00000318560,p.V299L,True,"B,C,D","Dasatinib; Imatinib Mesylate; Imatinib Mesylate,Dasatinib",False,True,positive
+ABL1,ABL1_ENST00000318560,p.Q300R,True,C,Imatinib Mesylate,True,False,absent
+ABL1,ABL1_ENST00000318560,p.F311I,True,D,Axitinib,True,True,positive
+ABL1,ABL1_ENST00000318560,p.F311L,True,D,"Nilotinib,Imatinib Mesylate",True,True,positive
+ABL1,ABL1_ENST00000318560,p.T315I,True,"B,C,D","Bafetinib,Imatinib,Dasatinib,Nilotinib; Bosutinib; Dasatinib; Dasatinib,Imatinib Mesylate; Dasatinib,Imatinib,Nilotinib; Imatinib; Imatinib Mesylate; Imatinib Mesylate,Dasatinib; Imatinib Mesylate,Dasatinib,Nilotinib; Imatinib,Dasatinib,Nilotinib; Nilotinib; Nilotinib,Dasatinib; Nilotinib,Imatinib Mesylate",True,True,positive
+ABL1,ABL1_ENST00000318560,p.T315A,True,D,"Dasatinib; Dasatinib,Imatinib",True,True,positive
+ABL1,ABL1_ENST00000318560,p.F317L,True,"B,C,D","Axitinib; Dasatinib; Imatinib; Imatinib Mesylate; Imatinib,Dasatinib",True,True,positive
+ABL1,ABL1_ENST00000318560,p.F317V,True,"B,D",Axitinib; Dasatinib,True,True,positive
+ABL1,ABL1_ENST00000318560,p.F317I,True,D,Dasatinib,False,True,positive
+ABL1,ABL1_ENST00000318560,p.F317S,True,D,Dasatinib,False,False,absent
+ABL1,ABL1_ENST00000318560,p.F317C,True,D,Dasatinib,False,True,positive
+ABL1,ABL1_ENST00000318560,p.F317R,True,D,Axitinib,False,True,positive
+ABL1,ABL1_ENST00000318560,p.N336S,True,C,Imatinib Mesylate,True,False,absent
+ABL1,ABL1_ENST00000318560,p.M343T,True,D,Axitinib,False,True,positive
+ABL1,ABL1_ENST00000318560,p.M351T,True,"C,D",Axitinib; Imatinib; Imatinib Mesylate,True,True,positive
+ABL1,ABL1_ENST00000318560,p.E355G,True,"C,D",Imatinib; Imatinib Mesylate,True,True,positive
+ABL1,ABL1_ENST00000318560,p.F359V,True,"C,D","Dasatinib; Imatinib; Imatinib Mesylate; Imatinib Mesylate,Nilotinib; Nilotinib",True,True,positive
+ABL1,ABL1_ENST00000318560,p.F359C,True,"C,D","Imatinib Mesylate; Imatinib Mesylate,Nilotinib; Nilotinib,Imatinib Mesylate",True,True,positive
+ABL1,ABL1_ENST00000318560,p.F359I,True,"C,D",Axitinib; Imatinib Mesylate,True,True,positive
+ABL1,ABL1_ENST00000318560,p.D363G,True,C,Imatinib,False,True,negative
+ABL1,ABL1_ENST00000318560,p.L364I,True,C,Imatinib,True,True,positive
+ABL1,ABL1_ENST00000318560,p.V379I,True,"C,D",Imatinib Mesylate,True,True,positive
+ABL1,ABL1_ENST00000318560,p.L384M,True,"C,D","Dasatinib; Nilotinib,Imatinib Mesylate",True,True,positive
+ABL1,ABL1_ENST00000318560,p.L387F,True,"C,D",Bosutinib; Imatinib Mesylate; Nilotinib,False,True,positive
+ABL1,ABL1_ENST00000318560,p.H396R,True,"C,D",Axitinib; Bosutinib; Imatinib; Imatinib Mesylate,True,True,positive
+ABL1,ABL1_ENST00000318560,p.H396P,True,D,"Imatinib; Imatinib Mesylate,Nilotinib",True,True,positive
+ABL1,ABL1_ENST00000318560,p.A397P,True,C,Imatinib Mesylate,True,True,positive
+ABL1,ABL1_ENST00000318560,p.S417Y,True,C,Imatinib,False,True,positive
+ABL1,ABL1_ENST00000318560,p.S438C,True,C,Dasatinib,False,True,positive
+ABL1,ABL1_ENST00000318560,p.E453A,True,C,Imatinib Mesylate,True,True,positive
+ABL1,ABL1_ENST00000318560,p.E459K,True,C,Imatinib; Imatinib Mesylate,True,True,positive
+ABL1,ABL1_ENST00000318560,p.C475V,True,C,Imatinib Mesylate,True,False,absent
+ABL1,ABL1_ENST00000318560,p.F486S,True,C,Bosutinib; Imatinib; Imatinib Mesylate,True,True,positive
+ALK,ALK,p.L1152R,True,C,Crizotinib,False,True,positive
+ALK,ALK,p.C1156Y,True,"C,D","Crizotinib; Crizotinib,Luminespib,Ceritinib; Lorlatinib",False,True,positive
+ALK,ALK,p.I1171N,True,C,"Alectinib; Crizotinib,Alectinib; Lorlatinib",False,True,positive
+ALK,ALK,p.I1171S,True,C,"Alectinib,Crizotinib",False,True,positive
+ALK,ALK,p.F1174L,True,"C,D",Crizotinib,False,True,positive
+ALK,ALK,p.V1180L,True,D,Alectinib; Crizotinib,False,True,positive
+ALK,ALK,p.L1196M,True,"C,D",Alectinib; Crizotinib; Lorlatinib,False,True,positive
+ALK,ALK,p.L1198F,True,C,Lorlatinib,False,True,positive
+ALK,ALK,p.G1202R,True,"C,D",Alectinib; Brigatinib; Ceritinib; Crizotinib; Lorlatinib,False,True,positive
+ALK,ALK,p.S1206Y,True,D,Crizotinib,False,True,positive
+ALK,ALK,p.F1245C,True,"C,D",Crizotinib,False,True,negative
+ALK,ALK,p.G1269A,True,"C,D",Alectinib; Crizotinib,False,True,positive
+ALK,ALK,p.R1275Q,True,D,ALK Inhibitor TAE684,False,True,negative
+EGFR,EGFR,p.V441F,True,E,"Cetuximab,Panitumumab",False,False,absent
+EGFR,EGFR,p.G465R,True,C,"Panitumumab,Cetuximab",False,True,negative
+EGFR,EGFR,p.K467T,True,D,Cetuximab,False,True,negative
+EGFR,EGFR,p.S492R,True,"C,D",Cetuximab,False,True,negative
+EGFR,EGFR,p.D761Y,True,C,"Erlotinib,Gefitinib",False,True,positive
+EGFR,EGFR,p.S768I,True,C,Erlotinib,False,True,negative
+EGFR,EGFR,p.T790M,True,"A,B,C,D","Afatinib; Dacomitinib; Erlotinib; Erlotinib,Gefitinib; Erlotinib,Gefitinib,Multikinase Inhibitor AEE788; Gefitinib; Gefitinib,Erlotinib; Gefitinib,Multikinase Inhibitor AEE788; Icotinib; Lapatinib; Osimertinib",False,True,positive
+EGFR,EGFR,p.C797S,True,"B,C",Osimertinib,False,True,positive
+EGFR,EGFR,p.N826S,True,D,Erlotinib,False,True,negative
+EGFR,EGFR,p.L838V,True,D,"Gefitinib,Erlotinib",False,True,negative
+EGFR,EGFR,p.L858R,True,C,Crizotinib,False,True,negative
+KIT,KIT,p.V560D,True,C,Sunitinib,True,True,negative
+KIT,KIT,p.L576P,True,"C,D","Sorafenib,Imatinib,Nilotinib; Sunitinib",False,True,negative
+KIT,KIT,p.V654A,True,D,Imatinib,False,True,positive
+KIT,KIT,p.T670I,True,"C,D",Imatinib; Regorafenib Anhydrous,True,True,positive
+KIT,KIT,p.C809G,True,C,Imatinib,False,True,positive
+KIT,KIT,p.D816V,True,"B,D","Dasatinib,Imatinib; Imatinib",False,True,negative
+KIT,KIT,p.D816H,True,C,Imatinib,False,True,positive
+KIT,KIT,p.D816E,True,D,"Sunitinib,Imatinib",True,True,positive
+KIT,KIT,p.D820Y,True,C,Imatinib,False,True,positive
+KIT,KIT,p.D820A,True,C,Imatinib,False,True,positive
+KIT,KIT,p.D820G,True,C,Imatinib,False,True,positive
+KIT,KIT,p.N822K,True,"C,D","Imatinib; Regorafenib Anhydrous; Sunitinib,Imatinib",True,True,positive
+KIT,KIT,p.Y823D,True,C,Imatinib,False,True,positive
+KIT,KIT,p.A829P,True,D,"Imatinib,Sunitinib",True,True,positive
+NT5C2,NT5C2,p.R238W,True,D,"Mercaptopurine,Thioguanine",True,True,positive
+NT5C2,NT5C2,p.K359Q,True,D,"Thioguanine,Mercaptopurine",True,True,positive
+NT5C2,NT5C2,p.R367Q,True,"C,D","Mercaptopurine,Thioguanine; Thioguanine,Mercaptopurine",True,True,positive
+NT5C2,NT5C2,p.D407A,True,D,"Mercaptopurine,Thioguanine",True,True,positive
+NT5C2,NT5C2,p.S445F,True,D,"Thioguanine,Mercaptopurine",True,True,positive
+SMO,SMO,p.L412F,True,"C,D",Vismodegib,False,True,negative
+SMO,SMO,p.D473H,True,"C,D",Vismodegib,False,True,positive

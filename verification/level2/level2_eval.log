@@ -1,0 +1,188 @@
+
+################  full  ################
+
+ABL1_ENST00000318560   n=696 (93 pos / 603 neg), dropped 16 for missing external scores
+   full_gbm       trained_here AUC=0.873 CI[0.843-0.903] AUPRC=0.489  p=0.3396  Holm=1.000
+  *MultiPASS      trained_here AUC=0.862 CI[0.833-0.891] AUPRC=0.382
+   pos_only       trained_here AUC=0.839 CI[0.808-0.870] AUPRC=0.333  p=0.0254  Holm=1.000
+   REVEL          external     AUC=0.800 CI[0.764-0.832] AUPRC=0.274  p=0.0008  Holm=0.082
+   AlphaMissense  external     AUC=0.741 CI[0.701-0.778] AUPRC=0.222  p=0.0000  Holm=0.000
+   CADD           external     AUC=0.691 CI[0.649-0.735] AUPRC=0.199  p=0.0000  Holm=0.000
+   subst_lr       trained_here AUC=0.662 CI[0.593-0.726] AUPRC=0.249  p=0.0000  Holm=0.000
+   PolyPhen2      external     AUC=0.622 CI[0.577-0.672] AUPRC=0.166  p=0.0000  Holm=0.000
+   SIFT_neg       external     AUC=0.617 CI[0.561-0.667] AUPRC=0.177  p=0.0000  Holm=0.000
+   ESM2_150M_neg  external     AUC=0.551 CI[0.488-0.610] AUPRC=0.147  p=0.0000  Holm=0.000
+   ESM2_650M_neg  external     AUC=0.547 CI[0.483-0.609] AUPRC=0.153  p=0.0000  Holm=0.000
+
+ALK   n=1114 (24 pos / 1090 neg), dropped 10 for missing external scores
+   pos_only       trained_here AUC=0.951 CI[0.922-0.972] AUPRC=0.224  p=0.2389  Holm=1.000
+  *MultiPASS      trained_here AUC=0.930 CI[0.866-0.976] AUPRC=0.262
+   full_gbm       trained_here AUC=0.920 CI[0.844-0.977] AUPRC=0.288  p=0.7776  Holm=1.000
+   REVEL          external     AUC=0.892 CI[0.859-0.925] AUPRC=0.111  p=0.2632  Holm=1.000
+   AlphaMissense  external     AUC=0.812 CI[0.759-0.864] AUPRC=0.060  p=0.0045  Holm=0.418
+   SIFT_neg       external     AUC=0.748 CI[0.656-0.822] AUPRC=0.046  p=0.0000  Holm=0.000
+   ESM2_650M_neg  external     AUC=0.730 CI[0.656-0.794] AUPRC=0.040  p=0.0000  Holm=0.000
+   PolyPhen2      external     AUC=0.714 CI[0.639-0.778] AUPRC=0.038  p=0.0000  Holm=0.000
+   ESM2_150M_neg  external     AUC=0.675 CI[0.554-0.775] AUPRC=0.038  p=0.0000  Holm=0.000
+   CADD           external     AUC=0.638 CI[0.575-0.700] AUPRC=0.028  p=0.0000  Holm=0.000
+   subst_lr       trained_here AUC=0.436 CI[0.336-0.550] AUPRC=0.019  p=0.0000  Holm=0.000
+
+EGFR   n=1180 (16 pos / 1164 neg), dropped 34 for missing external scores
+  *MultiPASS      trained_here AUC=0.927 CI[0.876-0.970] AUPRC=0.557
+   pos_only       trained_here AUC=0.924 CI[0.881-0.963] AUPRC=0.242  p=0.8911  Holm=1.000
+   full_gbm       trained_here AUC=0.889 CI[0.824-0.944] AUPRC=0.172  p=0.1625  Holm=1.000
+   AlphaMissense  external     AUC=0.768 CI[0.699-0.835] AUPRC=0.032  p=0.0020  Holm=0.192
+   PolyPhen2      external     AUC=0.761 CI[0.704-0.809] AUPRC=0.029  p=0.0000  Holm=0.000
+   SIFT_neg       external     AUC=0.728 CI[0.614-0.825] AUPRC=0.029  p=0.0047  Holm=0.432
+   REVEL          external     AUC=0.728 CI[0.643-0.816] AUPRC=0.032  p=0.0007  Holm=0.073
+   ESM2_650M_neg  external     AUC=0.716 CI[0.622-0.808] AUPRC=0.032  p=0.0006  Holm=0.064
+   CADD           external     AUC=0.698 CI[0.596-0.803] AUPRC=0.026  p=0.0000  Holm=0.000
+   ESM2_150M_neg  external     AUC=0.680 CI[0.549-0.798] AUPRC=0.025  p=0.0009  Holm=0.091
+   subst_lr       trained_here AUC=0.646 CI[0.484-0.800] AUPRC=0.028  p=0.0022  Holm=0.209
+
+KIT   n=939 (23 pos / 916 neg), dropped 21 for missing external scores
+  *MultiPASS      trained_here AUC=0.908 CI[0.850-0.956] AUPRC=0.318
+   pos_only       trained_here AUC=0.869 CI[0.773-0.939] AUPRC=0.202  p=0.0651  Holm=1.000
+   full_gbm       trained_here AUC=0.831 CI[0.732-0.913] AUPRC=0.230  p=0.0040  Holm=0.376
+   AlphaMissense  external     AUC=0.816 CI[0.725-0.889] AUPRC=0.080  p=0.0307  Holm=1.000
+   REVEL          external     AUC=0.804 CI[0.722-0.872] AUPRC=0.072  p=0.0151  Holm=1.000
+   CADD           external     AUC=0.779 CI[0.698-0.847] AUPRC=0.060  p=0.0017  Holm=0.165
+   PolyPhen2      external     AUC=0.730 CI[0.644-0.798] AUPRC=0.048  p=0.0001  Holm=0.011
+   subst_lr       trained_here AUC=0.713 CI[0.593-0.828] AUPRC=0.090  p=0.0011  Holm=0.109
+   SIFT_neg       external     AUC=0.656 CI[0.563-0.738] AUPRC=0.036  p=0.0000  Holm=0.000
+   ESM2_650M_neg  external     AUC=0.576 CI[0.488-0.665] AUPRC=0.028  p=0.0000  Holm=0.000
+   ESM2_150M_neg  external     AUC=0.555 CI[0.454-0.641] AUPRC=0.027  p=0.0000  Holm=0.000
+
+NT5C2   n=142 (18 pos / 124 neg), dropped 0 for missing external scores
+   AlphaMissense  external     AUC=0.774 CI[0.663-0.870] AUPRC=0.330  p=0.2317  Holm=1.000
+   ESM2_150M_neg  external     AUC=0.764 CI[0.659-0.855] AUPRC=0.271  p=0.4408  Holm=1.000
+   CADD           external     AUC=0.750 CI[0.624-0.860] AUPRC=0.260  p=0.4495  Holm=1.000
+   full_gbm       trained_here AUC=0.741 CI[0.598-0.869] AUPRC=0.378  p=0.4539  Holm=1.000
+   ESM2_650M_neg  external     AUC=0.720 CI[0.611-0.822] AUPRC=0.259  p=0.7173  Holm=1.000
+   SIFT_neg       external     AUC=0.704 CI[0.574-0.819] AUPRC=0.211  p=0.9144  Holm=1.000
+  *MultiPASS      trained_here AUC=0.696 CI[0.563-0.827] AUPRC=0.283
+   pos_only       trained_here AUC=0.660 CI[0.497-0.818] AUPRC=0.351  p=0.4215  Holm=1.000
+   REVEL          external     AUC=0.659 CI[0.540-0.769] AUPRC=0.257  p=0.6493  Holm=1.000
+   PolyPhen2      external     AUC=0.650 CI[0.506-0.785] AUPRC=0.211  p=0.6005  Holm=1.000
+   subst_lr       trained_here AUC=0.487 CI[0.355-0.618] AUPRC=0.122  p=0.0493  Holm=1.000
+
+SMO   n=468 (18 pos / 450 neg), dropped 3 for missing external scores
+   full_gbm       trained_here AUC=0.844 CI[0.769-0.904] AUPRC=0.147  p=0.6480  Holm=1.000
+  *MultiPASS      trained_here AUC=0.823 CI[0.727-0.917] AUPRC=0.382
+   AlphaMissense  external     AUC=0.801 CI[0.722-0.868] AUPRC=0.106  p=0.6947  Holm=1.000
+   pos_only       trained_here AUC=0.785 CI[0.700-0.871] AUPRC=0.175  p=0.4159  Holm=1.000
+   REVEL          external     AUC=0.746 CI[0.663-0.836] AUPRC=0.093  p=0.1876  Holm=1.000
+   CADD           external     AUC=0.692 CI[0.570-0.812] AUPRC=0.075  p=0.1312  Holm=1.000
+   ESM2_650M_neg  external     AUC=0.685 CI[0.594-0.777] AUPRC=0.064  p=0.0793  Holm=1.000
+   PolyPhen2      external     AUC=0.673 CI[0.534-0.795] AUPRC=0.073  p=0.0436  Holm=1.000
+   ESM2_150M_neg  external     AUC=0.624 CI[0.486-0.742] AUPRC=0.068  p=0.0158  Holm=1.000
+   SIFT_neg       external     AUC=0.622 CI[0.509-0.740] AUPRC=0.054  p=0.0228  Holm=1.000
+   subst_lr       trained_here AUC=0.453 CI[0.293-0.626] AUPRC=0.070  p=0.0008  Holm=0.082
+
+POOLED   n=4539 (192 pos / 4347 neg), dropped 0 for missing external scores
+  *MultiPASS      trained_here AUC=0.847 CI[0.824-0.869] AUPRC=0.239
+   full_gbm       trained_here AUC=0.844 CI[0.820-0.866] AUPRC=0.214  p=0.7707  Holm=1.000
+   pos_only       trained_here AUC=0.828 CI[0.803-0.853] AUPRC=0.172  p=0.0266  Holm=1.000
+   REVEL          external     AUC=0.775 CI[0.751-0.798] AUPRC=0.097  p=0.0000  Holm=0.000
+   AlphaMissense  external     AUC=0.759 CI[0.735-0.784] AUPRC=0.091  p=0.0000  Holm=0.000
+   CADD           external     AUC=0.692 CI[0.661-0.718] AUPRC=0.068  p=0.0000  Holm=0.000
+   PolyPhen2      external     AUC=0.670 CI[0.635-0.704] AUPRC=0.075  p=0.0000  Holm=0.000
+   SIFT_neg       external     AUC=0.656 CI[0.619-0.692] AUPRC=0.070  p=0.0000  Holm=0.000
+   ESM2_650M_neg  external     AUC=0.614 CI[0.578-0.651] AUPRC=0.056  p=0.0000  Holm=0.000
+   ESM2_150M_neg  external     AUC=0.601 CI[0.562-0.641] AUPRC=0.053  p=0.0000  Holm=0.000
+   subst_lr       trained_here AUC=0.596 CI[0.549-0.648] AUPRC=0.066  p=0.0000  Holm=0.000
+
+################  region  ################
+
+ABL1_ENST00000318560   n=300 (93 pos / 207 neg), dropped 11 for missing external scores
+   full_gbm       trained_here AUC=0.606 CI[0.536-0.671] AUPRC=0.415  p=0.4774  Holm=1.000
+  *MultiPASS      trained_here AUC=0.583 CI[0.517-0.657] AUPRC=0.376
+   subst_lr       trained_here AUC=0.574 CI[0.499-0.650] AUPRC=0.390  p=0.8481  Holm=1.000
+   REVEL          external     AUC=0.544 CI[0.476-0.612] AUPRC=0.325  p=0.4010  Holm=1.000
+   pos_only       trained_here AUC=0.521 CI[0.447-0.591] AUPRC=0.316  p=0.0259  Holm=1.000
+   SIFT_neg       external     AUC=0.494 CI[0.425-0.558] AUPRC=0.303  p=0.0771  Holm=1.000
+   PolyPhen2      external     AUC=0.481 CI[0.413-0.540] AUPRC=0.287  p=0.0359  Holm=1.000
+   CADD           external     AUC=0.471 CI[0.400-0.535] AUPRC=0.287  p=0.0223  Holm=1.000
+   AlphaMissense  external     AUC=0.471 CI[0.394-0.530] AUPRC=0.277  p=0.0203  Holm=1.000
+   ESM2_650M_neg  external     AUC=0.402 CI[0.341-0.460] AUPRC=0.255  p=0.0004  Holm=0.044
+   ESM2_150M_neg  external     AUC=0.400 CI[0.336-0.461] AUPRC=0.248  p=0.0003  Holm=0.033
+
+ALK   n=158 (24 pos / 134 neg), dropped 3 for missing external scores
+   full_gbm       trained_here AUC=0.705 CI[0.589-0.813] AUPRC=0.295  p=0.5659  Holm=1.000
+   pos_only       trained_here AUC=0.697 CI[0.591-0.800] AUPRC=0.249  p=0.5341  Holm=1.000
+  *MultiPASS      trained_here AUC=0.672 CI[0.563-0.792] AUPRC=0.226
+   REVEL          external     AUC=0.549 CI[0.441-0.656] AUPRC=0.170  p=0.1549  Holm=1.000
+   subst_lr       trained_here AUC=0.509 CI[0.390-0.612] AUPRC=0.151  p=0.0656  Holm=1.000
+   SIFT_neg       external     AUC=0.501 CI[0.387-0.624] AUPRC=0.151  p=0.0306  Holm=1.000
+   PolyPhen2      external     AUC=0.472 CI[0.374-0.579] AUPRC=0.141  p=0.0147  Holm=1.000
+   AlphaMissense  external     AUC=0.461 CI[0.365-0.560] AUPRC=0.134  p=0.0096  Holm=0.846
+   ESM2_650M_neg  external     AUC=0.439 CI[0.323-0.563] AUPRC=0.134  p=0.0101  Holm=0.879
+   ESM2_150M_neg  external     AUC=0.419 CI[0.316-0.531] AUPRC=0.127  p=0.0015  Holm=0.147
+   CADD           external     AUC=0.377 CI[0.283-0.473] AUPRC=0.119  p=0.0004  Holm=0.044
+
+EGFR   n=253 (16 pos / 237 neg), dropped 15 for missing external scores
+   full_gbm       trained_here AUC=0.783 CI[0.644-0.898] AUPRC=0.212  p=0.4444  Holm=1.000
+   pos_only       trained_here AUC=0.762 CI[0.606-0.902] AUPRC=0.320  p=0.3528  Holm=1.000
+  *MultiPASS      trained_here AUC=0.731 CI[0.561-0.898] AUPRC=0.550
+   PolyPhen2      external     AUC=0.709 CI[0.625-0.778] AUPRC=0.108  p=0.8215  Holm=1.000
+   subst_lr       trained_here AUC=0.687 CI[0.526-0.837] AUPRC=0.147  p=0.7172  Holm=1.000
+   AlphaMissense  external     AUC=0.661 CI[0.545-0.777] AUPRC=0.100  p=0.5696  Holm=1.000
+   SIFT_neg       external     AUC=0.654 CI[0.517-0.782] AUPRC=0.100  p=0.5646  Holm=1.000
+   ESM2_650M_neg  external     AUC=0.640 CI[0.514-0.755] AUPRC=0.111  p=0.4797  Holm=1.000
+   ESM2_150M_neg  external     AUC=0.614 CI[0.484-0.752] AUPRC=0.090  p=0.3497  Holm=1.000
+   REVEL          external     AUC=0.585 CI[0.439-0.734] AUPRC=0.095  p=0.2518  Holm=1.000
+   CADD           external     AUC=0.534 CI[0.395-0.673] AUPRC=0.080  p=0.0708  Holm=1.000
+
+KIT   n=346 (23 pos / 323 neg), dropped 9 for missing external scores
+  *MultiPASS      trained_here AUC=0.764 CI[0.643-0.873] AUPRC=0.355
+   pos_only       trained_here AUC=0.751 CI[0.637-0.855] AUPRC=0.206  p=0.7107  Holm=1.000
+   full_gbm       trained_here AUC=0.712 CI[0.585-0.844] AUPRC=0.264  p=0.1182  Holm=1.000
+   AlphaMissense  external     AUC=0.692 CI[0.597-0.781] AUPRC=0.111  p=0.2244  Holm=1.000
+   subst_lr       trained_here AUC=0.669 CI[0.546-0.786] AUPRC=0.174  p=0.1408  Holm=1.000
+   REVEL          external     AUC=0.646 CI[0.545-0.754] AUPRC=0.097  p=0.0744  Holm=1.000
+   CADD           external     AUC=0.619 CI[0.520-0.718] AUPRC=0.088  p=0.0172  Holm=1.000
+   PolyPhen2      external     AUC=0.605 CI[0.507-0.696] AUPRC=0.085  p=0.0095  Holm=0.846
+   SIFT_neg       external     AUC=0.488 CI[0.392-0.581] AUPRC=0.064  p=0.0004  Holm=0.044
+   ESM2_650M_neg  external     AUC=0.484 CI[0.399-0.579] AUPRC=0.061  p=0.0009  Holm=0.091
+   ESM2_150M_neg  external     AUC=0.481 CI[0.392-0.583] AUPRC=0.061  p=0.0002  Holm=0.022
+
+NT5C2   n=120 (18 pos / 102 neg), dropped 0 for missing external scores
+   CADD           external     AUC=0.762 CI[0.637-0.878] AUPRC=0.335  p=0.1601  Holm=1.000
+   AlphaMissense  external     AUC=0.760 CI[0.659-0.852] AUPRC=0.345  p=0.1159  Holm=1.000
+   ESM2_150M_neg  external     AUC=0.743 CI[0.618-0.844] AUPRC=0.290  p=0.3083  Holm=1.000
+   full_gbm       trained_here AUC=0.694 CI[0.552-0.821] AUPRC=0.345  p=0.4063  Holm=1.000
+   SIFT_neg       external     AUC=0.692 CI[0.565-0.809] AUPRC=0.237  p=0.5839  Holm=1.000
+   ESM2_650M_neg  external     AUC=0.679 CI[0.544-0.795] AUPRC=0.265  p=0.6271  Holm=1.000
+   REVEL          external     AUC=0.647 CI[0.523-0.765] AUPRC=0.277  p=0.9812  Holm=1.000
+  *MultiPASS      trained_here AUC=0.645 CI[0.499-0.776] AUPRC=0.317
+   PolyPhen2      external     AUC=0.631 CI[0.478-0.768] AUPRC=0.228  p=0.8899  Holm=1.000
+   pos_only       trained_here AUC=0.606 CI[0.455-0.768] AUPRC=0.289  p=0.6050  Holm=1.000
+   subst_lr       trained_here AUC=0.505 CI[0.363-0.640] AUPRC=0.149  p=0.1868  Holm=1.000
+
+SMO   n=221 (18 pos / 203 neg), dropped 1 for missing external scores
+   AlphaMissense  external     AUC=0.686 CI[0.580-0.787] AUPRC=0.137  p=0.6142  Holm=1.000
+   full_gbm       trained_here AUC=0.660 CI[0.539-0.779] AUPRC=0.143  p=0.7563  Holm=1.000
+   CADD           external     AUC=0.658 CI[0.521-0.774] AUPRC=0.139  p=0.8470  Holm=1.000
+  *MultiPASS      trained_here AUC=0.635 CI[0.490-0.792] AUPRC=0.327
+   PolyPhen2      external     AUC=0.607 CI[0.452-0.747] AUPRC=0.119  p=0.7783  Holm=1.000
+   SIFT_neg       external     AUC=0.600 CI[0.473-0.716] AUPRC=0.103  p=0.7689  Holm=1.000
+   pos_only       trained_here AUC=0.584 CI[0.430-0.735] AUPRC=0.193  p=0.2461  Holm=1.000
+   REVEL          external     AUC=0.575 CI[0.438-0.702] AUPRC=0.112  p=0.5369  Holm=1.000
+   ESM2_650M_neg  external     AUC=0.539 CI[0.412-0.649] AUPRC=0.091  p=0.4323  Holm=1.000
+   ESM2_150M_neg  external     AUC=0.494 CI[0.357-0.610] AUPRC=0.095  p=0.2420  Holm=1.000
+   subst_lr       trained_here AUC=0.469 CI[0.302-0.629] AUPRC=0.134  p=0.2433  Holm=1.000
+
+POOLED   n=1398 (192 pos / 1206 neg), dropped 0 for missing external scores
+   full_gbm       trained_here AUC=0.653 CI[0.609-0.696] AUPRC=0.241  p=0.3605  Holm=1.000
+  *MultiPASS      trained_here AUC=0.635 CI[0.591-0.680] AUPRC=0.266
+   pos_only       trained_here AUC=0.607 CI[0.566-0.649] AUPRC=0.201  p=0.0835  Holm=1.000
+   REVEL          external     AUC=0.571 CI[0.530-0.612] AUPRC=0.157  p=0.0266  Holm=1.000
+   subst_lr       trained_here AUC=0.566 CI[0.521-0.618] AUPRC=0.176  p=0.0292  Holm=1.000
+   AlphaMissense  external     AUC=0.566 CI[0.528-0.602] AUPRC=0.154  p=0.0156  Holm=1.000
+   PolyPhen2      external     AUC=0.553 CI[0.508-0.597] AUPRC=0.159  p=0.0056  Holm=0.510
+   SIFT_neg       external     AUC=0.548 CI[0.504-0.586] AUPRC=0.157  p=0.0064  Holm=0.576
+   CADD           external     AUC=0.533 CI[0.485-0.576] AUPRC=0.146  p=0.0007  Holm=0.073
+   ESM2_650M_neg  external     AUC=0.486 CI[0.443-0.524] AUPRC=0.127  p=0.0000  Holm=0.000
+   ESM2_150M_neg  external     AUC=0.481 CI[0.443-0.519] AUPRC=0.123  p=0.0000  Holm=0.000
+
+Holm correction across 140 DeLong tests

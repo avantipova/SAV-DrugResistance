@@ -1,0 +1,119 @@
+====================================================================================================
+1. POWER / MINIMUM DETECTABLE EFFECT
+====================================================================================================
+  PASS  mde_80 == (z_0.975+z_0.80)*se   max dev 0.0006
+  PASS  excl_95 == delta + 1.6449*se   max dev 0.0009
+  PASS  delta_obs == auc_multipass - auc_baseline
+  PASS  bootstrap SE agrees with DeLong SE within 10%   ratio range 0.958-1.021
+  PASS  no cell has |delta_obs| > mde_80 for pos_only
+====================================================================================================
+2. nearest_pos BASELINE -- recomputed from scratch, independent implementation
+====================================================================================================
+  PASS  nearest_pos ABL1_ENST00000318560 full   reported 0.854  recomputed 0.854
+  PASS  nearest_pos ABL1_ENST00000318560 region   reported 0.562  recomputed 0.562
+  PASS  nearest_pos ALK full   reported 0.961  recomputed 0.961
+  PASS  nearest_pos ALK region   reported 0.688  recomputed 0.688
+  PASS  nearest_pos EGFR full   reported 0.958  recomputed 0.958
+  PASS  nearest_pos EGFR region   reported 0.799  recomputed 0.799
+  PASS  nearest_pos KIT full   reported 0.893  recomputed 0.893
+  PASS  nearest_pos KIT region   reported 0.726  recomputed 0.726
+  PASS  nearest_pos NT5C2 full   reported 0.651  recomputed 0.651
+  PASS  nearest_pos NT5C2 region   reported 0.608  recomputed 0.608
+  PASS  nearest_pos SMO full   reported 0.836  recomputed 0.836
+  PASS  nearest_pos SMO region   reported 0.622  recomputed 0.622
+====================================================================================================
+3. CALIBRATION / RECALIBRATION
+====================================================================================================
+  PASS  brier_baserate == prevalence*(1-prevalence)   the Brier of a constant base-rate forecast is p(1-p)
+  PASS  raw Pa worse than base rate in 10 of 12
+  PASS  Platt beats base rate in 12 of 12
+  PASS  both recalibration maps monotone within every fold
+  PASS  Platt leaves within-fold AUC essentially unchanged   max |delta| 0.00080
+  PASS  reliability bins sum to the full variant count   checked per cell below
+  PASS    bins sum ABL1_ENST00000318560 full   712 vs 712
+  PASS    bins sum ABL1_ENST00000318560 region   311 vs 311
+  PASS    bins sum ALK full   1124 vs 1124
+  PASS    bins sum ALK region   161 vs 161
+  PASS    bins sum EGFR full   1214 vs 1214
+  PASS    bins sum EGFR region   268 vs 268
+  PASS    bins sum KIT full   960 vs 960
+  PASS    bins sum KIT region   355 vs 355
+  PASS    bins sum NT5C2 full   142 vs 142
+  PASS    bins sum NT5C2 region   120 vs 120
+  PASS    bins sum SMO full   471 vs 471
+  PASS    bins sum SMO region   222 vs 222
+====================================================================================================
+4. MARGIN SWEEP
+====================================================================================================
+  PASS  n_pos constant across margins within a target   the margin only admits negatives, never changes the positive set
+  PASS  n_neg strictly increases with margin
+  PASS  "full" row has the largest n_neg in every target
+  PASS  MultiPASS AUC rises with margin in all six targets   rho ABL1=+1.00, ALK=+1.00, EGFR=+1.00, KIT=+1.00, NT5C2=+0.52, SMO=+0.83
+  PASS  the position-free control (subst_lr) shows no margin trend   mean rho -0.004
+====================================================================================================
+5. LEAVE-ONE-TARGET-OUT
+====================================================================================================
+  PASS    LOTO variant set identical to main table, ABL1_ENST00000318560 MNA9
+  PASS    LOTO AUC ABL1_ENST00000318560 MNA9   reported 0.635 got 0.635
+  PASS    LOTO variant set identical to main table, ALK MNA9
+  PASS    LOTO AUC ALK MNA9   reported 0.599 got 0.599
+  PASS    LOTO variant set identical to main table, EGFR MNA9
+  PASS    LOTO AUC EGFR MNA9   reported 0.613 got 0.613
+  PASS    LOTO variant set identical to main table, KIT MNA9
+  PASS    LOTO AUC KIT MNA9   reported 0.504 got 0.504
+  PASS    LOTO variant set identical to main table, NT5C2 MNA9
+  PASS    LOTO AUC NT5C2 MNA9   reported 0.573 got 0.573
+  PASS    LOTO variant set identical to main table, SMO MNA9
+  PASS    LOTO AUC SMO MNA9   reported 0.665 got 0.665
+  PASS    LOTO variant set identical to main table, ABL1_ENST00000318560 MNA4
+  PASS    LOTO AUC ABL1_ENST00000318560 MNA4   reported 0.628 got 0.628
+  PASS    LOTO variant set identical to main table, ALK MNA4
+  PASS    LOTO AUC ALK MNA4   reported 0.577 got 0.577
+  PASS    LOTO variant set identical to main table, EGFR MNA4
+  PASS    LOTO AUC EGFR MNA4   reported 0.668 got 0.668
+  PASS    LOTO variant set identical to main table, KIT MNA4
+  PASS    LOTO AUC KIT MNA4   reported 0.619 got 0.619
+  PASS    LOTO variant set identical to main table, NT5C2 MNA4
+  PASS    LOTO AUC NT5C2 MNA4   reported 0.558 got 0.558
+  PASS    LOTO variant set identical to main table, SMO MNA4
+  PASS    LOTO AUC SMO MNA4   reported 0.807 got 0.807
+  PASS    base for held-out ABL1_ENST00000318560 MNA9 trained on exactly the other five   3911 substances, expected 3911
+  PASS    base for held-out ABL1_ENST00000318560 MNA4 trained on exactly the other five   3911 substances, expected 3911
+  PASS    base for held-out ALK MNA9 trained on exactly the other five   3499 substances, expected 3499
+  PASS    base for held-out ALK MNA4 trained on exactly the other five   3499 substances, expected 3499
+  PASS    base for held-out EGFR MNA9 trained on exactly the other five   3409 substances, expected 3409
+  PASS    base for held-out EGFR MNA4 trained on exactly the other five   3409 substances, expected 3409
+  PASS    base for held-out KIT MNA9 trained on exactly the other five   3663 substances, expected 3663
+  PASS    base for held-out KIT MNA4 trained on exactly the other five   3663 substances, expected 3663
+  PASS    base for held-out NT5C2 MNA9 trained on exactly the other five   4481 substances, expected 4481
+  PASS    base for held-out NT5C2 MNA4 trained on exactly the other five   4481 substances, expected 4481
+  FAIL    base for held-out SMO MNA9 trained on exactly the other five   4093 substances, expected 4152
+  PASS    base for held-out SMO MNA4 trained on exactly the other five   4152 substances, expected 4152
+====================================================================================================
+6. NESTED CONFIGURATION SEARCH
+====================================================================================================
+  PASS    NT5C2: optimism == flat_max - nested   0.7099 - 0.5762 = 0.1337
+  PASS    NT5C2: flat_max is really the max over the grid
+  PASS    NT5C2: flat_best_config matches that max
+  PASS    NT5C2: the five held-out folds are disjoint
+  PASS    NT5C2: held-out folds cover the common variant set   142 vs 142
+  PASS    ABL1_ENST00000318560: optimism == flat_max - nested   0.8436 - 0.8242 = 0.0194
+  PASS    ABL1_ENST00000318560: flat_max is really the max over the grid
+  PASS    ABL1_ENST00000318560: flat_best_config matches that max
+  PASS    ABL1_ENST00000318560: the five held-out folds are disjoint
+  PASS    ABL1_ENST00000318560: held-out folds cover the common variant set   707 vs 707
+====================================================================================================
+85 checks passed, 1 failed
+FAILURES:
+    base for held-out SMO MNA9 trained on exactly the other five: 4093 substances, expected 4152
+
+NOT verified by this script:
+  * MultiPASS's own internals -- a closed Win32 binary.
+  * That MNA 9 and MNA 4 are the right levels for a cross-protein base. Both were run and the
+    difference is not Holm-significant anywhere, but the grid is two points, not a sweep.
+  * The nested configuration search covers only ABL1 and NT5C2, on a 6-point grid and one outer
+    seed. It is a measurement of selection optimism at two sample sizes, not for all six targets.
+  * No power curve is claimed anywhere; only the SE of the AUC difference was validated.
+  * The CIViC therapy matching depends on drug-name normalisation; the class 'tyrosine kinase
+    inhibitor - NS' has no CIViC member list and was excluded rather than guessed.
+

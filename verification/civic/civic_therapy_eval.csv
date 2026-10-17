@@ -1,0 +1,13 @@
+target,drug,label_set,n_pos,n_neg,auc_pa_drug,ci_lo,ci_hi,auprc_pa_drug,auc_pa_binary,delta_drug_minus_binary,delong_p_drug_vs_binary,delong_p_holm
+ABL1,Bosutinib,A_all_civic,5,610,0.72,0.564,0.875,0.019,0.884,-0.164,0.0483,0.4347
+ABL1,Bosutinib,B_discordant_only,5,610,0.72,0.564,0.875,0.019,0.884,-0.164,0.0483,0.4347
+ABL1,Dasatinib,A_all_civic,14,610,0.846,0.741,0.932,0.174,0.87,-0.024,0.602,1.0
+ABL1,Dasatinib,B_discordant_only,7,610,0.877,0.777,0.963,0.086,0.86,0.017,0.7232,1.0
+ABL1,Imatinib,A_all_civic,32,610,0.871,0.83,0.904,0.272,0.865,0.006,0.5199,1.0
+ABL1,Nilotinib,A_all_civic,13,610,0.677,0.513,0.815,0.047,0.876,-0.199,0.0082,0.0902
+ABL1,Nilotinib,B_discordant_only,7,610,0.629,0.422,0.833,0.028,0.844,-0.215,0.0704,0.4928
+ALK,Alectinib,A_all_civic,6,1098,0.409,0.126,0.677,0.01,0.88,-0.472,0.0135,0.135
+ALK,Crizotinib,A_all_civic,11,1098,0.913,0.808,0.98,0.157,0.905,0.008,0.2804,1.0
+ALK,Lorlatinib,A_all_civic,5,1098,0.818,0.755,0.908,0.022,0.972,-0.154,0.0001,0.0012
+KIT,Imatinib,A_all_civic,13,933,0.93,0.878,0.974,0.287,0.944,-0.014,0.279,1.0
+NT5C2,Purine,A_all_civic,5,124,0.642,0.285,0.934,0.152,0.642,0.0,1.0,1.0

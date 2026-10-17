@@ -1,0 +1,2 @@
+idx,target,task,region,n_pos,n_neg,leak,shuf_pos_only_mean,shuf_pos_only_max,repro_pos_only,mw_diff,shuf_full_gbm_mean,shuf_full_gbm_max,repro_full_gbm
+9,ALK,Crizotinib,False,16,1123,0,0.522,0.581,0.0,0.0,0.528,0.63,0.0

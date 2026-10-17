@@ -1,0 +1,46 @@
+{
+ "ABL1": {
+  "n_pos": 101,
+  "flat_max": 0.8436,
+  "grid_mean": 0.8201,
+  "nested": 0.8242,
+  "optimism": 0.0194,
+  "max_minus_mean": 0.0235,
+  "beats_random": true,
+  "margin": 0.0041,
+  "n_configs_picked": 3
+ },
+ "ALK": {
+  "n_pos": 24,
+  "flat_max": 0.9288,
+  "grid_mean": 0.8933,
+  "nested": 0.9277,
+  "optimism": 0.001,
+  "max_minus_mean": 0.0355,
+  "beats_random": true,
+  "margin": 0.0344,
+  "n_configs_picked": 3
+ },
+ "NT5C2": {
+  "n_pos": 18,
+  "flat_max": 0.7099,
+  "grid_mean": 0.6334,
+  "nested": 0.5762,
+  "optimism": 0.1337,
+  "max_minus_mean": 0.0765,
+  "beats_random": false,
+  "margin": -0.0572,
+  "n_configs_picked": 4
+ },
+ "SMO": {
+  "n_pos": 18,
+  "flat_max": 0.8572,
+  "grid_mean": 0.7576,
+  "nested": 0.8209,
+  "optimism": 0.0363,
+  "max_minus_mean": 0.0996,
+  "beats_random": true,
+  "margin": 0.0633,
+  "n_configs_picked": 2
+ }
+}
