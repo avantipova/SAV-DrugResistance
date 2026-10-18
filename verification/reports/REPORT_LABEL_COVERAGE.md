@@ -9,13 +9,25 @@ resistance substitutions that the literature documents and that COSMIC lists as 
 in our targets, but that our COSMIC resistance annotation did not label. That is a narrower claim
 and a different one.
 
+> **Corrected 2026-10-18.** The first-reported years for EGFR V802F and ESR1 L536R were wrong
+> in the first version of this report and are corrected above. V802F was given as 2009; no V802F
+> literature exists before 2017, where it first appears as a minor ctDNA variant in a patient
+> progressing on osimertinib (Ou et al., *Lung Cancer* 108, 228-231), and the causal
+> demonstration is later still (Tanaka et al., *Cancer Sci.* 117, 2426-2442, 2026). L536R was
+> given as 2019; it was already shown to drive estrogen-independent growth in work published
+> online in December 2016 (Toy et al., *Cancer Discov.* 7, 277-287), which itself attributes the
+> variant to reports from 2013-2014. Which paper first named L536R is unresolved: it is in none
+> of the three obvious 2013-2014 abstracts, and the supplementary tables could not be read.
+> Neither correction changes the label-coverage conclusion, which is that our resistance
+> annotation does not label either variant; it changes only how long each has been known.
+
 ## What was wrong, precisely
 
 | variant | first reported | the earlier report implied |
 |---|---|---|
-| EGFR V802F | **2009** | post-freeze |
+| EGFR V802F | **2017** | post-freeze |
 | EGFR L844V | **2014** | post-freeze |
-| ESR1 L536R | **2019** | post-freeze |
+| ESR1 L536R | **2016** | post-freeze |
 | BTK T474I | 2024 | post-freeze |
 | BTK L528W | 2024 | post-freeze |
 | FLT3 Y842C | 2024 | post-freeze |
@@ -34,8 +46,8 @@ is established.
 | target | variant | drug in the literature | in our panel? | first reported | evidence | Pa | Pi | call |
 |---|---|---|---|---|---|---|---|---|
 | ESR1 | **L370F** | endocrine therapy (fulvestrant) | yes | **2026** | **sound** | 0.012 | 0.900 | not resistant |
-| ESR1 | **L536R** | endocrine therapy | yes | 2019 | **sound** | 0.523 | 0.007 | **resistant** |
-| EGFR | **V802F** | osimertinib | yes | 2009 | **sound** | 0.095 | 0.141 | not resistant |
+| ESR1 | **L536R** | endocrine therapy | yes | 2016 | **sound** | 0.523 | 0.007 | **resistant** |
+| EGFR | **V802F** | osimertinib | yes | 2017 | **sound** | 0.095 | 0.141 | not resistant |
 | BTK | L528W | pirtobrutinib; covalent class by cross-resistance | class only | 2024 | indirect | 0.103 | 0.576 | not resistant |
 | BTK | T474I | pirtobrutinib; ibrutinib only as a **compound** mutant | **no** | 2024 | **excluded** | 0.180 | 0.132 | resistant |
 | FLT3 | Y842C | investigational agents only | **no** | 2024 | **excluded** | 0.086 | 0.524 | not resistant |
@@ -78,8 +90,8 @@ T474I, whose drug is outside our panel.
 
 The reframing costs the prospective claim but leaves something the manuscript needs:
 
-- **A label-coverage finding.** EGFR V802F has been in the literature since 2009 as an
-  osimertinib-affinity-reducing variant, ESR1 L536R since 2019 as conferring estrogen-independent
+- **A label-coverage finding.** EGFR V802F has been in the literature since 2017, in
+  osimertinib-progression sequencing, and ESR1 L536R since 2016 as conferring estrogen-independent
   growth. Both are present in our ingested COSMIC missense set — COSMIC lists the substitution —
   but our resistance annotation does not label either. So **the COSMIC resistance annotation is
   incomplete relative to the published literature**, and the models inherit that incompleteness.
